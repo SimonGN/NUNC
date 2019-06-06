@@ -15,6 +15,8 @@ const Intro = props => {
                 <Fontp>NUNC está aquí para ayudarte. Tus empleados ficharán sus horas de trabajo sin que esto suponga una tarea extra en la jornada laboral.</Fontp>
                 <Boton/>
             </div>
+            <img src="../../static/img/movilNunc.png"></img>
+
         </InfoStyle>
 
     ); 
