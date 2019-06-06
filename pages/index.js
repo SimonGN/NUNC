@@ -1,5 +1,12 @@
+
+import Meta from "../components/Meta"
+
 function Home() {
-  return <div>Welcome to Next.js!</div>;
+  return (<React.Fragment>
+    <Meta/>
+    <Intro/>
+
+  </React.Fragment>);
 }
 
 export default Home;
