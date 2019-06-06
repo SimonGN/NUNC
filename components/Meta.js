@@ -20,7 +20,7 @@ const Meta = () => {
         }
         @font-face {
           font-family: "Texgyreheroscn";
-          src: url(${Texg}) format("truetype");
+          src: url(${Texgyreheroscn}) format("truetype");
           font-weight: normal;
           font-style: normal;
         }

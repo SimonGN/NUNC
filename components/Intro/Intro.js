@@ -3,9 +3,9 @@ import { IntroStyle } from "./IntroStyle";
 
 import logoNunc from "../../static/svg/Logo.svg";
 import AppStore from "../../static/svg/IconAppstore.svg"
-import Googleplay from "../../static/svg/IconGoogleplay.svg"
+import Googleplay from "../../static/svg/IconGooleplay.png"
 
-import Fonth1 from "../../styles/pagesStyles/Fonth1";
+import FontH1 from "../../styles/pagesStyles/Fonth1";
 
 const Intro = props => {
     return (
@@ -14,7 +14,7 @@ const Intro = props => {
             <img className="logoNUNC" src={logoNunc}></img>
             <div className="homeBack">
                 <div>
-                    <Fonth1 color="white">Cumple con las obligaciones de marcaje sin que nada cambie en tu empresa.</Fonth1>
+                    <FontH1 color="white">Cumple con las obligaciones de marcaje sin que nada cambie en tu empresa.</FontH1>
                 </div>
                 <div>
                     <img src={AppStore}></img>
@@ -23,8 +23,7 @@ const Intro = props => {
                 <img src="../../static/img/iphoneIntro.png"></img>
             </div>
         </IntroStyle>
+    )
+}
 
-    ); 
-  };
-  
-  export default Intro;
+export default Intro;
