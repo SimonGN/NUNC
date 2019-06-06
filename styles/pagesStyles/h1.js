@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 
-const h1 = styled.h1`
+const PageTitle = styled.h1`
     font-family: "Karelia";
     color: ${props => (props.color === 'white' ? 'white' : 'black')};
     font-size: 2rem;
@@ -9,4 +9,4 @@ const h1 = styled.h1`
     text-align: ${props => (props.align === 'center' ? 'center' : 'left')};
 `;
 
-export default h1;
+export default PageTitle;
