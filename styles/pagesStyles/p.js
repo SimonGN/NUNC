@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 
-const p = styled.p`
+const pHome = styled.p`
     font-family: "Texgyreheroscn";
     color: ${props => (props.color === 'white' ? 'white' : 'black')};
     font-size: 1.5rem;
@@ -11,4 +11,4 @@ const p = styled.p`
 
 `;
 
-export default `p`;
+export default pHome;
