@@ -11,16 +11,20 @@ const Intro = props => {
     return (
         
         <IntroStyle>
-            <img className="logoNUNC" src={logoNunc}></img>
-            <div className="homeBack">
-                <div>
-                    <FontH1 s>Cumple con las obligaciones de marcaje sin que nada cambie en tu empresa.</FontH1>
+            <div className="intro">
+                <img className="logoNUNC" src={logoNunc}></img>
+                <div className="homeBack">
+                    <div>
+                        <FontH1 s>Cumple con las obligaciones de marcaje sin que nada cambie en tu empresa.</FontH1>
+                    </div>
+                    <div className="stores">
+                        <img className="appStore"src={AppStore}></img>
+                        <img className="googleplay"src={Googleplay}></img>
+                    </div>
+                    <div className="iphone">
+                        <img className="movil"src="../../static/img/movilNunc.png"></img>
+                    </div>
                 </div>
-                <div>
-                    <img src={AppStore}></img>
-                    <img src={Googleplay}></img>
-                </div>
-                <img src="../../static/img/movilNunc.png"></img>
             </div>
         </IntroStyle>
     )
