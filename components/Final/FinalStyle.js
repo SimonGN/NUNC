@@ -2,9 +2,10 @@ import styled from 'styled-components';
 
 
 
-const InfoStyle = styled.div`
+const FinalStyle = styled.div`
+
     
 
 `;
 
-export {InfoStyle};
+export {FinalStyle};

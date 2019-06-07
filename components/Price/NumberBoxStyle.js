@@ -12,12 +12,13 @@ const NumberBoxStyle = styled.div`
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
     border-radius: 50%;
-    border-color: white;
+    border-color: #56cc7e;
 
     font-family: "KareliaWeb";
-    color: white;
+    color: #56cc7e;
     letter-spacing: 0.07rem;
     text-align: ${props => (props.align === 'center' ? 'center' : 'left')};
+
 `;
 
 export {NumberBoxStyle};

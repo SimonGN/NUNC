@@ -1,24 +1,23 @@
 import React from "react";
+
 import { PriceStyle } from "./PriceStyle";
 
-import {PriceBox} from "./PriceBox"
-import {Boton} from "../../components/Botones/Boton"
-
-
 import Fonth2 from "../../styles/pagesStyles/Fonth2";
-import FontP from "../../styles/pagesStyles/Fontp";
+import Fontp from "../../styles/pagesStyles/Fontp";
+import PriceBox from "./PriceBox";
+import Boton from "../Botones/Boton";
 
 const Price = props => {
-    return (
+    return ( 
         <PriceStyle>
             <Fonth2>Precios</Fonth2>
             <PriceBox/>
             <div>
-             <FontP>Para más información o consulta contacta con nosotros</FontP>
-             <Boton/>
+                <Fontp>Para más información o consulta contacta con nosotros</Fontp>
+                <Boton/>
             </div>
         </PriceStyle>
-    )
-}
-
-export default Price;
+    ); 
+  };
+  
+  export default Price;

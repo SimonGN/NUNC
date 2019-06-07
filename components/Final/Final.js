@@ -1,0 +1,25 @@
+import React from "react";
+import { FinalStyle } from "./FinalStyle";
+
+
+import Fontp from "../../styles/pagesStyles/Fontp";
+import LogoBlack from "../../static/svg/LogoBlack.svg"
+
+const Intro = props => {
+    return (
+        
+        <FinalStyle>
+            <div className="homeBack">
+                <Fontp>Cumplir con el marcaje horario en tu empresa de la forma más sencilla es posible, y lo harás de la mano de los profesionales de NUNC. Consigue que tu y tus empleados estéis centrados en vuestra actividad. </Fontp>
+
+                <Fontp>Hacer el marcaje simple, rápido y sencillo es nuestra tarea.</Fontp>
+            </div>
+            <img src={LogoBlack}></img>
+
+
+        </FinalStyle>
+
+    ); 
+  };
+  
+  export default Intro;
