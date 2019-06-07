@@ -14,6 +14,8 @@ const FinalStyle = styled.div`
     .imge{
         margin-top:10rem;
         margin-bottom: 10rem;
+        display: flex;
+        justify-content: center;
     }
     
 
