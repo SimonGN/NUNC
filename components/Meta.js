@@ -33,9 +33,7 @@ const Meta = () => {
           padding: 0;
           max-width: 100%;
         }
-        h1,
-        h2,
-        h3 p {
+        h1, h2, h3, p {
           margin-top: 0;
           margin-bottom: 0;
         }
