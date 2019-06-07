@@ -12,16 +12,17 @@ const Footer = props => {
     return (
         
         <FooterStyle>
-            <div className="">
-                <Fontp>Un producto de </Fontp>
-                <img src={ LogoTylor }></img>       
-            </div>
-            <div>
-                <img src={ GoogleWhite }></img>
-                <img src={ AppleWHite }></img>
+            <div className="footer">
+                <div className="intro">
+                    <Fontp color="white">Un producto de </Fontp>
+                    <img className="logo" src={ LogoTylor }></img>       
+                </div>
+                <div className="store">
+                    <img className="google"src={ GoogleWhite }></img>
+                    <img className="apple"src={ AppleWHite }></img>
 
+                </div>
             </div>
-
         </FooterStyle>
 
     ); 

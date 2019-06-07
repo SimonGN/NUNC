@@ -9,12 +9,16 @@ const Intro = props => {
     return (
         
         <FinalStyle>
-            <div className="homeBack">
-                <Fontp>Cumplir con el marcaje horario en tu empresa de la forma más sencilla es posible, y lo harás de la mano de los profesionales de NUNC. Consigue que tu y tus empleados estéis centrados en vuestra actividad. </Fontp>
+            <div className="final">
+                <div className="text">
+                    <Fontp className="parraf">Cumplir con el marcaje horario en tu empresa de la forma más sencilla es posible, y lo harás de la mano de los profesionales de NUNC. Consigue que tu y tus empleados estéis centrados en vuestra actividad. </Fontp>
 
-                <Fontp>Hacer el marcaje simple, rápido y sencillo es nuestra tarea.</Fontp>
+                    <Fontp>Hacer el marcaje simple, rápido y sencillo es nuestra tarea.</Fontp>
+                </div>
+                <div className="imge">
+                    <img src={LogoBlack}></img>
+                </div>
             </div>
-            <img src={LogoBlack}></img>
 
 
         </FinalStyle>

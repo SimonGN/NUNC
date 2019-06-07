@@ -22,10 +22,10 @@ const InfoStyle = styled.div`
         
     }
     .movil{
-        height: 500px;
-        width: 250px;
+        width: 80%;
+        height: 80%;
         margin-top: 5rem;
-        margin-bottom: 4rem;
+        margin-bottom: 5rem;
     }
 `;
 

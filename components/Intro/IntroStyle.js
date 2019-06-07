@@ -33,9 +33,9 @@ const IntroStyle = styled.div`
         
     }
     .movil{
-        height: 500px;
-        width: 250px;
-        margin-bottom: 4rem;
+        width: 80%;
+        height: 80%;
+        margin-bottom: 5rem;
     }
 `;
 
