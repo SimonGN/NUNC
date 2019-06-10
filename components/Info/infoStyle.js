@@ -29,21 +29,40 @@ const InfoStyle = styled.div`
     }
     @media only screen and (min-width:415px) and (max-width:768px){
         .movil{
-        width: 50%;
-        height: 50%;
-        margin-top: 5rem;
-        margin-bottom: 5rem;
-    }
+            width: 50%;
+            height: 50%;
+            margin-top: 5rem;
+            margin-bottom: 5rem;
+        }
     }
     @media only screen and (min-width:769px) and (max-width:1024px){
-                .movil{
-        width: 50%;
-        height: 50%;
-        margin-top: 5rem;
-        margin-bottom: 5rem;
-    }
+        .intro{
+        width: 60%;
+        margin: 0 auto;
+        }
+        .movil{
+            width: 40%;
+            height: 40%;
+            margin-top: 5rem;
+            margin-bottom: 5rem;
+        }
         p{
             margin-bottom: 3rem;
+        }
+    }
+    @media only screen and (min-width:1025px) and (max-width:1440px){
+        .text{
+            margin-top: 8rem;
+        }
+        .intro{
+            width: 60%;
+            margin: 0 auto;
+        }
+        .movil{
+            width: 35%;
+            height: 35%;
+            margin-top: 6rem;
+            margin-bottom: 8rem;
         }
     }
 `;

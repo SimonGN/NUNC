@@ -15,8 +15,8 @@ const Fonth1 = styled.h1`
         line-height: 3.4rem;
     }
     @media only screen and (min-width:1025px) and (max-width:1440px){
-        font-size: 3rem;
-        line-height: 3.6rem;
+        font-size: 2.5rem;
+        line-height: 3.1rem;
     }
 
 `;

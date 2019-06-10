@@ -53,9 +53,25 @@ const IntroStyle = styled.div`
         
     }
     @media only screen and (min-width:769px) and (max-width:1024px){
+       .intro{
+            display: flex;
+            height:90vh;
+        }
+        .home{
+            width: 70%;
+        }
+        .logoNUNC{
+            width: 70%;
+        }
         .movil{
-            width: 50%;
-            height: 50%;
+            width: 80%;
+            height: 80%;
+            margin-bottom: 0;
+        }
+        .iphone{
+            display:flex;
+            justify-content:center;
+            align-items: center;
         }
         .appStore, .googleplay{
             width: 28%;
@@ -66,31 +82,36 @@ const IntroStyle = styled.div`
         }
         
     }
-    @media only screen and (min-width: 1025px) and (width:1440px){
+    @media only screen and (min-width:1025px) and (max-width:1440px){
         .intro{
             display: flex;
+            height:90vh;
         }
         .home{
-            width: 70%;
+            width: 60%;
         }
         .logoNUNC{
-            width:75%;
-        }
-        .text{
-            width:88%;
-        }
-        .iphone{
-            display: flex;
-            justify-content: center;
-            align-items: center;
+            width: 60%;
         }
         .movil{
             width: 80%;
-            height: 78%;
-            margin-bottom: 0rem;
+            height: 80%;
+            margin-bottom: 0;
+            object-fit: contain;
+            margin-left: 10%;
         }
-        .stores{
-            width:80%;
+        .iphone{
+            display:flex;
+            justify-content:center;
+            align-items: center;
+            width: 40%;
+        }
+        .appStore, .googleplay{
+            width: 25%;
+            height: 0%;
+        }
+        .appStore{
+            margin-right:40px;
         }
     }
    
