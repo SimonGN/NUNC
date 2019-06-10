@@ -16,6 +16,10 @@ const FontP = styled.p`
         font-size: 3rem;
         line-height: 3.6rem;
     }
+    @media only screen and (min-width:1441px){
+        font-size: 2.5rem;
+        line-height: 2.9rem;
+    }
 
 
 `;

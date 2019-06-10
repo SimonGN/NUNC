@@ -15,7 +15,7 @@ const Intro = props => {
 
                     <Fontp>Hacer el marcaje simple, rápido y sencillo es nuestra tarea.</Fontp>
                 </div>
-                <div className="imge">
+                <div className="logo">
                     <img src={LogoBlack}></img>
                 </div>
             </div>

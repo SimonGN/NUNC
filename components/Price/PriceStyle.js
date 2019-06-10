@@ -53,12 +53,21 @@ const PriceStyle = styled.div`
         } 
    }
    @media only screen and (min-width:1441px){
+    height:85vh;
+    display:flex;
+    align-items:center;
+
     .title{
         text-align: center;
      } 
-     h2{
-            text-align:center;
+     h1{
+        text-align:center;
         } 
+    .contact{
+        display:flex;
+        text-align: center;
+        align-items: center;
+    }
    }
 `;
 

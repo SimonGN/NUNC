@@ -11,13 +11,45 @@ const FinalStyle = styled.div`
     .parraf{
         margin-bottom:1rem;
     }
-    .imge{
+    .logo{
         margin-top:10rem;
         margin-bottom: 10rem;
         display: flex;
         justify-content: center;
     }
-    
+    @media only screen and (min-width:1025px) and (max-width:1440px){
+        .final{
+            display: flex;
+        }
+    }
+    @media only screen and (min-width:1441px){
+        height: 90vh;
+        display: flex;
+        justify-content:space-between;
+        .final{
+            display: flex;
+            justify-content:space-between;
+
+        }
+        .text{
+            margin-top:0;
+            width:55%;
+            display:flex;
+            flex-flow:column;
+            justify-content:center;
+        }
+        .logo{
+            margin-top:0;
+            margin-bottom: 0;
+            display:flex;
+            justify-content:center;
+            width:45%;
+            img{
+                object-fit:contain;
+                width:50%;
+            }
+        }
+    }
 
 `;
 

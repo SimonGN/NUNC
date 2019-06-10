@@ -2,7 +2,7 @@ import React from "react";
 
 import { PriceStyle } from "./PriceStyle";
 
-import Fonth2 from "../../styles/pagesStyles/Fonth2";
+import Fonth1 from "../../styles/pagesStyles/Fonth1";
 import Fontp from "../../styles/pagesStyles/Fontp";
 import PriceBox from "./PriceBox";
 import Boton from "../Botones/Boton";
@@ -12,7 +12,7 @@ const Price = props => {
         <PriceStyle>
             <div className="price">
                 <div className="title">
-                    <Fonth2 color="white">Precios</Fonth2>
+                    <Fonth1 color="white">Precios</Fonth1>
                 </div>
                 <PriceBox/>
                 <div className="contact">
