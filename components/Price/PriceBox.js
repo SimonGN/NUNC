@@ -15,7 +15,7 @@ const PriceBox = props => {
                     <div className="number">01</div>
                     <div>
                         <Fonth2>MICRO</Fonth2>
-                        <Fontp2>de 1 a 20 trabajadores</Fontp2>
+                        <Fontp2>1 a 20 empelados</Fontp2>
                     </div>
                     <Fonth2>500€</Fonth2>
                 </div>
@@ -23,7 +23,7 @@ const PriceBox = props => {
                     <div className="number">02</div>
                     <div>
                         <Fonth2>PYME</Fonth2>
-                        <Fontp2>21 a 100 empleados</Fontp2>
+                        <Fontp2>21 a 100 empelados</Fontp2>
                     </div>
                     <Fonth2>2500€</Fonth2>
                 </div>
@@ -31,7 +31,7 @@ const PriceBox = props => {
                     <div className="number">02</div>
                     <div>
                         <Fonth2>MEDIUM</Fonth2>
-                        <Fontp2>101 a 500 empleados</Fontp2>
+                        <Fontp2>101 a 500 empelados</Fontp2>
                     </div>
                     <Fonth2>7500€</Fonth2>
                 </div>
@@ -39,7 +39,7 @@ const PriceBox = props => {
                     <div className="number">04</div>
                     <div>
                         <Fonth2>MULTI</Fonth2>
-                        <Fontp2>más de 1000 empleados</Fontp2>
+                        <Fontp2>más de 1000 empelados</Fontp2>
                     </div>
                     <a className="enlace" href="https://tailor-hub.com/">Contactar</a>
                 </div>

@@ -27,6 +27,52 @@ const FooterStyle = styled.div`
     .google, .apple{
         width:50%;
     }
+    @media only screen and (min-width:415px) and (max-width:768px){
+        .intro{
+            align-items: flex-start;
+            width:60%;
+        }
+        .footer{
+            display:flex;
+            justify-content:space-between;
+            align-items:center;
+        }
+        .google, .apple{
+            width:45%;
+        }
+        .store{
+            display: flex;
+            justify-content: space-between;
+            margin-top:0;
+            width:40%;
+        }   
+
+
+    }
+    @media only screen and (min-width:769px) and (max-width:1024px){
+        .intro{
+            align-items: flex-start;
+            width:60%;
+        }
+        .footer{
+            display:flex;
+            justify-content:space-between;
+            align-items:center;
+        }
+        .google, .apple{
+            width:45%;
+        }
+        .store{
+            display: flex;
+            justify-content: space-between;
+            margin-top:0;
+            width:40%;
+        }   
+    }
+    @media only screen and (min-width:1025px) and (max-width:1440px){
+    }
+    @media only screen and (min-width:1441px){
+    }
 
 `;
 

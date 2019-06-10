@@ -20,7 +20,6 @@ const Footer = props => {
                 <div className="store">
                     <img className="google"src={ GoogleWhite }></img>
                     <img className="apple"src={ AppleWHite }></img>
-
                 </div>
             </div>
         </FooterStyle>

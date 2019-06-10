@@ -18,7 +18,48 @@ const PriceStyle = styled.div`
     .contacText{
         margin-bottom:2rem;
     }
-
+    @media only screen and (min-width:415px) and (max-width:768px){
+     .title{
+        text-align: center;
+     }   
+     h2{
+            text-align:center;
+        }
+    .contact{
+        display:flex;
+        text-align: center;
+        align-items: center;
+    }
+   }
+   @media only screen and (min-width:769px) and (max-width:1024px){
+        .title{
+            text-align: center;
+        } 
+        h2{
+                text-align:center;
+            } 
+        .contact{
+            display:flex;
+            text-align: center;
+            align-items: center;
+        }
+   }
+   @media only screen and (min-width:1025px) and (max-width:1440px){
+    .title{
+        text-align: center;
+     } 
+     h2{
+            text-align:center;
+        } 
+   }
+   @media only screen and (min-width:1441px){
+    .title{
+        text-align: center;
+     } 
+     h2{
+            text-align:center;
+        } 
+   }
 `;
 
 export {PriceStyle};

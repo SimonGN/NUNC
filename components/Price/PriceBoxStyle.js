@@ -41,6 +41,42 @@ const PriceBoxStyle = styled.div`
         letter-spacing: 0.07rem;
         color: black;
     }
+    @media only screen and (min-width:415px) and (max-width:768px){
+        .priceBox{
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-top: 0rem;
+            margin-bottom: 0rem;
+        }
+        .textNumber{
+            margin-top:0;
+            width: 25%;
+        }
+        .priceBox{
+            padding-bottom: 3rem;
+        }
+    }
+    @media only screen and (min-width:769px) and (max-width:1024px){
+        .priceBox{
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-top: 0rem;
+            margin-bottom: 0rem;
+        }
+        .textNumber{
+            margin-top:0;
+            width: 19%;
+        }
+        .priceBox{
+            padding-bottom: 3rem;
+        }
+    }
+    @media only screen and (min-width:1025px) and (max-width:1440px){
+    }
+    @media only screen and (min-width:1441px){
+    }
 `;
 
 export {PriceBoxStyle};

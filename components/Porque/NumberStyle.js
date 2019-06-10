@@ -26,6 +26,46 @@ const NumberStyle = styled.div`
         margin-bottom: 2rem;
         width:80%;
     }
+    @media only screen and (min-width:415px) and (max-width:768px){
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        .textNumber{
+            width:20%;
+            margin-top: 0rem;
+            margin-bottom: 0rem;
+        }
+    }
+    @media only screen and (min-width:769px) and (max-width:1024px){
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        .textNumber{
+            width:20%;
+            margin-top: 0rem;
+            margin-bottom: 0rem;
+        }
+    }
+    @media only screen and (min-width:1025px) and (max-width:1440px){
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        .textNumber{
+            width:20%;
+            margin-top: 0rem;
+            margin-bottom: 0rem;
+        }
+    }
+    @media only screen and (max-width:1441px) {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        .textNumber{
+            width:20%;
+            margin-top: 0rem;
+            margin-bottom: 0rem;
+        }
+    }
 
 
 `;
