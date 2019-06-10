@@ -9,21 +9,20 @@ import FontH1 from "../../styles/pagesStyles/Fonth1";
 
 const Intro = props => {
     return (
-        
         <IntroStyle>
-            <div className="intro">
-                <img className="logoNUNC" src={logoNunc}></img>
-                <div className="homeBack">
+            <div className="intro">   
+                <div className="home">
+                    <img className="logoNUNC" src={logoNunc}></img>
                     <div>
-                        <FontH1 s>Cumple con las obligaciones de marcaje sin que nada cambie en tu empresa.</FontH1>
+                        <FontH1 className="text">Cumple con las obligaciones de marcaje sin que nada cambie en tu empresa.</FontH1>
                     </div>
                     <div className="stores">
                         <img className="appStore"src={AppStore}></img>
                         <img className="googleplay"src={Googleplay}></img>
                     </div>
-                    <div className="iphone">
-                        <img className="movil"src="../../static/img/movilNunc.png"></img>
-                    </div>
+                </div>
+                <div className="iphone">
+                    <img className="movil"src="../../static/img/movilNunc.png"></img>
                 </div>
             </div>
         </IntroStyle>

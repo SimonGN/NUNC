@@ -21,6 +21,10 @@ const BotonStyle = styled.div`
         height: 60px;
         width: 200px;
     }
+    @media only screen and (min-width:769px) and (max-width:1024px){
+        a{
+            font-size: 1.4rem;
+        }
 
 `;
 

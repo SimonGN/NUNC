@@ -27,6 +27,25 @@ const InfoStyle = styled.div`
         margin-top: 5rem;
         margin-bottom: 5rem;
     }
+    @media only screen and (min-width:415px) and (max-width:768px){
+        .movil{
+        width: 50%;
+        height: 50%;
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+    }
+    }
+    @media only screen and (min-width:769px) and (max-width:1024px){
+                .movil{
+        width: 50%;
+        height: 50%;
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+    }
+        p{
+            margin-bottom: 3rem;
+        }
+    }
 `;
 
 export {InfoStyle};
