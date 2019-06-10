@@ -18,12 +18,15 @@ const FinalStyle = styled.div`
         justify-content: center;
     }
     @media only screen and (min-width:1025px) and (max-width:1440px){
+        height: 80vh;
+        display: flex;
+        justify-content:space-between;
         .final{
             display: flex;
         }
     }
     @media only screen and (min-width:1441px){
-        height: 90vh;
+        height: 80vh;
         display: flex;
         justify-content:space-between;
         .final{
