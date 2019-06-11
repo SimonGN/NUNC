@@ -16,7 +16,7 @@ const Fonth2 = styled.h2`
     }
     @media only screen and (min-width:1025px) and (max-width:1440px){
         margin-bottom: 2rem;
-    line-height: 2.6rem;
+        line-height: 2.6rem;
     }
 
 `;

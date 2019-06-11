@@ -2,10 +2,8 @@ import styled from 'styled-components';
 
 const PorqueStyle = styled.div`
     background-color:#56cc7e;
-    
-
     .porque{
-        width:90%;
+        width:90vw;
         margin: 0 auto;
     }
     .title{
@@ -24,10 +22,7 @@ const PorqueStyle = styled.div`
         h2{
             text-align:center;
         }
-        .porque{
-
-        }
-        .number{
+         .number{
             padding-bottom: 0;
         }
    }
@@ -36,6 +31,7 @@ const PorqueStyle = styled.div`
         flex-flow:column;
         justify-content:center;
         height:40vh;
+        
 
         h2{
             text-align:center;
@@ -48,10 +44,26 @@ const PorqueStyle = styled.div`
         }
    }
    @media only screen and (min-width:1025px) and (max-width:1440px){
-
-   }
-   @media only screen and (max-width:1441px) {
-       
+        height:65vh;
+        display:flex;
+        align-items:center; 
+        .porque{
+            width:auto;
+        }
+        h1{
+            text-align:center;
+        }
+   }  
+   @media only screen and (min-width:1441px) {
+        height:65vh;
+        display:flex;
+        align-items:center;
+        .porque{
+            width:auto;
+        }
+        h1{
+            text-align:center;
+        }
     }
 `;
 

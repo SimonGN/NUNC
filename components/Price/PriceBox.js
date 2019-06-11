@@ -15,7 +15,7 @@ const PriceBox = props => {
                     <div className="number">01</div>
                     <div>
                         <Fonth3>MICRO</Fonth3>
-                        <Fontp2>1 a 20 empelados</Fontp2>
+                        <Fontp2>de 01 a 20 empelados</Fontp2>
                     </div>
                     <Fonth3>500€</Fonth3>
                 </div>

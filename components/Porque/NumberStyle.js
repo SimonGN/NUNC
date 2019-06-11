@@ -50,16 +50,19 @@ const NumberStyle = styled.div`
         display: flex;
         justify-content: space-between;
         align-items: flex-start;
+        width:70vw;
         .textNumber{
             width:20%;
             margin-top: 0rem;
             margin-bottom: 0rem;
         }
     }
-    @media only screen and (max-width:1441px) {
+    @media only screen and (min-width:1441px) {
         display: flex;
         justify-content: space-between;
         align-items: flex-start;
+        width:70vw;
+
         .textNumber{
             width:20%;
             margin-top: 0rem;

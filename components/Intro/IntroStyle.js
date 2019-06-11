@@ -6,7 +6,7 @@ const IntroStyle = styled.div`
     background-image: url(${Fondo});
     background-color:red;
     .intro{
-        width:90%;
+        width:90vw;
         margin:0 auto;
     }
     .logoNUNC{
@@ -86,9 +86,53 @@ const IntroStyle = styled.div`
         .intro{
             display: flex;
             height:90vh;
+            width:70vw;
         }
         .home{
             width: 60%;
+        }
+        .logoNUNC{
+            width: 60%;
+        }
+        .text{
+            height: 30%;
+            display: flex;
+            align-items: center;
+        }
+        .movil{
+            width: 80%;
+            height: 80%;
+            margin-bottom: 0;
+            object-fit: contain;
+            margin-left: 10%;
+        }
+        .iphone{
+            display:flex;
+            justify-content:center;
+            align-items: center;
+            width: 40%;
+        }
+        .appStore, .googleplay{
+            width: 25%;
+            height: 0%;
+        }
+        .appStore{
+            margin-right:40px;
+        }
+    }
+    @media only screen and (min-width:1441px){
+        .intro{
+            display: flex;
+            height:90vh;
+            width:70vw;
+        }
+        .home{
+            width: 50%;
+        }
+        .text{
+            height: 30%;
+            display: flex;
+            align-items: center;
         }
         .logoNUNC{
             width: 60%;
@@ -98,7 +142,7 @@ const IntroStyle = styled.div`
             height: 80%;
             margin-bottom: 0;
             object-fit: contain;
-            margin-left: 10%;
+            margin-left: 40%;
         }
         .iphone{
             display:flex;

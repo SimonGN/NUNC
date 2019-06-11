@@ -45,29 +45,41 @@ const PriceStyle = styled.div`
         }
    }
    @media only screen and (min-width:1025px) and (max-width:1440px){
-    .title{
-        text-align: center;
-     } 
-     h2{
+        .title{
+            text-align: center;
+        } 
+        h1{
             text-align:center;
         } 
+        .contact{
+            display:flex;
+            align-items:center;
+            .contacText{
+            margin-bottom:0 !important
+        }
+        }
    }
    @media only screen and (min-width:1441px){
-    height:85vh;
-    display:flex;
-    align-items:center;
-
-    .title{
-        text-align: center;
-     } 
-     h1{
-        text-align:center;
-        } 
-    .contact{
+        height:100vh;
         display:flex;
-        text-align: center;
-        align-items: center;
-    }
+        align-items:center;
+        
+        .price{
+            width:auto;
+        }
+        .title{
+            text-align: center;
+        } 
+        h1{
+            text-align:center;
+            } 
+        .contact{
+            display:flex;
+            align-items:center;
+            .contacText{
+            margin-bottom:0 !important
+        }
+        }
    }
 `;
 

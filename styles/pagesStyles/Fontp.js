@@ -14,11 +14,11 @@ const FontP = styled.p`
     }
     @media only screen and (min-width:1025px) and (max-width:1440px){
         font-size: 1.7rem;
-    line-height: 2.3rem;
+        line-height: 2.3rem;
     }
     @media only screen and (min-width:1441px){
-        font-size: 2.5rem;
-        line-height: 2.9rem;
+        font-size: 1.7rem;
+        line-height: 2.3rem;
     }
 
 

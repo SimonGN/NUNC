@@ -80,6 +80,10 @@ const PriceBoxStyle = styled.div`
             align-items: flex-start;
             margin-top: 0rem;
             margin-bottom: 0rem;
+            width: 100vh;
+            
+            margin-left: 3rem;
+            margin-right: 3rem;
         }
         .textNumber{
             margin-top:0;
@@ -88,6 +92,7 @@ const PriceBoxStyle = styled.div`
         .priceBox{
             padding-bottom: 3rem;
         }
+      
     }
     @media only screen and (min-width:1441px){
         
@@ -97,7 +102,11 @@ const PriceBoxStyle = styled.div`
             align-items: flex-start;
             margin-top: 0rem;
             margin-bottom: 0rem;
-        }
+            width: 100vh;
+            
+            margin-left: 4rem;
+            margin-right: 4rem;
+        }       
         .textNumber{
             margin-top:0;
             width: 11%;
@@ -105,6 +114,8 @@ const PriceBoxStyle = styled.div`
         .priceBox{
             padding-bottom: 3rem;
         }
+
+        
     }
 `;
 

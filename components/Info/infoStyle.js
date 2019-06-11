@@ -65,6 +65,21 @@ const InfoStyle = styled.div`
             margin-bottom: 8rem;
         }
     }
+    @media only screen and (min-width:1441px){
+        .text{
+            margin-top: 8rem;
+        }
+        .intro{
+            width: 60%;
+            margin: 0 auto;
+        }
+        .movil{
+            width: 35%;
+            height: 35%;
+            margin-top: 6rem;
+            margin-bottom: 8rem;
+        }
+    }
 `;
 
 export {InfoStyle};
