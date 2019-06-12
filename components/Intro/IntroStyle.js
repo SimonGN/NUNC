@@ -1,14 +1,42 @@
 import styled from 'styled-components';
 
 const IntroStyle = styled.div`
-    background-image: url("../../static/img/Fondo.jpg");
-    background-size:cover;
+    /*background-image: url("../../static/svg/fondo.svg");
+    background-size:cover;*/
+    background: linear-gradient(105deg, #56CC7E, #a3c5f5, #56CC7E);
+background-size: 800% 800%;
 
-    opacity: 1;
+-webkit-animation: background-animation 36s ease infinite;
+-moz-animation: background-animation 36s ease infinite;
+-o-animation: background-animation 36s ease infinite;
+animation: background-animation 36s ease infinite;
+
+@-webkit-keyframes background-animation {
+    0%{background-position:0% 62%}
+    50%{background-position:100% 39%}
+    100%{background-position:0% 62%}
+}
+@-moz-keyframes background-animation {
+    0%{background-position:0% 62%}
+    50%{background-position:100% 39%}
+    100%{background-position:0% 62%}
+}
+@-o-keyframes background-animation {
+    0%{background-position:0% 62%}
+    50%{background-position:100% 39%}
+    100%{background-position:0% 62%}
+}
+@keyframes background-animation { 
+    0%{background-position:0% 62%}
+    50%{background-position:100% 39%}
+    100%{background-position:0% 62%}
+}
+
+    /* opacity: 1;
     animation-name: fadeInOpacity;
     animation-iteration-count: 1;
     animation-timing-function: ease-in;
-    animation-duration: 1s;
+    animation-duration: 2s; */
     @keyframes fadeInOpacity {
         0% {
             opacity: 0;

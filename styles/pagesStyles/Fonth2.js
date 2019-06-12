@@ -6,6 +6,7 @@ const Fonth2 = styled.h2`
     color: ${props => (props.color === 'white' ? 'white' : 'black')};
     font-size: 1.9rem;
     line-height: 2.1rem;
+    text-transform: uppercase;
     letter-spacing: 0.07rem;
     text-align: ${props => (props.align === 'center' ? 'center' : 'left')};
 
