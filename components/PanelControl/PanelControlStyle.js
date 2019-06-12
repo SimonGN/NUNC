@@ -10,10 +10,10 @@ const PanleControlStyle = styled.div`
         justify-content: center;
     }
     .ipad{
-        width: 100%;
-        height: 100%;
+        width: 90vw;
+    height: 40vh;
         margin-top: 5rem;
-        margin-bottom: 3rem;
+        margin-bottom: 5rem;
     }
     .parraf{
         margin-bottom:1rem;
@@ -25,17 +25,43 @@ const PanleControlStyle = styled.div`
         .ipad{
             width: 60%;
             height: 60%;
+            margin-bottom: 5rem;
        }
    }
    @media only screen and (min-width:769px) and (max-width:1024px){
        .ipad{
             width: 60%;
             height: 60%;
+            margin-bottom: 5rem;
        }
    }
    @media only screen and (min-width:1025px) and (max-width:1440px){
+        .panelcontrol{
+            width:60%;
+        }
+        .ipad{
+            width: 60%;
+            height: 60%;
+            margin-top: 13rem;
+            margin-bottom:6rem;
+        }
+        .text{
+            margin-bottom: 15rem;
+        }
    }
-   @media only screen and (min-width:1441px){
+   @media only screen and (min-width:1441px){ 
+        .panelcontrol{
+            width:60%;
+        }
+        .ipad{
+            width: 60%;
+            height: 60%;
+            margin-top: 13rem;
+            margin-bottom:6rem;
+        }
+        .text{
+            margin-bottom: 15rem;
+        }
    }
 
 `;

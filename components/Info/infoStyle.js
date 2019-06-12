@@ -28,16 +28,19 @@ const InfoStyle = styled.div`
         margin-bottom: 5rem;
     }
     @media only screen and (min-width:415px) and (max-width:768px){
+        .text{
+            margin-top:8rem;
+        }
         .movil{
             width: 50%;
             height: 50%;
             margin-top: 5rem;
-            margin-bottom: 5rem;
+            margin-bottom: 8rem;
         }
     }
     @media only screen and (min-width:769px) and (max-width:1024px){
         .intro{
-        width: 60%;
+        width: 90%;
         margin: 0 auto;
         }
         .movil{
@@ -67,7 +70,7 @@ const InfoStyle = styled.div`
     }
     @media only screen and (min-width:1441px){
         .text{
-            margin-top: 8rem;
+            margin-top: 13rem;
         }
         .intro{
             width: 60%;
@@ -76,8 +79,8 @@ const InfoStyle = styled.div`
         .movil{
             width: 35%;
             height: 35%;
-            margin-top: 6rem;
-            margin-bottom: 8rem;
+            margin-top: 8rem;
+            margin-bottom: 14rem;
         }
     }
 `;

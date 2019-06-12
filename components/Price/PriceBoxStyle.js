@@ -8,7 +8,7 @@ const PriceBoxStyle = styled.div`
         width: 90%;
         margin: 0 auto;
         padding-top: 3rem;
-        padding-bottom: 5rem;
+        padding-bottom: 3rem;
     }
 
     .number{
@@ -102,7 +102,7 @@ const PriceBoxStyle = styled.div`
             align-items: flex-start;
             margin-top: 0rem;
             margin-bottom: 0rem;
-            width: 100vh;
+            
             
             margin-left: 4rem;
             margin-right: 4rem;

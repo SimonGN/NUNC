@@ -8,7 +8,7 @@ const PriceStyle = styled.div`
         margin: 0 auto;
     }
     .title{
-        padding-top: 3rem;
+        padding-top: 5rem;
         margin-bottom: 2rem;
     }
     .contact{
@@ -19,25 +19,26 @@ const PriceStyle = styled.div`
         margin-bottom:2rem;
     }
     @media only screen and (min-width:415px) and (max-width:768px){
+        padding-top: 5rem;
+        padding-bottom:5rem;
      .title{
         text-align: center;
+        padding-top:0;
      }   
-     h2{
-            text-align:center;
-        }
+
     .contact{
         display:flex;
         text-align: center;
         align-items: center;
+        padding-bottom:0;
     }
    }
    @media only screen and (min-width:769px) and (max-width:1024px){
         .title{
             text-align: center;
+            padding-top: 8rem;
         } 
-        h2{
-                text-align:center;
-            } 
+
         .contact{
             display:flex;
             text-align: center;
@@ -54,8 +55,10 @@ const PriceStyle = styled.div`
         .contact{
             display:flex;
             align-items:center;
+            margin-top: 5rem;
             .contacText{
-            margin-bottom:0 !important
+                margin-bottom:0;
+                margin-right:1rem;
         }
         }
    }
@@ -65,7 +68,7 @@ const PriceStyle = styled.div`
         align-items:center;
         
         .price{
-            width:auto;
+            width:77%;
         }
         .title{
             text-align: center;
@@ -76,9 +79,13 @@ const PriceStyle = styled.div`
         .contact{
             display:flex;
             align-items:center;
+            margin-top: 5rem;
             .contacText{
-            margin-bottom:0 !important
+                margin-bottom:0;
+                margin-right:1rem;
+                margin-left: 4rem;
         }
+        
         }
    }
 `;

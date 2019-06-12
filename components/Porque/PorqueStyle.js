@@ -7,7 +7,7 @@ const PorqueStyle = styled.div`
         margin: 0 auto;
     }
     .title{
-        padding-top: 3rem;
+        padding-top: 5rem;
         margin-bottom:2rem;
     }
     .numbers{

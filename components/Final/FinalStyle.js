@@ -2,18 +2,18 @@ import styled from 'styled-components';
 
 const FinalStyle = styled.div`
     .final{
-        width:90%;
+        width:90vw;
         margin:0 auto;
     }
     .text{
-        margin-top: 3rem;
+        margin-top: 5rem;
     }
     .parraf{
         margin-bottom:1rem;
     }
     .logo{
-        margin-top:10rem;
-        margin-bottom: 10rem;
+        margin-top:8rem;
+        margin-bottom: 8rem;
         display: flex;
         justify-content: center;
     }
@@ -22,14 +22,17 @@ const FinalStyle = styled.div`
         display: flex;
         justify-content:space-between;
         .final{
+            width:60vw;
             display: flex;
         }
     }
     @media only screen and (min-width:1441px){
+        
         height: 80vh;
         display: flex;
         justify-content:space-between;
         .final{
+            width:60vw;
             display: flex;
             justify-content:space-between;
 
