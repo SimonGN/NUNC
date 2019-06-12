@@ -7,7 +7,7 @@ const InfoStyle = styled.div`
     animation-name: fadeInOpacity;
     animation-iteration-count: 1;
     animation-timing-function: ease-in;
-    animation-duration: 1s;
+    animation-duration: 2.5s;
     @keyframes fadeInOpacity {
         0% {
             opacity: 0;
