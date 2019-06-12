@@ -51,7 +51,7 @@ const FooterStyle = styled.div`
     }
     @media only screen and (min-width:769px) and (max-width:1024px){
         .intro{
-            align-items: flex-start;
+            align-items: center;
             width:60%;
         }
         .footer{
@@ -66,12 +66,12 @@ const FooterStyle = styled.div`
             display: flex;
             justify-content: space-between;
             margin-top:0;
-            width:40%;
+            width:30%;
         }   
     }
     @media only screen and (min-width:1025px) and (max-width:1440px){
         .intro{
-            align-items: flex-start;
+            align-items: center;
             width:60%;
         }
         .footer{
@@ -86,7 +86,7 @@ const FooterStyle = styled.div`
             display: flex;
             justify-content: space-between;
             margin-top:0;
-            width:40%;
+            width:20%;
         }   
     }
     @media only screen and (min-width:1441px){

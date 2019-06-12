@@ -24,6 +24,26 @@ const FinalStyle = styled.div`
         .final{
             width:60vw;
             display: flex;
+            justify-content:space-between;
+
+        }
+        .text{
+            margin-top:0;
+            width:55%;
+            display:flex;
+            flex-flow:column;
+            justify-content:center;
+        }
+        .logo{
+            margin-top:0;
+            margin-bottom: 0;
+            display:flex;
+            justify-content:center;
+            width:45%;
+            img{
+                object-fit:contain;
+                width:50%;
+            }
         }
     }
     @media only screen and (min-width:1441px){

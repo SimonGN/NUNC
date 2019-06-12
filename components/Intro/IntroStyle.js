@@ -1,25 +1,43 @@
 import styled from 'styled-components';
 
-import Fondo from "../../static/svg/Fondo.svg"
-
 const IntroStyle = styled.div`
-    background-image: url(${Fondo});
-    background-color:red;
+    background-image: url("../../static/img/Fondo.jpg");
+    background-size:cover;
+
+    opacity: 1;
+    animation-name: fadeInOpacity;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-duration: 1s;
+    @keyframes fadeInOpacity {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+    
     .intro{
         width:90vw;
         margin:0 auto;
+
     }
     .logoNUNC{
         width:100%;
         margin-top: 3rem;
         margin-bottom:5rem;
+        mix-blend-mode: difference;
     }
+
+
     .stores{
         display:flex;
         justify-content: center;
         width:100%;
         margin-top: 4rem;
         margin-bottom: 5rem;
+        
     }
     .appStore, .googleplay{
         width: 50%;
