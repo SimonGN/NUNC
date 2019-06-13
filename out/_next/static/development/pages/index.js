@@ -430,6 +430,28 @@ var InfoStyle = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].div.wi
 
 /***/ }),
 
+/***/ "./components/Intro/IconAppstore.svg":
+/*!*******************************************!*\
+  !*** ./components/Intro/IconAppstore.svg ***!
+  \*******************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/IconAppstore-020e2b9f8f478f49fd07b09a9a17eb5b.svg";
+
+/***/ }),
+
+/***/ "./components/Intro/IconGooleplay.svg":
+/*!********************************************!*\
+  !*** ./components/Intro/IconGooleplay.svg ***!
+  \********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/IconGooleplay-a661c2d3ec6aa78eebc86291baf6828e.svg";
+
+/***/ }),
+
 /***/ "./components/Intro/Intro.js":
 /*!***********************************!*\
   !*** ./components/Intro/Intro.js ***!
@@ -442,16 +464,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _IntroStyle__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./IntroStyle */ "./components/Intro/IntroStyle.js");
-/* harmony import */ var _static_svg_Logo_svg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../static/svg/Logo.svg */ "./static/svg/Logo.svg");
-/* harmony import */ var _static_svg_Logo_svg__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_static_svg_Logo_svg__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _Svg_Logo__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../Svg/Logo */ "./components/Svg/Logo.js");
-/* harmony import */ var _static_svg_IconAppstore_svg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../static/svg/IconAppstore.svg */ "./static/svg/IconAppstore.svg");
-/* harmony import */ var _static_svg_IconAppstore_svg__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_static_svg_IconAppstore_svg__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var _static_svg_IconGooleplay_svg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../static/svg/IconGooleplay.svg */ "./static/svg/IconGooleplay.svg");
-/* harmony import */ var _static_svg_IconGooleplay_svg__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_static_svg_IconGooleplay_svg__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var _styles_pagesStyles_Fonth1__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../styles/pagesStyles/Fonth1 */ "./styles/pagesStyles/Fonth1.js");
+/* harmony import */ var _Logo_svg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Logo.svg */ "./components/Intro/Logo.svg");
+/* harmony import */ var _Logo_svg__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_Logo_svg__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _IconAppstore_svg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./IconAppstore.svg */ "./components/Intro/IconAppstore.svg");
+/* harmony import */ var _IconAppstore_svg__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_IconAppstore_svg__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _IconGooleplay_svg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./IconGooleplay.svg */ "./components/Intro/IconGooleplay.svg");
+/* harmony import */ var _IconGooleplay_svg__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_IconGooleplay_svg__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _styles_pagesStyles_Fonth1__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../styles/pagesStyles/Fonth1 */ "./styles/pagesStyles/Fonth1.js");
 var _jsxFileName = "/Users/simon/Desktop/LandingNUNC/components/Intro/Intro.js";
-
 
 
 
@@ -482,7 +502,7 @@ var Intro = function Intro(props) {
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     className: "logoNUNC",
-    src: _static_svg_Logo_svg__WEBPACK_IMPORTED_MODULE_2___default.a,
+    src: _Logo_svg__WEBPACK_IMPORTED_MODULE_2___default.a,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 16
@@ -495,7 +515,7 @@ var Intro = function Intro(props) {
       lineNumber: 18
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styles_pagesStyles_Fonth1__WEBPACK_IMPORTED_MODULE_6__["default"], {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styles_pagesStyles_Fonth1__WEBPACK_IMPORTED_MODULE_5__["default"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 19
@@ -510,7 +530,7 @@ var Intro = function Intro(props) {
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     className: "appStore",
-    src: _static_svg_IconAppstore_svg__WEBPACK_IMPORTED_MODULE_4___default.a,
+    src: _IconAppstore_svg__WEBPACK_IMPORTED_MODULE_3___default.a,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 22
@@ -518,7 +538,7 @@ var Intro = function Intro(props) {
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     className: "googleplay",
-    src: _static_svg_IconGooleplay_svg__WEBPACK_IMPORTED_MODULE_5___default.a,
+    src: _IconGooleplay_svg__WEBPACK_IMPORTED_MODULE_4___default.a,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 23
@@ -533,7 +553,7 @@ var Intro = function Intro(props) {
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     className: "movil",
-    src: "../../static/img/movilNunc.png",
+    src: "./movilNunc.png",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 27
@@ -563,6 +583,17 @@ var IntroStyle = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].div.w
   componentId: "hux6j3-0"
 })(["background:linear-gradient(105deg,#56cc7e,#a3c5f5,#56cc7e);background-size:800% 800%;-webkit-animation:background-animation 36s ease infinite;-moz-animation:background-animation 36s ease infinite;-o-animation:background-animation 36s ease infinite;animation:background-animation 36s ease infinite;@-webkit-keyframes background-animation{0%{background-position:0% 62%;}50%{background-position:100% 39%;}100%{background-position:0% 62%;}}@-moz-keyframes background-animation{0%{background-position:0% 62%;}50%{background-position:100% 39%;}100%{background-position:0% 62%;}}@-o-keyframes background-animation{0%{background-position:0% 62%;}50%{background-position:20% 39%;}100%{background-position:0% 62%;}}@keyframes background-animation{0%{background-position:0% 62%;}50%{background-position:49% 39%;}100%{background-position:0% 62%;}}@-webkit-keyframes fadeInOpacity{0%{opacity:0;}100%{opacity:1;fill-opacity:1;}}@-moz-keyframes fadeInOpacity{0%{opacity:0;}100%{opacity:1;fill-opacity:1;}}@keyframes fadeInOpacity{0%{opacity:0;}100%{opacity:1;fill-opacity:1;}}.intro{width:90vw;margin:0 auto;-webkit-animation:fadeInOpacity 2s ease-in;-moz-animation:fadeInOpacity 2s ease-in;-o-animation:fadeInOpacity 2s ease-in;animation:fadeInOpacity 2s ease-in;}.logoNUNC{width:100%;margin-top:3rem;margin-bottom:5rem;fill-opacity:1;}.stores{display:flex;justify-content:center;width:100%;margin-top:4rem;margin-bottom:5rem;}.appStore,.googleplay{width:50%;}.appStore{margin-right:10px;}.iphone{display:flex;justify-content:center;}.movil{width:80%;height:80%;margin-bottom:5rem;}@media only screen and (min-width:415px) and (max-width:768px){.movil{width:50%;height:50%;margin-bottom:5rem;}.appStore,.googleplay{width:28%;height:0%;}.appStore{margin-right:50px;}}@media only screen and (min-width:769px) and (max-width:1024px){.intro{display:flex;height:90vh;}.home{width:70%;}.logoNUNC{width:70%;}.movil{width:80%;height:80%;margin-bottom:0;}.iphone{display:flex;justify-content:center;align-items:center;}.appStore,.googleplay{width:28%;height:0%;}.appStore{margin-right:40px;}}@media only screen and (min-width:1025px) and (max-width:1440px){.intro{display:flex;height:90vh;width:70vw;}.home{width:60%;}.logoNUNC{width:60%;}.text{height:30%;display:flex;align-items:center;}.movil{width:80%;height:80%;margin-bottom:0;object-fit:contain;margin-left:10%;}.iphone{display:flex;justify-content:center;align-items:center;width:40%;}.appStore,.googleplay{width:25%;height:0%;}.appStore{margin-right:40px;}}@media only screen and (min-width:1441px){.intro{display:flex;height:90vh;width:70vw;}.home{width:50%;}.text{height:30%;display:flex;align-items:center;}.logoNUNC{width:60%;}.movil{width:80%;height:80%;margin-bottom:0;object-fit:contain;margin-left:40%;}.iphone{display:flex;justify-content:center;align-items:center;width:40%;}.appStore,.googleplay{width:25%;height:0%;}.appStore{margin-right:40px;}}"]);
 
+
+/***/ }),
+
+/***/ "./components/Intro/Logo.svg":
+/*!***********************************!*\
+  !*** ./components/Intro/Logo.svg ***!
+  \***********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxODY4Ljk0IDQ1OS40NiI+PGRlZnM+PHN0eWxlPi5jbHMtMXtpc29sYXRpb246aXNvbGF0ZTt9LmNscy0ye21peC1ibGVuZC1tb2RlOmRpZmZlcmVuY2U7fS5jbHMtM3tmaWxsOiMxZDFkMWI7fTwvc3R5bGU+PC9kZWZzPjx0aXRsZT5sb2dvPC90aXRsZT48ZyBjbGFzcz0iY2xzLTEiPjxnIGlkPSJDYXBhXzEiIGRhdGEtbmFtZT0iQ2FwYSAxIj48ZyBjbGFzcz0iY2xzLTIiPjxwYXRoIGNsYXNzPSJjbHMtMyIgZD0iTTE4MzYuODgsNzMxcTUxLTUwLjQzLDYxLjY0LTEyNy42M2gtNjUuMzdxLTEuMjYsNjIuMjYtMzIuMDYsOTVUMTcxOCw3MzFxLTU5Ljc2LDAtOTEuMjEtMzUuOHQtMzEuNDQtMTA2LjE1VjUxNXEwLTcwLjM1LDMxLjQ0LTEwNi40NlQxNzE4LDM3Mi40NHE1Mi4zLDAsODMuMTIsMzIuNjh0MzIuMDYsOTQuOTVoNjUuMzdxLTEwLjU5LTc3LjE5LTYxLjY0LTEyNy42M1QxNzE4LDMyMnEtNzkuNywwLTEzMi45Miw2Ni4zdC01My4yMywxNjMuNDNxMCw5Ny4xMyw1My4yMywxNjMuNDNUMTcxOCw3ODEuNDdxNjcuODYsMCwxMTguOTEtNTAuNDNtLTY5My41NCw0NC4yMVYzNzhoMjhsMTQ4LjE3LDM5Ny4yMWgxMDguMzN2LTQ0N2gtNTEuNjdWNzI1LjQ0aC0yMi40MUwxMjA1LjYsMzI4LjIzSDEwOTIuMjl2NDQ3Wk05ODEuNDgsNDU3LjczSDkxM3Y2OC40OGg2OC40OFptMCwyNDlIOTEzdjY4LjQ5aDY4LjQ4Wk04MDUuMyw2MjRWMzI4LjIzaC01NlY2MzguOXEwLDQ4LTI0LjI4LDcwVDY0Ny4xNiw3MzFxLTUzLjU1LDAtNzcuODItMjEuNzlUNTQ1LjA2LDYzOC45VjMyOC4yM0g0ODlWNjI0cTAsNzEuNiw0My4yNywxMTQuNTV0MTE0Ljg2LDQzcTcxLjYsMCwxMTQuODctNDNUODA1LjMsNjI0TTgwLjYzLDc3NS4yNVYzNzhoMjhMMjU2LjgyLDc3NS4yNUgzNjUuMTV2LTQ0N0gzMTMuNDdWNzI1LjQ0SDI5MS4wNkwxNDIuODksMzI4LjIzSDI5LjU4djQ0N1oiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0yOS41OCAtMzIyLjAxKSIvPjwvZz48L2c+PC9nPjwvc3ZnPg=="
 
 /***/ }),
 
@@ -1367,67 +1398,6 @@ var PriceStyle = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].div.w
   displayName: "PriceStyle",
   componentId: "sc-3mis5-0"
 })(["background-color:#a3c5f5;.price{width:90%;margin:0 auto;}.title{padding-top:5rem;margin-bottom:2rem;}.contact{margin-top:2rem;padding-bottom:5rem;}.contacText{margin-bottom:2rem;}@media only screen and (min-width:415px) and (max-width:768px){padding-top:5rem;padding-bottom:5rem;.title{text-align:center;padding-top:0;}.contact{display:flex;text-align:center;align-items:center;padding-bottom:0;}}@media only screen and (min-width:769px) and (max-width:1024px){.title{text-align:center;padding-top:8rem;}.contact{display:flex;text-align:center;align-items:center;}}@media only screen and (min-width:1025px) and (max-width:1440px){height:85vh;display:flex;align-items:center;.price{width:77%;}.title{text-align:center;}h1{text-align:center;}.contact{display:flex;align-items:center;margin-top:5rem;.contacText{margin-bottom:0;margin-right:1rem;margin-left:4rem;}}}@media only screen and (min-width:1441px){height:85vh;display:flex;align-items:center;.price{width:77%;}.title{text-align:center;}h1{text-align:center;}.contact{display:flex;align-items:center;margin-top:5rem;.contacText{margin-bottom:0;margin-right:1rem;margin-left:4rem;}}}"]);
-
-
-/***/ }),
-
-/***/ "./components/Svg/Logo.js":
-/*!********************************!*\
-  !*** ./components/Svg/Logo.js ***!
-  \********************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _LogoStyle__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./LogoStyle */ "./components/Svg/LogoStyle.js");
-/* harmony import */ var _static_svg_Logo_svg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../static/svg/Logo.svg */ "./static/svg/Logo.svg");
-/* harmony import */ var _static_svg_Logo_svg__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_static_svg_Logo_svg__WEBPACK_IMPORTED_MODULE_2__);
-var _jsxFileName = "/Users/simon/Desktop/LandingNUNC/components/Svg/Logo.js";
-
-
-
-
-var Logo = function Logo(props) {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_LogoStyle__WEBPACK_IMPORTED_MODULE_1__["LogoStyle"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 8
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    className: "logoNUNC",
-    src: _static_svg_Logo_svg__WEBPACK_IMPORTED_MODULE_2___default.a,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 9
-    },
-    __self: this
-  }));
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (Logo);
-
-/***/ }),
-
-/***/ "./components/Svg/LogoStyle.js":
-/*!*************************************!*\
-  !*** ./components/Svg/LogoStyle.js ***!
-  \*************************************/
-/*! exports provided: LogoStyle */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "LogoStyle", function() { return LogoStyle; });
-/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
-
-var LogoStyle = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].div.withConfig({
-  displayName: "LogoStyle",
-  componentId: "i9mm0w-0"
-})([".logoNUNC{width:100%;margin-top:3rem;margin-bottom:5rem;}@media only screen and (min-width:769px) and (max-width:1024px){.logoNUNC{width:70%;}}@media only screen and (min-width:1025px) and (max-width:1440px){.logoNUNC{width:60%;}}@media only screen and (min-width:1441px){.logoNUNC{width:60%;}}"]);
 
 
 /***/ }),
@@ -9722,17 +9692,6 @@ module.exports = "/_next/static/fonts/Texgyreheroscn-regular-5561d7668e3b008cd53
 
 /***/ }),
 
-/***/ "./static/svg/IconAppstore.svg":
-/*!*************************************!*\
-  !*** ./static/svg/IconAppstore.svg ***!
-  \*************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "/_next/static/images/IconAppstore-020e2b9f8f478f49fd07b09a9a17eb5b.svg";
-
-/***/ }),
-
 /***/ "./static/svg/IconAppstoreWhite.svg":
 /*!******************************************!*\
   !*** ./static/svg/IconAppstoreWhite.svg ***!
@@ -9744,17 +9703,6 @@ module.exports = "/_next/static/images/IconAppstoreWhite-b3a60c61c002b6cf942d59b
 
 /***/ }),
 
-/***/ "./static/svg/IconGooleplay.svg":
-/*!**************************************!*\
-  !*** ./static/svg/IconGooleplay.svg ***!
-  \**************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "/_next/static/images/IconGooleplay-a661c2d3ec6aa78eebc86291baf6828e.svg";
-
-/***/ }),
-
 /***/ "./static/svg/IconGooleplayWhite.svg":
 /*!*******************************************!*\
   !*** ./static/svg/IconGooleplayWhite.svg ***!
@@ -9763,17 +9711,6 @@ module.exports = "/_next/static/images/IconGooleplay-a661c2d3ec6aa78eebc86291baf
 /***/ (function(module, exports) {
 
 module.exports = "/_next/static/images/IconGooleplayWhite-8b5b03b9e4716080eddf3f993aba8510.svg";
-
-/***/ }),
-
-/***/ "./static/svg/Logo.svg":
-/*!*****************************!*\
-  !*** ./static/svg/Logo.svg ***!
-  \*****************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxODY4Ljk0IDQ1OS40NiI+PGRlZnM+PHN0eWxlPi5jbHMtMXtpc29sYXRpb246aXNvbGF0ZTt9LmNscy0ye21peC1ibGVuZC1tb2RlOmRpZmZlcmVuY2U7fS5jbHMtM3tmaWxsOiMxZDFkMWI7fTwvc3R5bGU+PC9kZWZzPjx0aXRsZT5sb2dvPC90aXRsZT48ZyBjbGFzcz0iY2xzLTEiPjxnIGlkPSJDYXBhXzEiIGRhdGEtbmFtZT0iQ2FwYSAxIj48ZyBjbGFzcz0iY2xzLTIiPjxwYXRoIGNsYXNzPSJjbHMtMyIgZD0iTTE4MzYuODgsNzMxcTUxLTUwLjQzLDYxLjY0LTEyNy42M2gtNjUuMzdxLTEuMjYsNjIuMjYtMzIuMDYsOTVUMTcxOCw3MzFxLTU5Ljc2LDAtOTEuMjEtMzUuOHQtMzEuNDQtMTA2LjE1VjUxNXEwLTcwLjM1LDMxLjQ0LTEwNi40NlQxNzE4LDM3Mi40NHE1Mi4zLDAsODMuMTIsMzIuNjh0MzIuMDYsOTQuOTVoNjUuMzdxLTEwLjU5LTc3LjE5LTYxLjY0LTEyNy42M1QxNzE4LDMyMnEtNzkuNywwLTEzMi45Miw2Ni4zdC01My4yMywxNjMuNDNxMCw5Ny4xMyw1My4yMywxNjMuNDNUMTcxOCw3ODEuNDdxNjcuODYsMCwxMTguOTEtNTAuNDNtLTY5My41NCw0NC4yMVYzNzhoMjhsMTQ4LjE3LDM5Ny4yMWgxMDguMzN2LTQ0N2gtNTEuNjdWNzI1LjQ0aC0yMi40MUwxMjA1LjYsMzI4LjIzSDEwOTIuMjl2NDQ3Wk05ODEuNDgsNDU3LjczSDkxM3Y2OC40OGg2OC40OFptMCwyNDlIOTEzdjY4LjQ5aDY4LjQ4Wk04MDUuMyw2MjRWMzI4LjIzaC01NlY2MzguOXEwLDQ4LTI0LjI4LDcwVDY0Ny4xNiw3MzFxLTUzLjU1LDAtNzcuODItMjEuNzlUNTQ1LjA2LDYzOC45VjMyOC4yM0g0ODlWNjI0cTAsNzEuNiw0My4yNywxMTQuNTV0MTE0Ljg2LDQzcTcxLjYsMCwxMTQuODctNDNUODA1LjMsNjI0TTgwLjYzLDc3NS4yNVYzNzhoMjhMMjU2LjgyLDc3NS4yNUgzNjUuMTV2LTQ0N0gzMTMuNDdWNzI1LjQ0SDI5MS4wNkwxNDIuODksMzI4LjIzSDI5LjU4djQ0N1oiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0yOS41OCAtMzIyLjAxKSIvPjwvZz48L2c+PC9nPjwvc3ZnPg=="
 
 /***/ }),
 
