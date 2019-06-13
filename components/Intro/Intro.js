@@ -1,11 +1,11 @@
 import React from "react";
 import { IntroStyle } from "./IntroStyle";
 
-import logoNunc from "../../static/svg/Logo.svg";
-import Logo from "../Svg/Logo"
-import AppStore from "../../static/svg/IconAppstore.svg";
-import Googleplay from "../../static/svg/IconGooleplay.svg";
+import logoNunc from "./Logo.svg";
 
+import AppStore from "./IconAppstore.svg";
+import Googleplay from "./IconGooleplay.svg";
+import movilNunc from "./movilNunc.png"
 import FontH1 from "../../styles/pagesStyles/Fonth1";
 
 const Intro = props => {
@@ -24,7 +24,7 @@ const Intro = props => {
                     </div>
                 </div>
                 <div className="iphone">
-                    <img className="movil"src="../../static/img/movilNunc.png"></img>
+                    <img className="movil"src={movilNunc}></img>
                 </div>
             </div>
         </IntroStyle>
