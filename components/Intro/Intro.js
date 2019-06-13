@@ -19,12 +19,12 @@ const Intro = props => {
                         <FontH1 >Cumple con las obligaciones de marcaje sin que nada cambie en tu empresa.</FontH1>
                     </div>
                     <div className="stores">
-                        <img className="appStore"src={AppStore}></img>
-                        <img className="googleplay"src={Googleplay}></img>
+                        <img className="appStore" src={AppStore}></img>
+                        <img className="googleplay" src={Googleplay}></img>
                     </div>
                 </div>
                 <div className="iphone">
-                    <img className="movil"src={movilNunc}></img>
+                    <img className="movil" src={movilNunc}></img>
                 </div>
             </div>
         </IntroStyle>
