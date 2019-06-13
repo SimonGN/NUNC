@@ -4,7 +4,7 @@ import { FinalStyle } from "./FinalStyle";
 
 import Fontp from "../../styles/pagesStyles/Fontp";
 
-import LottieControl from "./Lottie"
+
 
 const Intro = props => {
     return (

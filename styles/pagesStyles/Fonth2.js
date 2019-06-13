@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 
 const Fonth2 = styled.h2`
-    font-family: "KareliaWeb";
+    font-family: "KareliaWeb-Regular";
     color: ${props => (props.color === 'white' ? 'white' : 'black')};
     font-size: 1.9rem;
     line-height: 2.1rem;
