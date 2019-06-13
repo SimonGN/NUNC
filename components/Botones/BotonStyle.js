@@ -24,10 +24,18 @@ const BotonStyle = styled.div`
     @media only screen and (min-width:769px) and (max-width:1024px){
         a{
             font-size: 2rem;
+            cursor:pointer;
         }
     @media only screen and (min-width:1025px) and (max-width:1440px){
         a{
             font-size: 4rem;
+            cursor:pointer;
+        }
+    }
+    @media only screen and (min-width:1441px) {
+        a{
+            font-size: 4rem;
+            cursor:pointer;
         }
     }
     

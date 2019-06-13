@@ -2,6 +2,7 @@ import React from "react";
 import { IntroStyle } from "./IntroStyle";
 
 import logoNunc from "../../static/svg/Logo.svg";
+import Logo from "../Svg/Logo"
 import AppStore from "../../static/svg/IconAppstore.svg";
 import Googleplay from "../../static/svg/IconGooleplay.svg";
 
@@ -13,6 +14,9 @@ const Intro = props => {
             <div className="intro">   
                 <div className="home">
                     <img className="logoNUNC" src={logoNunc}></img>
+                    <div className="logoNUNC">
+                        <Logo/>
+                    </div>
                     <div className="text"> 
                         <FontH1 >Cumple con las obligaciones de marcaje sin que nada cambie en tu empresa.</FontH1>
                     </div>

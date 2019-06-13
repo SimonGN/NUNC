@@ -3,7 +3,8 @@ import { FinalStyle } from "./FinalStyle";
 
 
 import Fontp from "../../styles/pagesStyles/Fontp";
-import LogoBlack from "../../static/svg/LogoBlack.svg"
+
+import LottieControl from "./Lottie"
 
 const Intro = props => {
     return (
@@ -16,11 +17,9 @@ const Intro = props => {
                     <Fontp>Hacer el marcaje simple, rápido y sencillo es nuestra tarea.</Fontp>
                 </div>
                 <div className="logo">
-                    <img src={LogoBlack}></img>
+                    <img className="animation"src={"../../static/img/animationNunc.gif"}></img>
                 </div>
             </div>
-
-
         </FinalStyle>
 
     ); 

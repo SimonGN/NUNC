@@ -22,6 +22,7 @@ const InfoStyle = styled.div`
     }
     .text{
         margin-top:5rem;
+        margin-bottom: 5rem;
     }
     h2{
         margin-bottom: 2rem;
@@ -43,6 +44,7 @@ const InfoStyle = styled.div`
     @media only screen and (min-width:415px) and (max-width:768px){
         .text{
             margin-top:8rem;
+            margin-bottom: 8rem;
         }
         .movil{
             width: 50%;
@@ -69,6 +71,7 @@ const InfoStyle = styled.div`
     @media only screen and (min-width:1025px) and (max-width:1440px){
         .text{
             margin-top: 8rem;
+            margin-bottom: 8rem;
         }
         .intro{
             width: 60%;
@@ -84,6 +87,7 @@ const InfoStyle = styled.div`
     @media only screen and (min-width:1441px){
         .text{
             margin-top: 13rem;
+            margin-bottom: 13rem;
         }
         .intro{
             width: 60%;

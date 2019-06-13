@@ -9,7 +9,7 @@ const Boton = props => {
         
         <BotonStyle>
             <div >
-                <a className="Boton" href="https://tailor-hub.com/">Contactar</a>
+                <a className="Boton" href="mailto:ines.guerra@tailor-hub.com?Subject=⏰%20NU:NC%20información%20⏰">Contactar</a>
             </div>
         </BotonStyle>
 

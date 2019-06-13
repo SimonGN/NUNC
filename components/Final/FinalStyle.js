@@ -16,7 +16,12 @@ const FinalStyle = styled.div`
         margin-bottom: 8rem;
         display: flex;
         justify-content: center;
+        img{
+            width: 39vh;
+            object-fit: contain;
+        }
     }
+
     @media only screen and (min-width:1025px) and (max-width:1440px){
         height: 80vh;
         display: flex;

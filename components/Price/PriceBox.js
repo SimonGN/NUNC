@@ -41,7 +41,7 @@ const PriceBox = props => {
                         <Fonth3>MULTI</Fonth3>
                         <Fontp2>más de 1000 empelados</Fontp2>
                     </div>
-                    <a className="enlace" href="https://tailor-hub.com/">Contactar</a>
+                    <a className="enlace" href="tel:+34644564713">Llamar</a>
                 </div>
             </div>
 
