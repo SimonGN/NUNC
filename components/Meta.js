@@ -14,13 +14,23 @@ const Meta = () => {
       <style jsx global>{`
         @font-face {
           font-family: "KareliaWeb-Regular";
-          src: url(${KareliaWeb}) format("truetype");
+          src: url(${KareliaWeb});
+          src: local("KareliaWeb-Regular"), url(${KareliaWeb}) format("otf"),
+            /* IE6-IE8 */ url(${KareliaWeb}) format("otf"),
+            /* Super Modern Browsers */ url(${KareliaWeb}) format("otf"),
+            /* Modern Browsers */ url(${KareliaWeb}) format("truetype"),
+            /* Safari, Android, iOS */ url(${KareliaWeb}) format("svg"); /* Legacy iOS */
           font-weight: normal;
           font-style: normal;
         }
         @font-face {
           font-family: "Texgyreheroscn";
-          src: url(${Texgyreheroscn}) format("truetype");
+          src: url(${Texgyreheroscn});
+          src: local("KareliaWeb-Regular"), url(${Texgyreheroscn}) format("otf"),
+            /* IE6-IE8 */ url(${Texgyreheroscn}) format("otf"),
+            /* Super Modern Browsers */ url(${Texgyreheroscn}) format("otf"),
+            /* Modern Browsers */ url(${Texgyreheroscn}) format("truetype"),
+            /* Safari, Android, iOS */ url(${Texgyreheroscn}) format("svg"); /* Legacy iOS */
           font-weight: normal;
           font-style: normal;
         }
@@ -33,7 +43,10 @@ const Meta = () => {
           padding: 0;
           max-width: 100%;
         }
-        h1, h2, h3, p {
+        h1,
+        h2,
+        h3,
+        p {
           margin-top: 0;
           margin-bottom: 0;
         }

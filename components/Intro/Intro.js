@@ -13,10 +13,8 @@ const Intro = props => {
         <IntroStyle>
             <div className="intro">   
                 <div className="home">
-                    <img className="logoNUNC" src={logoNunc}></img>
-                    {/* <div className="logoNUNC">
-                        <Logo/>
-                    </div> */}
+                    <img className="logoNUNC" src={logoNunc} />
+
                     <div className="text"> 
                         <FontH1 >Cumple con las obligaciones de marcaje sin que nada cambie en tu empresa.</FontH1>
                     </div>
