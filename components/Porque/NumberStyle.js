@@ -16,7 +16,7 @@ const NumberStyle = styled.div`
         border-color: white;
         margin-bottom:0.5rem;
 
-        font-family: "KareliaWeb";
+        font-family: "KareliaWeb-Regular";
         color: white;
         letter-spacing: 0.07rem;
         text-align: ${props => (props.align === 'center' ? 'center' : 'left')};

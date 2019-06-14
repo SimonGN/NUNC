@@ -25,7 +25,7 @@ const PriceBoxStyle = styled.div`
         border-radius: 50%;
         border-color: #56cc7e;
 
-        font-family: "KareliaWeb";
+        font-family: "KareliaWeb-Regular";
         color: #56cc7e;
         letter-spacing: 0.07rem;
     }
@@ -36,7 +36,7 @@ const PriceBoxStyle = styled.div`
     }
 
     .enlace{
-        font-family: "KareliaWeb";
+        font-family: "KareliaWeb-Regular";
         font-size: 1.5rem;
         letter-spacing: 0.07rem;
         color: black;

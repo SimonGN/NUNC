@@ -4,7 +4,7 @@ const withCSS = require('@zeit/next-css');
 const withPlugins = require('next-compose-plugins');
 const debug = process.env.NODE_ENV !== "production";
 console.log(process.env.NODE_ENV)
-const assetPrefix =  !debug ? '/LandingNUNC' : ''
+const assetPrefix =  !debug ? '' : ''
 const webpack = require('webpack')
 const nextConfig = {
   exportPathMap: () => ({
