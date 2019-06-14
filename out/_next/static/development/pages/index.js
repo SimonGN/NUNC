@@ -430,28 +430,6 @@ var InfoStyle = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].div.wi
 
 /***/ }),
 
-/***/ "./components/Intro/IconAppstore.svg":
-/*!*******************************************!*\
-  !*** ./components/Intro/IconAppstore.svg ***!
-  \*******************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "/_next/static/images/IconAppstore-020e2b9f8f478f49fd07b09a9a17eb5b.svg";
-
-/***/ }),
-
-/***/ "./components/Intro/IconGooleplay.svg":
-/*!********************************************!*\
-  !*** ./components/Intro/IconGooleplay.svg ***!
-  \********************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "/_next/static/images/IconGooleplay-a661c2d3ec6aa78eebc86291baf6828e.svg";
-
-/***/ }),
-
 /***/ "./components/Intro/Intro.js":
 /*!***********************************!*\
   !*** ./components/Intro/Intro.js ***!
@@ -464,20 +442,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _IntroStyle__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./IntroStyle */ "./components/Intro/IntroStyle.js");
-/* harmony import */ var _Logo_svg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Logo.svg */ "./components/Intro/Logo.svg");
-/* harmony import */ var _Logo_svg__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_Logo_svg__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _IconAppstore_svg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./IconAppstore.svg */ "./components/Intro/IconAppstore.svg");
-/* harmony import */ var _IconAppstore_svg__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_IconAppstore_svg__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _IconGooleplay_svg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./IconGooleplay.svg */ "./components/Intro/IconGooleplay.svg");
-/* harmony import */ var _IconGooleplay_svg__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_IconGooleplay_svg__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var _movilNunc_png__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./movilNunc.png */ "./components/Intro/movilNunc.png");
-/* harmony import */ var _movilNunc_png__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_movilNunc_png__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var _styles_pagesStyles_Fonth1__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../styles/pagesStyles/Fonth1 */ "./styles/pagesStyles/Fonth1.js");
+/* harmony import */ var _styles_pagesStyles_Fonth1__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../styles/pagesStyles/Fonth1 */ "./styles/pagesStyles/Fonth1.js");
 var _jsxFileName = "/Users/simon/Desktop/LandingNUNC/components/Intro/Intro.js";
-
-
-
-
 
 
 
@@ -486,80 +452,80 @@ var Intro = function Intro(props) {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_IntroStyle__WEBPACK_IMPORTED_MODULE_1__["IntroStyle"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13
+      lineNumber: 8
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "intro",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14
+      lineNumber: 9
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "home",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 15
+      lineNumber: 10
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     className: "logoNUNC",
-    src: _Logo_svg__WEBPACK_IMPORTED_MODULE_2___default.a,
+    src: "/static/svg/Logo.svg",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 16
+      lineNumber: 11
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "text",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 18
+      lineNumber: 13
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styles_pagesStyles_Fonth1__WEBPACK_IMPORTED_MODULE_6__["default"], {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styles_pagesStyles_Fonth1__WEBPACK_IMPORTED_MODULE_2__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19
+      lineNumber: 14
     },
     __self: this
   }, "Cumple con las obligaciones de marcaje sin que nada cambie en tu empresa.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "stores",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 21
+      lineNumber: 16
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     className: "appStore",
-    src: _IconAppstore_svg__WEBPACK_IMPORTED_MODULE_3___default.a,
+    src: "/static/svg/IconAppstore.svg",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22
+      lineNumber: 17
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     className: "googleplay",
-    src: _IconGooleplay_svg__WEBPACK_IMPORTED_MODULE_4___default.a,
+    src: "/static/svg/IconGooleplay.svg",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 23
+      lineNumber: 18
     },
     __self: this
   }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "iphone",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 26
+      lineNumber: 21
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     className: "movil",
-    src: _movilNunc_png__WEBPACK_IMPORTED_MODULE_5___default.a,
+    src: "/static/img/movilNunc.png",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 27
+      lineNumber: 22
     },
     __self: this
   }))));
@@ -586,28 +552,6 @@ var IntroStyle = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].div.w
   componentId: "hux6j3-0"
 })(["background:linear-gradient(105deg,#56cc7e,#a3c5f5,#56cc7e);background-size:800% 800%;-webkit-animation:background-animation 36s ease infinite;-moz-animation:background-animation 36s ease infinite;-o-animation:background-animation 36s ease infinite;animation:background-animation 36s ease infinite;@-webkit-keyframes background-animation{0%{background-position:0% 62%;}50%{background-position:100% 39%;}100%{background-position:0% 62%;}}@-moz-keyframes background-animation{0%{background-position:0% 62%;}50%{background-position:100% 39%;}100%{background-position:0% 62%;}}@-o-keyframes background-animation{0%{background-position:0% 62%;}50%{background-position:20% 39%;}100%{background-position:0% 62%;}}@keyframes background-animation{0%{background-position:0% 62%;}50%{background-position:49% 39%;}100%{background-position:0% 62%;}}@-webkit-keyframes fadeInOpacity{0%{opacity:0;}100%{opacity:1;fill-opacity:1;}}@-moz-keyframes fadeInOpacity{0%{opacity:0;}100%{opacity:1;fill-opacity:1;}}@keyframes fadeInOpacity{0%{opacity:0;}100%{opacity:1;fill-opacity:1;}}.intro{width:90vw;margin:0 auto;-webkit-animation:fadeInOpacity 2s ease-in;-moz-animation:fadeInOpacity 2s ease-in;-o-animation:fadeInOpacity 2s ease-in;animation:fadeInOpacity 2s ease-in;}.logoNUNC{width:100%;margin-top:3rem;margin-bottom:5rem;fill-opacity:1;}.stores{display:flex;justify-content:center;width:100%;margin-top:4rem;margin-bottom:5rem;}.appStore,.googleplay{width:50%;}.appStore{margin-right:10px;}.iphone{display:flex;justify-content:center;}.movil{width:80%;height:80%;margin-bottom:5rem;}@media only screen and (min-width:415px) and (max-width:768px){.movil{width:50%;height:50%;margin-bottom:5rem;}.appStore,.googleplay{width:28%;height:0%;}.appStore{margin-right:50px;}}@media only screen and (min-width:769px) and (max-width:1024px){.intro{display:flex;height:90vh;}.home{width:70%;}.logoNUNC{width:70%;}.movil{width:80%;height:80%;margin-bottom:0;}.iphone{display:flex;justify-content:center;align-items:center;}.appStore,.googleplay{width:28%;height:0%;}.appStore{margin-right:40px;}}@media only screen and (min-width:1025px) and (max-width:1440px){.intro{display:flex;height:90vh;width:70vw;}.home{width:60%;}.logoNUNC{width:60%;}.text{height:30%;display:flex;align-items:center;}.movil{width:80%;height:80%;margin-bottom:0;object-fit:contain;margin-left:10%;}.iphone{display:flex;justify-content:center;align-items:center;width:40%;}.appStore,.googleplay{width:25%;height:0%;}.appStore{margin-right:40px;}}@media only screen and (min-width:1441px){.intro{display:flex;height:90vh;width:70vw;}.home{width:50%;}.text{height:30%;display:flex;align-items:center;}.logoNUNC{width:60%;}.movil{width:80%;height:80%;margin-bottom:0;object-fit:contain;margin-left:40%;}.iphone{display:flex;justify-content:center;align-items:center;width:40%;}.appStore,.googleplay{width:25%;height:0%;}.appStore{margin-right:40px;}}"]);
 
-
-/***/ }),
-
-/***/ "./components/Intro/Logo.svg":
-/*!***********************************!*\
-  !*** ./components/Intro/Logo.svg ***!
-  \***********************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxODY4Ljk0IDQ1OS40NiI+PGRlZnM+PHN0eWxlPi5jbHMtMXtpc29sYXRpb246aXNvbGF0ZTt9LmNscy0ye21peC1ibGVuZC1tb2RlOmRpZmZlcmVuY2U7fS5jbHMtM3tmaWxsOiMxZDFkMWI7fTwvc3R5bGU+PC9kZWZzPjx0aXRsZT5sb2dvPC90aXRsZT48ZyBjbGFzcz0iY2xzLTEiPjxnIGlkPSJDYXBhXzEiIGRhdGEtbmFtZT0iQ2FwYSAxIj48ZyBjbGFzcz0iY2xzLTIiPjxwYXRoIGNsYXNzPSJjbHMtMyIgZD0iTTE4MzYuODgsNzMxcTUxLTUwLjQzLDYxLjY0LTEyNy42M2gtNjUuMzdxLTEuMjYsNjIuMjYtMzIuMDYsOTVUMTcxOCw3MzFxLTU5Ljc2LDAtOTEuMjEtMzUuOHQtMzEuNDQtMTA2LjE1VjUxNXEwLTcwLjM1LDMxLjQ0LTEwNi40NlQxNzE4LDM3Mi40NHE1Mi4zLDAsODMuMTIsMzIuNjh0MzIuMDYsOTQuOTVoNjUuMzdxLTEwLjU5LTc3LjE5LTYxLjY0LTEyNy42M1QxNzE4LDMyMnEtNzkuNywwLTEzMi45Miw2Ni4zdC01My4yMywxNjMuNDNxMCw5Ny4xMyw1My4yMywxNjMuNDNUMTcxOCw3ODEuNDdxNjcuODYsMCwxMTguOTEtNTAuNDNtLTY5My41NCw0NC4yMVYzNzhoMjhsMTQ4LjE3LDM5Ny4yMWgxMDguMzN2LTQ0N2gtNTEuNjdWNzI1LjQ0aC0yMi40MUwxMjA1LjYsMzI4LjIzSDEwOTIuMjl2NDQ3Wk05ODEuNDgsNDU3LjczSDkxM3Y2OC40OGg2OC40OFptMCwyNDlIOTEzdjY4LjQ5aDY4LjQ4Wk04MDUuMyw2MjRWMzI4LjIzaC01NlY2MzguOXEwLDQ4LTI0LjI4LDcwVDY0Ny4xNiw3MzFxLTUzLjU1LDAtNzcuODItMjEuNzlUNTQ1LjA2LDYzOC45VjMyOC4yM0g0ODlWNjI0cTAsNzEuNiw0My4yNywxMTQuNTV0MTE0Ljg2LDQzcTcxLjYsMCwxMTQuODctNDNUODA1LjMsNjI0TTgwLjYzLDc3NS4yNVYzNzhoMjhMMjU2LjgyLDc3NS4yNUgzNjUuMTV2LTQ0N0gzMTMuNDdWNzI1LjQ0SDI5MS4wNkwxNDIuODksMzI4LjIzSDI5LjU4djQ0N1oiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0yOS41OCAtMzIyLjAxKSIvPjwvZz48L2c+PC9nPjwvc3ZnPg=="
-
-/***/ }),
-
-/***/ "./components/Intro/movilNunc.png":
-/*!****************************************!*\
-  !*** ./components/Intro/movilNunc.png ***!
-  \****************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "/_next/static/images/movilNunc-f21023e080cbc66f80c2f584cc57038b.png";
 
 /***/ }),
 
