@@ -102,7 +102,7 @@ const IntroStyle = styled.div`
 
   .stores {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     width: 100%;
     margin-top: 4rem;
     margin-bottom: 5rem;
@@ -136,6 +136,10 @@ const IntroStyle = styled.div`
     }
     .appStore {
       margin-right: 50px;
+    }
+
+    .stores {
+      justify-content: center;
     }
   }
   @media only screen and (min-width: 769px) and (max-width: 1024px) {
