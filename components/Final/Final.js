@@ -17,7 +17,7 @@ const Intro = props => {
                     <Fontp>Hacer el marcaje simple, rápido y sencillo es nuestra tarea.</Fontp>
                 </div>
                 <div className="logo">
-                    <img className="animation"src={"../../static/img/animationNunc.gif"}></img>
+                    <img className="animation"src={`${process.env.ASSET_PREFIX}/static/img/animationNunc.gif`}></img>
                 </div>
             </div>
         </FinalStyle>

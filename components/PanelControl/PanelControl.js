@@ -9,7 +9,7 @@ const PanelControl = props => {
         <PanleControlStyle>
             <div className="panelcontrol">
                 <div className="ipadSpace">
-                    <img className="ipad" src="../../static/img/iPadNunc.png"></img>
+                    <img className="ipad" src={`${process.env.ASSET_PREFIX}/static/img/iPadNunc.png`}></img>
                 </div>
                 <div className="text">
                     <FontP className="parraf">Gracias a NUNC podrás cumplir con el sistema de marcaje impuesto por la Ley 8/2019 sin que ello suponga el control horario de cada uno de tus empleados.</FontP>
