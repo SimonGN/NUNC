@@ -9635,7 +9635,7 @@ function Home() {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "/_next/static/fonts/KareliaWeb-Regular-118fa3d0f6d37c6cdb085190c7869c15.otf";
+module.exports = "https://github.com/SimonGN/LandingNUNC//_next/static/fonts/KareliaWeb-Regular-118fa3d0f6d37c6cdb085190c7869c15.otf";
 
 /***/ }),
 
@@ -9646,7 +9646,7 @@ module.exports = "/_next/static/fonts/KareliaWeb-Regular-118fa3d0f6d37c6cdb08519
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "/_next/static/fonts/Texgyreheroscn-regular-5561d7668e3b008cd537a6cf21c39b6e.otf";
+module.exports = "https://github.com/SimonGN/LandingNUNC//_next/static/fonts/Texgyreheroscn-regular-5561d7668e3b008cd537a6cf21c39b6e.otf";
 
 /***/ }),
 
@@ -9657,7 +9657,7 @@ module.exports = "/_next/static/fonts/Texgyreheroscn-regular-5561d7668e3b008cd53
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "/_next/static/images/IconAppstoreWhite-b3a60c61c002b6cf942d59b94085b96e.svg";
+module.exports = "https://github.com/SimonGN/LandingNUNC//_next/static/images/IconAppstoreWhite-b3a60c61c002b6cf942d59b94085b96e.svg";
 
 /***/ }),
 
@@ -9668,7 +9668,7 @@ module.exports = "/_next/static/images/IconAppstoreWhite-b3a60c61c002b6cf942d59b
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "/_next/static/images/IconGooleplayWhite-8b5b03b9e4716080eddf3f993aba8510.svg";
+module.exports = "https://github.com/SimonGN/LandingNUNC//_next/static/images/IconGooleplayWhite-8b5b03b9e4716080eddf3f993aba8510.svg";
 
 /***/ }),
 
@@ -9679,7 +9679,7 @@ module.exports = "/_next/static/images/IconGooleplayWhite-8b5b03b9e4716080eddf3f
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "/_next/static/images/LogoTylor-809152d5f63f8c11edac0c3bb3aecaff.svg";
+module.exports = "https://github.com/SimonGN/LandingNUNC//_next/static/images/LogoTylor-809152d5f63f8c11edac0c3bb3aecaff.svg";
 
 /***/ }),
 
