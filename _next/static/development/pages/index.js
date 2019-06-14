@@ -483,53 +483,52 @@ var _jsxFileName = "/Users/simon/Desktop/LandingNUNC/components/Intro/Intro.js";
 
 
 var Intro = function Intro(props) {
-  console.log("");
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_IntroStyle__WEBPACK_IMPORTED_MODULE_1__["IntroStyle"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14
+      lineNumber: 13
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "intro",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 15
+      lineNumber: 14
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "home",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 16
+      lineNumber: 15
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     className: "logoNUNC",
-    src: "/static/svg/Logo.svg",
+    src: "".concat("", "/static/svg/Logo.svg"),
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 17
+      lineNumber: 16
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "text",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19
+      lineNumber: 18
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styles_pagesStyles_Fonth1__WEBPACK_IMPORTED_MODULE_6__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20
+      lineNumber: 19
     },
     __self: this
   }, "Cumple con las obligaciones de marcaje sin que nada cambie en tu empresa.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "stores",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22
+      lineNumber: 21
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
@@ -537,30 +536,30 @@ var Intro = function Intro(props) {
     src: "".concat("", "/static/svg/IconAppstore.svg"),
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 23
+      lineNumber: 22
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     className: "googleplay",
-    src: "/static/svg/IconGooleplay.svg",
+    src: "".concat("", "/static/svg/IconGooleplay.svg"),
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 24
+      lineNumber: 23
     },
     __self: this
   }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "iphone",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 27
+      lineNumber: 26
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     className: "movil",
-    src: "/static/img/movilNunc.png",
+    src: "".concat("", "/static/img/movilNunc.png"),
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 28
+      lineNumber: 27
     },
     __self: this
   }))));
