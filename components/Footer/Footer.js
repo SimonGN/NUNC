@@ -15,7 +15,7 @@ const Footer = props => {
             <div className="footer">
                 <div className="intro">
                     <Fontp color="white">Un producto de </Fontp>
-                    <a title="logo" href="http://www.tailor-hub.com"><img className="logo" src={ LogoTylor } alt="logo NU:NC" /></a>       
+                    <a title="logo" href="http://www.tailor-hub.com" target="_blank"><img className="logo" src={ LogoTylor } alt="logo NU:NC" /></a>       
                 </div>
                 <div className="store">
                     <img className="google"src={ GoogleWhite }></img>
