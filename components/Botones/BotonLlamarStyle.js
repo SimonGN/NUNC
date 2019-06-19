@@ -3,26 +3,16 @@ import styled from 'styled-components';
 
 
 const BotonLlamarStyle = styled.div`
-    width:100vw;
-    height:60px;
+    width:97vw;
     position: fixed;
     bottom:0;
     
     a{
-        display:flex;
-        align-items: center;
-        justify-content:center;
-        text-decoration:none;
-        font-family: "Texgyreheroscn";
-        font-size: 1.5rem;
-        letter-spacing: 0.07rem;
-        color: #56cc7e;
-        border-color: #56cc7e;
-        border-width: 2px;
-        border-style: solid;
-        height: 60px;
-        width: 100vw;
-        background: white;
+    display: flex;
+    justify-content: flex-end;
+    }
+    .llamarIcon{
+        width: 25vw;
     }
     @media only screen and (min-width:769px) and (max-width:1024px){
         a{
