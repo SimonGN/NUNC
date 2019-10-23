@@ -20,7 +20,7 @@ function Home() {
     <PanelControl/>
     <Price/>
     <Final/>
-    <BotonLlamar/>
+    {/* <BotonLlamar/> */}
     <Footer/>
    
 

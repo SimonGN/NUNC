@@ -1,253 +1,106 @@
 import styled from 'styled-components';
 
 const IntroStyle = styled.div`
-  /*background-image: url("../../static/svg/fondo.svg");
-    background-size:cover;*/
-  background: linear-gradient(105deg, #56cc7e, #a3c5f5, #56cc7e);
-  background-size: 800% 800%;
-
-  -webkit-animation: background-animation 36s ease infinite;
-  -moz-animation: background-animation 36s ease infinite;
-  -o-animation: background-animation 36s ease infinite;
-  animation: background-animation 36s ease infinite;
-
-  @-webkit-keyframes background-animation {
-    0% {
-      background-position: 0% 62%;
-    }
-    50% {
-      background-position: 100% 39%;
-    }
-    100% {
-      background-position: 0% 62%;
-    }
+  background-color: black;
+  .global{
+    background-image: url("../static/img/homeNunc.gif");
+    background-repeat: no-repeat;
+    width:100%;
+    background-position-x: 75%;
+    background-position-y: 10%;
+    background-size: cover;
   }
-  @-moz-keyframes background-animation {
-    0% {
-      background-position: 0% 62%;
-    }
-    50% {
-      background-position: 100% 39%;
-    }
-    100% {
-      background-position: 0% 62%;
-    }
-  }
-  @-o-keyframes background-animation {
-    0% {
-      background-position: 0% 62%;
-    }
-    50% {
-      background-position: 20% 39%;
-    }
-    100% {
-      background-position: 0% 62%;
-    }
-  }
-  @keyframes background-animation {
-    0% {
-      background-position: 0% 62%;
-    }
-    50% {
-      background-position: 49% 39%;
-    }
-    100% {
-      background-position: 0% 62%;
-    }
-  }
-
-  @-webkit-keyframes fadeInOpacity {
-    0% {
-      opacity: 0;
-    }
-    100% {
-      opacity: 1;
-      fill-opacity:1;
-    }
-  }
-  @-moz-keyframes fadeInOpacity {
-    0% {
-      opacity: 0;
-    }
-    100% {
-      opacity: 1;
-      fill-opacity:1;
-    }
-  }
-  @keyframes fadeInOpacity {
-    0% {
-      opacity: 0;
-    }
-    100% {
-      opacity: 1;
-      fill-opacity:1;
-    }
-  }
-
-  .intro {
-    width: 90vw;
+  .local{
+    width:94%;
     margin: 0 auto;
-    
-    -webkit-animation: fadeInOpacity 2s ease-in;
-    -moz-animation: fadeInOpacity 2s ease-in;
-    -o-animation: fadeInOpacity 2s ease-in;
-    animation: fadeInOpacity 2s ease-in;
+    mix-blend-mode: difference;
   }
-  .logoNUNC {
-    width: 100%;
-    margin-top: 3rem;
-    margin-bottom: 5rem;
-    fill-opacity: 1;
-  }
-
-  .stores {
-    display: flex;
-    justify-content: flex-start;
-    width: 100%;
-    margin-top: 4rem;
-    margin-bottom: 5rem;
-  }
-  .appStore,
-  .googleplay {
-    width: 50%;
-  }
-  .appStore {
-    margin-right: 10px;
-  }
-  .iphone {
-    display: flex;
-    justify-content: center;
-  }
-  .movil {
-    width: 80%;
-    height: 80%;
-    margin-bottom: 5rem;
-  }
-  @media only screen and (min-width: 415px) and (max-width: 768px) {
-    .movil {
+  .text{
+    img{
       width: 50%;
-      height: 50%;
-      margin-bottom: 5rem;
+      padding-top:70%;
+      padding-bottom:15%;
     }
-    .appStore,
-    .googleplay {
-      width: 28%;
-      height: 0%;
+    .h1{
+      margin-bottom:5%;
     }
-    .appStore {
-      margin-right: 50px;
-    }
+    mix-blend-mode: difference;
+    padding-bottom:20%;
+  }
 
-    .stores {
-      justify-content: center;
+  @media only screen and (min-width: 415px) and (max-width: 768px) {
+    .global{
+      background-position-x: 70%;
+    }
+    .text{
+      img{
+        width: 30%;
+        padding-top:50%;
+        padding-bottom:10%;
+      }
+      div{
+        width:65%;
+      }
+      padding-bottom:10%
     }
   }
   @media only screen and (min-width: 769px) and (max-width: 1024px) {
-    .intro {
-      display: flex;
-      height: 90vh;
+    .global{
+      background-position-x: 70%;
     }
-    .home {
-      width: 70%;
+    .local{
+      width:75%;
     }
-    .logoNUNC {
-      width: 70%;
-    }
-    .movil {
-      width: 80%;
-      height: 80%;
-      margin-bottom: 0;
-    }
-    .iphone {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-    .appStore,
-    .googleplay {
-      width: 28%;
-      height: 0%;
-    }
-    .appStore {
-      margin-right: 40px;
+    .text{
+      img{
+        width: 25%;
+        padding-top:30%;
+        padding-bottom:10%;
+      }
+      div{
+        width:55%;
+      }
+      padding-bottom:10%;
     }
   }
   @media only screen and (min-width: 1025px) and (max-width: 1440px) {
-    .intro {
-      display: flex;
-      height: 90vh;
-      width: 70vw;
+    .global{
+      background-position-x: 70%;
+      background-position-y: 100%;
     }
-    .home {
-      width: 60%;
+    .local{
+      width:70%;
     }
-    .logoNUNC {
-      width: 60%;
-    }
-    .text {
-      height: 30%;
-      display: flex;
-      align-items: center;
-    }
-    .movil {
-      width: 80%;
-      height: 80%;
-      margin-bottom: 0;
-      object-fit: contain;
-      margin-left: 10%;
-    }
-    .iphone {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      width: 40%;
-    }
-    .appStore,
-    .googleplay {
-      width: 25%;
-      height: 0%;
-    }
-    .appStore {
-      margin-right: 40px;
+    .text{
+      img{
+        width: 25%;
+        padding-top:45%;
+        padding-bottom:10%;
+      }
+      div{
+        width:55%;
+      }
+      padding-bottom:10%;
     }
   }
   @media only screen and (min-width: 1441px) {
-    .intro {
-      display: flex;
-      height: 90vh;
-      width: 70vw;
+    .global{
+      background-position-x: 75%;
+      background-position-y: 50%;
     }
-    .home {
-      width: 50%;
+    .local{
+      width:70%;
     }
-    .text {
-      height: 30%;
-      display: flex;
-      align-items: center;
-    }
-    .logoNUNC {
-      width: 60%;
-    }
-    .movil {
-      width: 80%;
-      height: 80%;
-      margin-bottom: 0;
-      object-fit: contain;
-      margin-left: 40%;
-    }
-    .iphone {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      width: 40%;
-    }
-    .appStore,
-    .googleplay {
-      width: 25%;
-      height: 0%;
-    }
-    .appStore {
-      margin-right: 40px;
+    .text{
+      img{
+        width: 20%;
+        padding-top:33%;
+        padding-bottom:5%;
+      }
+      div{
+        width:45%;
+      }
+      padding-bottom:10%;
     }
   }
 `;
