@@ -66,7 +66,7 @@ const IntroStyle = styled.div`
   @media only screen and (min-width: 1025px) and (max-width: 1440px) {
     .global{
       background-position-x: 70%;
-      background-position-y: 100%;
+      background-position-y: 40%;
     }
     .local{
       width:70%;
@@ -74,8 +74,8 @@ const IntroStyle = styled.div`
     .text{
       img{
         width: 25%;
-        padding-top:45%;
-        padding-bottom:10%;
+        padding-top:30%;
+        padding-bottom:5%;
       }
       div{
         width:55%;
