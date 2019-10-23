@@ -3,7 +3,7 @@ import React from "react";
 import { NumberStyle } from "./NumberStyle";
 
 import Fonth2 from "../../styles/pagesStyles/Fonth2";
-import Fontp2 from "../../styles/pagesStyles/Fontp2";
+// import Fontp2 from "../../styles/pagesStyles/Fontp2";
 
 
 const Number = props => {
