@@ -40,7 +40,7 @@
 
     "precioTitle":"Precios",
     "preciosTitle1":"MICRO",
-    "preciosDescription1":"1 A 20 usarios",
+    "preciosDescription1":"1 a 20 usarios",
     "preciosEuro1":"500€",
     "preciosTitle2":"PYME",
     "preciosDescription2":"21 a 100 usarios",
@@ -49,10 +49,10 @@
     "preciosDescription3":"101 a 500 usarios",
     "preciosEuro3":"7.500",
     "preciosTitle4":"MULTI",
-    "preciosDescription4":"Más de 1.000 usarios",
+    "preciosDescription4":"+ 1.000 usarios",
     "preciosEuro4":"CONSULTAR",
 
-    "contactaDescription":"Para más información contacta con nosotros",
+    "contactaDescription":"Para más información contacta con nosotros:",
     "contactaBoton":"CONTACTAR"
 
 }

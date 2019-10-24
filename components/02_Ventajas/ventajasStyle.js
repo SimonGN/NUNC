@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 const VentajasStyle = styled.div`
     .text{
-        margin-bottom: 10%;
+        margin-bottom: 8%;
     }
     .ipad{
         width:100%;
@@ -98,8 +98,8 @@ const VentajasStyle = styled.div`
                 margin-right: 5%;
             }
             p{
-                width: 80%;
-                margin-bottom:5%;
+                width: 75%;
+                margin-bottom:2%;
             }
         }
         .info4{
@@ -120,8 +120,8 @@ const VentajasStyle = styled.div`
             width: 60%;
             img{
                 width: 146%;
-                max-height: 780px;
-                margin-left: -38%;
+                max-height: 800px;
+                margin-left: -40%;
                 margin-top: 10%;
             }
         }
@@ -133,13 +133,13 @@ const VentajasStyle = styled.div`
             display:flex;
             margin-bottom:10%;
             flex-flow:row;
-
+            margin-left: -5%;
             img{
                 margin-right: 5%;
             }
             p{
-                width: 80%;
-                margin-bottom:5%;
+                width: 70%;
+                margin-bottom:2%;
             }
         }
         .info4{
@@ -159,7 +159,7 @@ const VentajasStyle = styled.div`
             width: 60%;
             img{
                 width: 146%;
-                max-height: 780px;
+                max-height: 830px;
                 margin-left: -38%;
                 margin-top: 10%;
             }
@@ -172,12 +172,12 @@ const VentajasStyle = styled.div`
             display:flex;
             margin-bottom:10%;
             flex-flow:row;
-
+            margin-left: -10%;
             img{
                 margin-right: 5%;
             }
             p{
-                width: 80%;
+                width: 70%;
                 margin-bottom:5%;
             }
         }
