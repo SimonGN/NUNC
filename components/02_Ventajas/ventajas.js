@@ -12,37 +12,37 @@ const Ventajas = props => {
     return (
 
         <VentajasStyle>
-            <div className="title">
+            <div className="text">
                 <Fonth2 align="center">{ventajasTitle}</Fonth2>
             </div>
-            <div>
+            <div className="global">
                 <div className="ipad">
-                    <img src={`${process.env.ASSET_PREFIX}/static/svg/ilustracion1.svg`} />
+                    <img src={`${process.env.ASSET_PREFIX}/static/img/ipadNunc.png`} />
                 </div>
                 <div className="info">
                     <div className="info1">
-                        <img src={`${process.env.ASSET_PREFIX}/static/svg/ilustracion1.svg`} />
+                        <img src={`${process.env.ASSET_PREFIX}/static/svg/icon1.svg`} />
                         <div>
                             <FontTitle color="#56CC7E">{ventajasTitle1}</FontTitle>
                             <FonDescription>{ventajasSubtitle1}</FonDescription>
                         </div>
                     </div>
                     <div className="info2">
-                        <img src={`${process.env.ASSET_PREFIX}/static/svg/ilustracion1.svg`} />
+                        <img src={`${process.env.ASSET_PREFIX}/static/svg/icon2.svg`} />
                         <div>
                             <FontTitle color="#56CC7E">{ventajasTitle2}</FontTitle>
                             <FonDescription>{ventajasSubtitle2}</FonDescription>
                         </div>
                     </div>
                     <div className="info3">
-                        <img src={`${process.env.ASSET_PREFIX}/static/svg/ilustracion1.svg`} />
+                        <img src={`${process.env.ASSET_PREFIX}/static/svg/icon3.svg`} />
                         <div>
                             <FontTitle color="#56CC7E">{ventajasTitle3}</FontTitle>
                             <FonDescription>{ventajasSubtitle3}</FonDescription>
                         </div>
                     </div>
                     <div className="info4">
-                        <img src={`${process.env.ASSET_PREFIX}/static/svg/ilustracion1.svg`} />
+                        <img src={`${process.env.ASSET_PREFIX}/static/svg/icon4.svg`} />
                         <div>
                             <FontTitle color="#56CC7E">{ventajasTitle4}</FontTitle>
                             <FonDescription>{ventajasSubtitle4}</FonDescription>

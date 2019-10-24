@@ -10,7 +10,7 @@ const FuncionesStyle = styled.div`
         margin-bottom:25%;
     }
     .text{
-        margin-bottom:15%;
+        margin-bottom:10%;
     }
     .ilustracion{
         display:flex;
@@ -75,12 +75,13 @@ const FuncionesStyle = styled.div`
             margin-top:10%;
             margin-bottom:12%;
         }
+
         .ilustracion{
             width:94%;
             margin: 0 auto;
             flex-flow:wrap;
             justify-content: space-between;
-            margin-bottom:10%;
+            margin-bottom:12%;
             div {
                 width: 35%;
                 text-align: left;
@@ -115,7 +116,7 @@ const FuncionesStyle = styled.div`
             margin: 0 auto;
             flex-flow:wrap;
             justify-content: space-between;
-            margin-bottom:10%;
+            margin-bottom:12%;
             div {
                 width: 35%;
                 text-align: left;
