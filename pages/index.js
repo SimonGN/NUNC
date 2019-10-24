@@ -1,10 +1,11 @@
 import Meta from "../components/Meta";
 
-import Intro from "../components/00_Intro/Intro";
-// import BotonLlamar from "../components/Botones/BotonLlamar";
+import Intro from "../components/00_Intro/intro";
 import Funciones from "../components/01_Funciones/funciones";
+import Ventajas from "../components/02_Ventajas/ventajas";
+// import BotonLlamar from "../components/Botones/BotonLlamar";
+
 // import Price from "../components/04_Price/Porque";
-// import PanelControl from "../components/PanelControl/PanelControl";
 // import Price from "../components/Price/Price";
 // import Final from "../components/Final/Final";
 // import Footer from "../components/Footer/Footer";
@@ -14,10 +15,9 @@ function Home() {
   return (<React.Fragment>
     <Meta/>
     <Intro/>
-    
     <Funciones/>
-    {/* <Price/> */}
-    {/* <PanelControl/> */}
+    <Ventajas/>
+
     {/* <Price/> */}
     {/* <Final/> */}
     {/* <BotonLlamar/> */}

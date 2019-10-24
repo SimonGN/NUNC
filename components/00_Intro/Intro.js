@@ -1,5 +1,5 @@
 import React from "react";
-import { IntroStyle } from "./IntroStyle";
+import { IntroStyle } from "./introStyle";
 import FontH1 from "../../styles/pagesStyles/Fonth1";
 
 import info from "../../content/info.json"
