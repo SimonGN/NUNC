@@ -5,6 +5,10 @@ margin-bottom:20%;
     .text{
         margin-bottom:10%;
     }
+    .imgs{
+        width:20%;
+        margin-bottom:2%;
+    }
    .vertical-timeline-element--work{
     box-shadow: none;
    }
@@ -49,7 +53,87 @@ margin-bottom:20%;
         margin-left: 40px;
         width:88%;
     }
+    @media only screen and (min-width:415px) and (max-width:768px){
+        width:90%;
+        margin:0 auto;
+        margin-bottom:10%;
 
+        .text{
+        margin-bottom:5%;
+        }
+        
+        .vertical-timeline-element-icon{
+            left: 3%;
+            margin-left: -6px;
+        }
+        .vertical-timeline-element-content{
+            width: 100%;
+            p{
+                width:80%;
+            }
+        }
+    }
+    @media only screen and (min-width:769px) and (max-width:1024px){
+        width:80%;
+        margin:0 auto;
+        margin-bottom:10%;
+
+        .text{
+        margin-bottom:5%;
+        }
+        
+        .vertical-timeline-element-icon{
+            left: 3%;
+            margin-left: -10px;
+        }
+        .vertical-timeline-element-content{
+            width: 100%;
+            p{
+                width:80%;
+            }
+        }
+    }
+    @media only screen and (min-width:1025px) and (max-width:1440px){
+        margin-bottom:10%;
+        .text{
+        margin-bottom:5%;
+        }
+        .imgs{
+        width:30%;
+        margin-bottom:2%;
+    }
+        
+        .vertical-timeline-element-icon{
+            left: 51%;
+            margin-left: -16px;
+        }
+        .vertical-timeline-element-content{
+            width: 45%;
+            p{
+                width:80%;
+            }
+        }
+    }
+    @media only screen and (min-width:1441px){
+        margin-bottom:10%;
+        .text{
+        margin-bottom:5%;
+        }
+        .imgs{
+        width:30%;
+        margin-bottom:2%;
+    }
+        
+        .vertical-timeline-element-icon{
+            left: 51%;
+            margin-left: -16px;
+        }
+        .vertical-timeline-element-content{
+            width: 45%;
+            p{
+                width:80%;
+            }
+        }
    }
    
 

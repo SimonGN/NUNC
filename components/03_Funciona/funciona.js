@@ -29,7 +29,8 @@ const Funciona = props => {
                     contentStyle={{ background: 'none' }}
                     date=""
                     iconStyle={{ background: '#A3C5F5', color: '#A3C5F5' }}>
-
+                    
+                    <img className="imgs" src={`${process.env.ASSET_PREFIX}/static/svg/ilustracion5.svg`} />
                     <FontTitle color="#56CC7E">{funcionaTitle1}</FontTitle>
                     <FonDescription>{funcionaSubtitle1}</FonDescription>
                 </VerticalTimelineElement>
@@ -39,7 +40,8 @@ const Funciona = props => {
                     contentStyle={{ background: 'none' }}
                     date=""
                     iconStyle={{ background: '#A3C5F5', color: '#A3C5F5' }}>
-
+                    
+                    <img className="imgs" src={`${process.env.ASSET_PREFIX}/static/svg/ilustracion6.svg`} />
                     <FontTitle color="#56CC7E">{funcionaTitle2}</FontTitle>
                     <FonDescription>{funcionaSubtitle2}</FonDescription>
                 </VerticalTimelineElement>
@@ -49,7 +51,8 @@ const Funciona = props => {
                     contentStyle={{ background: 'none' }}
                     date=""
                     iconStyle={{ background: '#A3C5F5', color: '#A3C5F5' }}>
-
+                    
+                    <img className="imgs" src={`${process.env.ASSET_PREFIX}/static/svg/ilustracion7.svg`} />
                     <FontTitle color="#56CC7E">{funcionaTitle3}</FontTitle>
                     <FonDescription>{funcionaSubtitle3}</FonDescription>
                 </VerticalTimelineElement>
@@ -58,7 +61,8 @@ const Funciona = props => {
                     contentStyle={{ background: 'none' }}
                     date=""
                     iconStyle={{ background: '#A3C5F5', color: '#A3C5F5' }}>
-
+                    
+                    <img className="imgs" src={`${process.env.ASSET_PREFIX}/static/svg/ilustracion8.svg`} />
                     <FontTitle color="#56CC7E">{funcionaTitle4}</FontTitle>
                     <FonDescription>{funcionaSubtitle4}</FonDescription>
                 </VerticalTimelineElement>
