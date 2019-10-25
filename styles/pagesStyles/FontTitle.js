@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 
-const FontTitle = styled.p`
+const FontTitle = styled.h3`
     font-family: "KareliaWeb-Regular";
     text-transform: uppercase;
     color: ${props => (props.color === '#56CC7E' ? '#56CC7E' : 'black')};

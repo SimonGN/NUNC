@@ -15,6 +15,7 @@ const FuncionesStyle = styled.div`
     .ilustracion{
         display:flex;
         flex-flow:column;
+        align-items: baseline;
         margin-bottom:20%;
     }
     .funciones1, .funciones2, .funciones3, .funciones4{
@@ -23,6 +24,7 @@ const FuncionesStyle = styled.div`
         display:flex;
         flex-flow:column;
         justify-content:center;
+        
         margin-bottom:20%;
         img{
             margin-bottom:5%;

@@ -36,6 +36,7 @@ const PriceStyle = styled.div`
     }
     .boton{
         text-decoration:none;
+        text-align: center;
         font-family: "KareliaWeb-Regular";
         cursor:pointer;
         color: black;
@@ -305,7 +306,7 @@ const PriceStyle = styled.div`
         .stores{
             order:2;
             justify-content: space-between;
-            width:30%;
+            width:25%;
             img{
                 width:40%;
             }
