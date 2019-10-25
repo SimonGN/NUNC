@@ -25,6 +25,9 @@ const PriceStyle = styled.div`
             }
         }
     }
+    .price1, .price3{
+        border-right: 1px solid black;
+    }
     .contact{
         margin-bottom: 20%;
         p{
@@ -66,16 +69,247 @@ const PriceStyle = styled.div`
     }
 
     @media only screen and (min-width:415px) and (max-width:768px){
-
+        .global{
+            padding-top:10%;
+            padding-bottom: 2%;
+        }
+        .price1,.price2, .price3{
+            border-right: 1px solid black;
+        }
+        .price1, .price4{
+            margin-bottom:20%
+        }
+        .price{
+            margin-top:10%;
+            margin-bottom:12%;
+            display:flex;
+            flex-flow:wrap;
+            justify-content: space-between;
+            div{
+                width:20%;
+                margin-bottom: 0%;
+                padding-right:3%;
+                p{
+                    margin-top:5%;
+                    margin-bottom:5%;
+                }
+            }
+        }
+        .contact{
+            display:flex;
+            align-items:center;
+            margin-bottom: 20%;
+            p{
+                margin-bottom: 0%;
+                margin-right:2%;
+            }
+        }
+        .footer{
+            display:flex;
+            align-items:center;
+            justify-content: space-between;
+        }
+        .tailor{
+            order:1;
+            margin-top:0;
+            img{
+                width: 40%;
+            }
+            p{
+                margin-right: 4%;
+            }
+        }
+        .stores{
+            order:2;
+            justify-content: space-between;
+            width:35%;
+            img{
+                width:45%;
+            }
+        }
     }
     @media only screen and (min-width:769px) and (max-width:1024px){
-
+        .global{
+            width:80%;
+            padding-top:10%;
+            padding-bottom: 2%;
+        }
+        .price1,.price2, .price3{
+            border-right: 1px solid black;
+        }
+        .price1, .price4{
+            margin-bottom:20%
+        }
+        .price{
+            margin-top:10%;
+            margin-bottom:12%;
+            display:flex;
+            flex-flow:wrap;
+            justify-content: space-between;
+            div{
+                width:20%;
+                margin-bottom: 0%;
+                padding-right:3%;
+                p{
+                    margin-top:5%;
+                    margin-bottom:5%;
+                }
+            }
+        }
+        .contact{
+            display:flex;
+            align-items:center;
+            margin-bottom: 20%;
+            p{
+                margin-bottom: 0%;
+                margin-right:2%;
+            }
+        }
+        .footer{
+            display:flex;
+            align-items:center;
+            justify-content: space-between;
+        }
+        .tailor{
+            order:1;
+            margin-top:0;
+            img{
+                width: 40%;
+            }
+            p{
+                margin-right: 4%;
+            }
+        }
+        .stores{
+            order:2;
+            justify-content: space-between;
+            width:30%;
+            img{
+                width:40%;
+            }
+        }
     }
     @media only screen and (min-width:1025px) and (max-width:1440px){
-
+        .global{
+            width:70%;
+            padding-top:10%;
+            padding-bottom: 2%;
+        }
+        .price1,.price2, .price3{
+            border-right: 1px solid black;
+        }
+        .price1, .price4{
+            margin-bottom:20%
+        }
+        .price{
+            margin-top:8%;
+            margin-bottom:12%;
+            display:flex;
+            flex-flow:wrap;
+            justify-content: space-between;
+            div{
+                width:20%;
+                margin-bottom: 0%;
+                padding-right:3%;
+                p{
+                    margin-top:5%;
+                    margin-bottom:5%;
+                }
+            }
+        }
+        .contact{
+            display:flex;
+            align-items:center;
+            margin-bottom: 20%;
+            p{
+                margin-bottom: 0%;
+                margin-right:2%;
+            }
+        }
+        .footer{
+            display:flex;
+            align-items:center;
+            justify-content: space-between;
+        }
+        .tailor{
+            order:1;
+            margin-top:0;
+            img{
+                width: 40%;
+            }
+            p{
+                margin-right: 4%;
+            }
+        }
+        .stores{
+            order:2;
+            justify-content: space-between;
+            width:30%;
+            img{
+                width:40%;
+            }
+        }
     }
     @media only screen and (min-width:1441px) {
-
+        .global{
+            width:65%;
+            padding-top:10%;
+            padding-bottom: 2%;
+        }
+        .price1,.price2, .price3{
+            border-right: 1px solid black;
+        }
+        .price1, .price4{
+            margin-bottom:20%
+        }
+        .price{
+            margin-top:8%;
+            margin-bottom:12%;
+            display:flex;
+            flex-flow:wrap;
+            justify-content: space-between;
+            div{
+                width:20%;
+                margin-bottom: 0%;
+                padding-right:3%;
+                p{
+                    margin-top:5%;
+                    margin-bottom:5%;
+                }
+            }
+        }
+        .contact{
+            display:flex;
+            align-items:center;
+            margin-bottom: 20%;
+            p{
+                margin-bottom: 0%;
+                margin-right:2%;
+            }
+        }
+        .footer{
+            display:flex;
+            align-items:center;
+            justify-content: space-between;
+        }
+        .tailor{
+            order:1;
+            margin-top:0;
+            img{
+                width: 40%;
+            }
+            p{
+                margin-right: 4%;
+            }
+        }
+        .stores{
+            order:2;
+            justify-content: space-between;
+            width:30%;
+            img{
+                width:40%;
+            }
+        }
     }
 
 

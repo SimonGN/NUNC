@@ -93,6 +93,7 @@ const VentajasStyle = styled.div`
             display:flex;
             margin-bottom:10%;
             flex-flow:row;
+            margin-left: -5%;
 
             img{
                 margin-right: 5%;
@@ -110,7 +111,7 @@ const VentajasStyle = styled.div`
    @media only screen and (min-width:1025px) and (max-width:1440px){
     margin-bottom:12%;
         .text{
-            margin-bottom: 2%;
+            margin-bottom: -2%;
         }
         .global{
             display:flex;
@@ -147,21 +148,21 @@ const VentajasStyle = styled.div`
         }
     }
    @media only screen and (min-width:1441px){ 
-    margin-bottom:12%;
+    margin-bottom:10%;
         .text{
-            margin-bottom: 2%;
+            margin-bottom: -2%;
         }
         .global{
             display:flex;
             align-items: center;
         }
         .ipad{
-            width: 60%;
+            width: 80%;
             img{
-                width: 146%;
-                max-height: 830px;
-                margin-left: -38%;
-                margin-top: 10%;
+                width: 133%;
+                max-height: 1200px;
+                margin-left: -35%;
+                margin-top: 8%;
             }
         }
         .info{
@@ -172,13 +173,13 @@ const VentajasStyle = styled.div`
             display:flex;
             margin-bottom:10%;
             flex-flow:row;
-            margin-left: -10%;
+            margin-left: -20%;
             img{
                 margin-right: 5%;
             }
             p{
-                width: 70%;
-                margin-bottom:5%;
+                width: 60%;
+                margin-bottom:0.5%;
             }
         }
         .info4{

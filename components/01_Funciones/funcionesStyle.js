@@ -147,9 +147,9 @@ const FuncionesStyle = styled.div`
     }
     @media only screen and (min-width:1441px){
         .global1{
-            width:50%;
+            width:40%;
             margin-top:10%;
-            margin-bottom:12%;
+            margin-bottom:10%;
         }
         .ilustracion{
             width:80%;
@@ -160,10 +160,12 @@ const FuncionesStyle = styled.div`
             div {
                 width: 35%;
                 text-align: left;
+                padding-left:6.5%;
+                padding-right:6.5%;
             }
         }
         .text{
-            margin-bottom:5%;
+            margin-bottom:4%;
         }
         .funciones1, .funciones2, .funciones3, .funciones4{
             width:45%;

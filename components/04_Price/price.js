@@ -2,9 +2,10 @@ import React from "react";
 
 import { PriceStyle } from "./priceStyle";
 
-import FonDescription from "../../styles/pagesStyles/FontDescription";
+import FontDescription from "../../styles/pagesStyles/FontDescription";
 import FontTitle from "../../styles/pagesStyles/FontTitle";
 import Fonth2 from "../../styles/pagesStyles/Fonth2"
+import Fontp from "../../styles/pagesStyles/Fontp"
 
 import info from "../../content/info.json"
 
@@ -21,28 +22,28 @@ const Price = props => {
                 <div className="price">
                     <div className="price1">
                         <FontTitle>{preciosTitle1}</FontTitle>
-                        <FonDescription>{preciosDescription1}</FonDescription>
+                        <FontDescription>{preciosDescription1}</FontDescription>
                         <FontTitle>{preciosEuro1}</FontTitle>
                     </div>
                     <div className="price2">
                         <FontTitle>{preciosTitle2}</FontTitle>
-                        <FonDescription>{preciosDescription2}</FonDescription>
+                        <FontDescription>{preciosDescription2}</FontDescription>
                         <FontTitle>{preciosEuro2}</FontTitle>
                     </div>
                     <div className="price3">
                         <FontTitle>{preciosTitle3}</FontTitle>
-                        <FonDescription>{preciosDescription3}</FonDescription>
+                        <FontDescription>{preciosDescription3}</FontDescription>
                         <FontTitle>{preciosEuro3}</FontTitle>
                     </div>
                     <div className="price4">
                         <FontTitle>{preciosTitle4}</FontTitle>
-                        <FonDescription>{preciosDescription4}</FonDescription>
+                        <FontDescription>{preciosDescription4}</FontDescription>
                         <FontTitle>{preciosEuro4}</FontTitle>
                     </div>
                 </div>
 
                 <div className="contact">
-                    <FonDescription>{contactaDescription}</FonDescription>
+                    <Fontp>{contactaDescription}</Fontp>
                     <a className="boton" href="mailto:ines.guerra@tailor-hub.com?Subject=⏰%20NU:NC%20información%20⏰">{contactaBoton}</a>
                 </div>
 
@@ -52,7 +53,7 @@ const Price = props => {
                         <img src={`${process.env.ASSET_PREFIX}/static/svg/IconGooleplay.svg`} />
                     </div>
                     <div className="tailor">
-                        <FonDescription>Un producto de:</FonDescription>
+                        <FontDescription>Un producto de:</FontDescription>
                         <img src={`${process.env.ASSET_PREFIX}/static/svg/LogoTailor.svg`} />
                     </div>
 
