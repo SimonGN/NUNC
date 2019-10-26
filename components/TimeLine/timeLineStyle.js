@@ -62,6 +62,7 @@ const TimeLineSyle = styled.div`
             width:84%;
             margin: 0 auto;
             margin-bottom:10%;
+            position: relative;
             h3{
                 width:100%;
             }
@@ -86,13 +87,23 @@ const TimeLineSyle = styled.div`
 `;
 
 const Line = styled.div`
-    display:none;
+    @media only screen and (min-width:415px) and (max-width:768px){
+        display:block;
+        position:absolute;
+        left: 50%;
+        height:150%;
+        width:2px;
+        color: black;
+        border-right: 2px solid #A3C5F5;
+      }
     @media only screen and (min-width:769px) and (max-width:1024px){
         display:block;
         position:absolute;
-        height:100%;
+        left: 50%;
+        height:150%;
         width:2px;
-        border-right: 1px solid #A3C5F5;
+        color: black;
+        border-right: 2px solid #A3C5F5;
     }
     @media only screen and (min-width:1025px) and (max-width:1440px){
         
@@ -105,7 +116,6 @@ const Line = styled.div`
 `;
 
 const Circle = styled.div`
-    display:none;
     @media only screen and (min-width:415px) and (max-width:768px){
         display:block;
         width: 20px;
