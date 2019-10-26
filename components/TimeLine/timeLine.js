@@ -9,53 +9,54 @@ import FontTitle from "../../styles/pagesStyles/FontTitle";
 
 
 const TimeLine = props => {
+    const {  mobile } = props;
     const { number1, funcionaTitle1, funcionaSubtitle1, number2, funcionaTitle2, funcionaSubtitle2, number3, funcionaTitle3, funcionaSubtitle3, number4, funcionaTitle4, funcionaSubtitle4 } = info
     return (
 
         <TimeLineSyle>
             <div className="box">
-                <Line />
-                <Circle className="circle"/>
-                <div className="text1">
+                <Line data-aos="fade-in"/>
+                <Circle data-aos="fade-in"className="circle1"/>
+                <div data-aos="fade-left" className="text1">
                     <FontTitle color="#56CC7E">{funcionaTitle1}</FontTitle>
                     <FonDescription>{funcionaSubtitle1}</FonDescription>
                 </div>
-                <div className="imgs1">
+                <div data-aos="fade-right" className="imgs1">
                     <img src={`${process.env.ASSET_PREFIX}/static/svg/ilustracion5.svg`} />
                 </div>
 
             </div>
             <div className="box">
-                <Line />
-                <Circle className="circle"/>
-                <div className="imgs2">
+                <Line data-aos="fade-in"/>
+                <Circle data-aos="fade-in"className="circle2"/>
+                <div data-aos={mobile ? "fade-right" : "fade-left" } className="imgs2">
                     <img src={`${process.env.ASSET_PREFIX}/static/svg/ilustracion6.svg`} />
                 </div>
-                <div className="text2">
+                <div data-aos={mobile ? "fade-left": "fade-right" } className="text2">
                     <FontTitle color="#56CC7E">{funcionaTitle2}</FontTitle>
                     <FonDescription>{funcionaSubtitle2}</FonDescription>
                 </div>
 
             </div>
             <div className="box">
-                <Line />
-                <Circle className="circle"/>
-                <div className="text3">
+                <Line data-aos="fade-in"/>
+                <Circle data-aos="fade-in" className="circle1"/>
+                <div data-aos="fade-left" className="text3">
                     <FontTitle color="#56CC7E">{funcionaTitle3}</FontTitle>
                     <FonDescription>{funcionaSubtitle3}</FonDescription>
                 </div>
-                <div className="imgs3">
+                <div data-aos="fade-right" className="imgs3">
                     <img src={`${process.env.ASSET_PREFIX}/static/svg/ilustracion7.svg`} />
                 </div>
 
             </div>
             <div className="box">
-                <Line />
-                <Circle className="circle"/>
-                <div className="imgs4">
+                <Line data-aos="fade-in"/>
+                <Circle data-aos="fade-in" className="circle2"/>
+                <div data-aos={mobile ? "fade-right" : "fade-left" } className="imgs4">
                     <img src={`${process.env.ASSET_PREFIX}/static/svg/ilustracion8.svg`} />
                 </div>
-                <div className="text4">
+                <div data-aos={mobile ? "fade-left": "fade-right" } className="text4">
                     <FontTitle color="#56CC7E">{funcionaTitle4}</FontTitle>
                     <FonDescription>{funcionaSubtitle4}</FonDescription>
                 </div>

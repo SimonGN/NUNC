@@ -43,6 +43,10 @@ const Meta = () => {
           padding: 0;
           max-width: 100%;
         }
+
+        html, body {
+          overflow-x:hidden;
+        }
         h1,
         h2,
         h3,
