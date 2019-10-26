@@ -13,9 +13,9 @@ const TimeLine = props => {
     return (
 
         <TimeLineSyle>
-            <div className="box1">
+            <div className="box">
                 <Line />
-                <Circle />
+                <Circle className="circle"/>
                 <div className="text1">
                     <FontTitle color="#56CC7E">{funcionaTitle1}</FontTitle>
                     <FonDescription>{funcionaSubtitle1}</FonDescription>
@@ -25,7 +25,7 @@ const TimeLine = props => {
                 </div>
 
             </div>
-            <div className="box2">
+            <div className="box">
                 <Line />
                 <Circle className="circle"/>
                 <div className="imgs2">
@@ -37,9 +37,9 @@ const TimeLine = props => {
                 </div>
 
             </div>
-            <div className="box3">
+            <div className="box">
                 <Line />
-                <Circle />
+                <Circle className="circle"/>
                 <div className="text3">
                     <FontTitle color="#56CC7E">{funcionaTitle3}</FontTitle>
                     <FonDescription>{funcionaSubtitle3}</FonDescription>
@@ -49,9 +49,9 @@ const TimeLine = props => {
                 </div>
 
             </div>
-            <div className="box4">
+            <div className="box">
                 <Line />
-                <Circle />
+                <Circle className="circle"/>
                 <div className="imgs4">
                     <img src={`${process.env.ASSET_PREFIX}/static/svg/ilustracion8.svg`} />
                 </div>
