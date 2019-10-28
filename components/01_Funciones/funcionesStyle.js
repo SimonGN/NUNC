@@ -18,7 +18,7 @@ const FuncionesStyle = styled.div`
         align-items: baseline;
         margin-bottom:20%;
     }
-    .funciones1, .funciones2, .funciones3, .funciones4{
+    .box{
         margin: 0 auto;
         width:75%;
         display:flex;
@@ -58,18 +58,11 @@ const FuncionesStyle = styled.div`
         .text{
             margin-bottom:8%;
         }
-        .funciones1, .funciones2, .funciones3, .funciones4{
+        .box{
             width:30%;
         }
-        .funciones3, .funciones4{
-            margin-bottom:0%;
-        }
-        .funciones4{
-            img{
-                padding-bottom: 8%;
-                padding-top: 8%;
-            }
-        }
+
+
     }
     @media only screen and (min-width:769px) and (max-width:1024px){
         .global1{
@@ -92,19 +85,11 @@ const FuncionesStyle = styled.div`
         .text{
             margin-bottom:8%;
         }
-        .funciones1, .funciones2, .funciones3, .funciones4{
+        .box{
             width:45%;
             margin-bottom:10%;
         }
-        .funciones3, .funciones4{
-            margin-bottom:0%;
-        }
-        .funciones4{
-            img{
-                padding-bottom: 7%;
-                padding-top: 7%;
-            }
-        }
+
     }
     
     @media only screen and (min-width:1025px) and (max-width:1440px){
@@ -127,7 +112,7 @@ const FuncionesStyle = styled.div`
         .text{
             margin-bottom:5%;
         }
-        .funciones1, .funciones2, .funciones3, .funciones4{
+        .box{
             width:45%;
             margin-bottom:10%;
             img{
@@ -135,15 +120,6 @@ const FuncionesStyle = styled.div`
             }
             p{
                 margin-bottom:2%;
-            }
-        }
-        .funciones3, .funciones4{
-            margin-bottom:0%;
-        }
-        .funciones4{
-            img{
-                padding-bottom: 7%;
-                padding-top: 7%;
             }
         }
     }
@@ -169,7 +145,7 @@ const FuncionesStyle = styled.div`
         .text{
             margin-bottom:4%;
         }
-        .funciones1, .funciones2, .funciones3, .funciones4{
+        .box{
             width:45%;
             margin-bottom:10%;
             img{
@@ -182,12 +158,7 @@ const FuncionesStyle = styled.div`
         .funciones3, .funciones4{
             margin-bottom:0%;
         }
-        .funciones4{
-            img{
-                padding-bottom: 7%;
-                padding-top: 7%;
-            }
-        }
+
     }
 `;
 

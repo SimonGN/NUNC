@@ -16,33 +16,33 @@ const Price = props => {
 
     return (
 
-        <PriceStyle>
+        <PriceStyle data-aos="fade-in">
             <div className="global">
                 <Fonth2 clasName="text"align="center">{precioTitle}</Fonth2>
                 <div className="price">
-                    <div className="price1">
+                    <div data-aos="fade-in" className="price1">
                         <FontTitle>{preciosTitle1}</FontTitle>
                         <FontDescription>{preciosDescription1}</FontDescription>
                         <FontTitle>{preciosEuro1}</FontTitle>
                     </div>
-                    <div className="price2">
+                    <div data-aos="fade-in" className="price2">
                         <FontTitle>{preciosTitle2}</FontTitle>
                         <FontDescription>{preciosDescription2}</FontDescription>
                         <FontTitle>{preciosEuro2}</FontTitle>
                     </div>
-                    <div className="price3">
+                    <div data-aos="fade-in" className="price3">
                         <FontTitle>{preciosTitle3}</FontTitle>
                         <FontDescription>{preciosDescription3}</FontDescription>
                         <FontTitle>{preciosEuro3}</FontTitle>
                     </div>
-                    <div className="price4">
+                    <div data-aos="fade-in" className="price4">
                         <FontTitle>{preciosTitle4}</FontTitle>
                         <FontDescription>{preciosDescription4}</FontDescription>
                         <FontTitle>{preciosEuro4}</FontTitle>
                     </div>
                 </div>
 
-                <div className="contact">
+                <div data-aos="fade-in" className="contact">
                     <Fontp>{contactaDescription}</Fontp>
                     <a className="boton" href="mailto:ines.guerra@tailor-hub.com?Subject=⏰%20NU:NC%20información%20⏰">{contactaBoton}</a>
                 </div>
