@@ -38,7 +38,7 @@ const Price = props => {
                     <div data-aos="fade-in" className="price4">
                         <FontTitle>{preciosTitle4}</FontTitle>
                         <FontDescription>{preciosDescription4}</FontDescription>
-                        <FontTitle>{preciosEuro4}</FontTitle>
+                        <a href="mailto:ines.guerra@tailor-hub.com?Subject=⏰%20NU:NC%20información%20+1.000%20usuarios⏰"><FontTitle >{preciosEuro4}</FontTitle></a>
                     </div>
                 </div>
 
@@ -49,12 +49,14 @@ const Price = props => {
 
                 <div className="footer">
                     <div className="stores">
-                        <img src={`${process.env.ASSET_PREFIX}/static/svg/IconAppstore.svg`} />
-                        <img src={`${process.env.ASSET_PREFIX}/static/svg/IconGooleplay.svg`} />
+                        <a href="" target="_blank"><img src={`${process.env.ASSET_PREFIX}/static/svg/IconAppstore.svg`}/></a>
+                        <a href="" target="_blank"><img src={`${process.env.ASSET_PREFIX}/static/svg/IconGooleplay.svg`}/></a>
                     </div>
                     <div className="tailor">
                         <FontDescription>Un producto de:</FontDescription>
-                        <img src={`${process.env.ASSET_PREFIX}/static/svg/LogoTailor.svg`} />
+                        <a href="" target="_blank"><img src={`${process.env.ASSET_PREFIX}/static/svg/LogoTailor.svg`} /></a>
+
+                        
                     </div>
 
                 </div>

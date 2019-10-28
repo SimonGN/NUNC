@@ -3,6 +3,9 @@ import styled from 'styled-components';
 const PriceStyle = styled.div`
     background-color:#56CC7E;
     width:100%;
+    a{
+        text-decoration:none;
+    }
     .global{
         width:94%;
         margin: 0 auto;
@@ -55,7 +58,7 @@ const PriceStyle = styled.div`
     .tailor{
         margin-top:5%;
         img{
-            width: 20%;
+            width: 80%;
         }
         p{
             margin-right: 4%;
@@ -65,7 +68,7 @@ const PriceStyle = styled.div`
         justify-content: space-between;
 
         img{
-            width:40%;
+            width:55%;
         }
     }
 
@@ -111,10 +114,11 @@ const PriceStyle = styled.div`
             justify-content: space-between;
         }
         .tailor{
+            width:50%;
             order:1;
             margin-top:0;
             img{
-                width: 40%;
+                width: 90%;
             }
             p{
                 margin-right: 4%;
@@ -125,7 +129,7 @@ const PriceStyle = styled.div`
             justify-content: space-between;
             width:35%;
             img{
-                width:45%;
+                width:65%;
             }
         }
     }
@@ -174,8 +178,9 @@ const PriceStyle = styled.div`
         .tailor{
             order:1;
             margin-top:0;
+            width:50%;
             img{
-                width: 40%;
+                width: 100%;
             }
             p{
                 margin-right: 4%;
@@ -186,7 +191,7 @@ const PriceStyle = styled.div`
             justify-content: space-between;
             width:30%;
             img{
-                width:40%;
+                width:80%;
             }
         }
     }
@@ -235,8 +240,9 @@ const PriceStyle = styled.div`
         .tailor{
             order:1;
             margin-top:0;
+            width:50%;
             img{
-                width: 40%;
+                width: 90%;
             }
             p{
                 margin-right: 4%;
@@ -247,7 +253,7 @@ const PriceStyle = styled.div`
             justify-content: space-between;
             width:30%;
             img{
-                width:40%;
+                width:65%;
             }
         }
     }
@@ -296,8 +302,9 @@ const PriceStyle = styled.div`
         .tailor{
             order:1;
             margin-top:0;
+            width:60%;
             img{
-                width: 40%;
+                width: 100%;
             }
             p{
                 margin-right: 4%;
@@ -308,7 +315,7 @@ const PriceStyle = styled.div`
             justify-content: space-between;
             width:25%;
             img{
-                width:40%;
+                width:70%;
             }
         }
     }

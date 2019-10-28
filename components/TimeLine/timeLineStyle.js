@@ -184,7 +184,7 @@ const TimeLineSyle = styled.div`
         }
     }
     @media only screen and (min-width:1441px){
-        width:85%;
+        width:80%;
         margin:0 auto;
         margin-bottom: 15%;
         .text1, .text2, .text3, .text4{
@@ -199,22 +199,24 @@ const TimeLineSyle = styled.div`
 
         .circle1{
             order:2;
-            margin-left: calc(4% - -13px);
+            margin-left: calc(11% - -15px);
             z-index:1;
         }
         .circle2{
             order:2;
-            margin-left: calc(0% - 32px);
+            margin-left: calc(-7% - 36px);
             z-index:1;
 
         }
 
         .imgs1, .imgs3{
+            width:15%;
             order:1;
             margin-right: 5%;
             margin-left: 8%;
         } 
         .imgs2, .imgs4{
+            width:15%;
             margin-left: 5%;
             margin-right: 10%;
             order:3;
