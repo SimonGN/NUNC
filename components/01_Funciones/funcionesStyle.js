@@ -136,7 +136,7 @@ const FuncionesStyle = styled.div`
             justify-content: space-between;
             margin-bottom:10%;
             div {
-                width: 35%;
+                width: 45%;
                 text-align: left;
                 padding-left:6.5%;
                 padding-right:6.5%;

@@ -153,7 +153,7 @@ const TimeLineSyle = styled.div`
         }
         .circle2{
             order:2;
-            margin-left: calc(0% - 28px);
+            margin-left: calc(0% - 30px);
             z-index:1;
 
         }
@@ -204,7 +204,7 @@ const TimeLineSyle = styled.div`
         }
         .circle2{
             order:2;
-            margin-left: calc(-7% - 36px);
+            margin-left: calc(-6% - 40px);
             z-index:1;
 
         }

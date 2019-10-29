@@ -49,12 +49,12 @@ const Price = props => {
 
                 <div className="footer">
                     <div className="stores">
-                        <a href="" target="_blank"><img src={`${process.env.ASSET_PREFIX}/static/svg/IconAppstore.svg`}/></a>
-                        <a href="" target="_blank"><img src={`${process.env.ASSET_PREFIX}/static/svg/IconGooleplay.svg`}/></a>
+                        <a href="https://apps.apple.com/es/app/nu-nc/id1469934297" target="_blank"><img src={`${process.env.ASSET_PREFIX}/static/svg/IconAppstore.svg`}/></a>
+                        <a href="https://play.google.com/store/apps/details?id=com.nuncpanelapp&gl=ES" target="_blank"><img src={`${process.env.ASSET_PREFIX}/static/svg/IconGooleplay.svg`}/></a>
                     </div>
                     <div className="tailor">
                         <FontDescription>Un producto de:</FontDescription>
-                        <a href="" target="_blank"><img src={`${process.env.ASSET_PREFIX}/static/svg/LogoTailor.svg`} /></a>
+                        <a href="https://tailor-hub.com/" target="_blank"><img src={`${process.env.ASSET_PREFIX}/static/svg/LogoTailor.svg`} /></a>
 
                         
                     </div>

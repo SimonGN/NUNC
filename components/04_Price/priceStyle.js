@@ -57,10 +57,12 @@ const PriceStyle = styled.div`
     }
     .tailor{
         margin-top:5%;
+        width:100%;
         img{
-            width: 80%;
+            width: 50%;
         }
         p{
+            width:50%;
             margin-right: 4%;
         }
     }
@@ -118,10 +120,10 @@ const PriceStyle = styled.div`
             order:1;
             margin-top:0;
             img{
-                width: 90%;
+                width: 50%;
             }
             p{
-                margin-right: 4%;
+                margin-right: 0;
             }
         }
         .stores{
@@ -180,10 +182,11 @@ const PriceStyle = styled.div`
             margin-top:0;
             width:50%;
             img{
-                width: 100%;
+                width: 40%;
             }
             p{
-                margin-right: 4%;
+                width: 40%;
+                margin-right: 0;
             }
         }
         .stores{
@@ -240,11 +243,12 @@ const PriceStyle = styled.div`
         .tailor{
             order:1;
             margin-top:0;
-            width:50%;
+            width:48%;
             img{
-                width: 90%;
+                width: 40%;
             }
             p{
+                width:28%;
                 margin-right: 4%;
             }
         }
@@ -302,12 +306,13 @@ const PriceStyle = styled.div`
         .tailor{
             order:1;
             margin-top:0;
-            width:60%;
+            width:40%;
             img{
-                width: 100%;
+                width: 35%;
             }
             p{
-                margin-right: 4%;
+                width:34%;
+                margin-right: 2%;
             }
         }
         .stores{
