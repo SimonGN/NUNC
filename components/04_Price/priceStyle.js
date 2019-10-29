@@ -26,6 +26,10 @@ const PriceStyle = styled.div`
                 margin-top:5%;
                 margin-bottom:5%;
             }
+            a{
+                text-decoration:underline;
+                text-decoration-color: black;
+            }
         }
     }
     .price1, .price3{
