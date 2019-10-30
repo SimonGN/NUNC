@@ -87,7 +87,7 @@ const IntroStyle = styled.div`
     .logo{
       width:60%;
       padding-top:4%;
-      padding-bottom:35%;
+      padding-bottom:30%;
     }
   }
   @media only screen and (min-width: 1441px) {

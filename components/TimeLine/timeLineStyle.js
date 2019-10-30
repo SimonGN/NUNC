@@ -45,18 +45,6 @@ const TimeLineSyle = styled.div`
             order:1;
         }
 
-        .circle1{
-            order:2;
-            margin-left: calc(4% - -7px);
-            z-index:1;
-        }
-        .circle2{
-            order:2;
-            margin-left: calc(0% - 16px);
-            z-index:1;
-
-        }
-
         .imgs1, .imgs3{
             order:1;
             margin-right: 5%;
@@ -93,18 +81,6 @@ const TimeLineSyle = styled.div`
         }
         .text2, .text4{
             order:1;
-        }
-
-        .circle1{
-            order:2;
-            margin-left: calc(4% - -7px);
-            z-index:1;
-        }
-        .circle2{
-            order:2;
-            margin-left: calc(0% - 21px);
-            z-index:1;
-
         }
 
         .imgs1, .imgs3{
@@ -146,18 +122,6 @@ const TimeLineSyle = styled.div`
             order:1;
         }
 
-        .circle1{
-            order:2;
-            margin-left: calc(4% - -11px);
-            z-index:1;
-        }
-        .circle2{
-            order:2;
-            margin-left: calc(0% - 30px);
-            z-index:1;
-
-        }
-
         .imgs1, .imgs3{
             order:1;
             margin-right: 5%;
@@ -195,18 +159,6 @@ const TimeLineSyle = styled.div`
         }
         .text2, .text4{
             order:1;
-        }
-
-        .circle1{
-            order:2;
-            margin-left: calc(11% - -15px);
-            z-index:1;
-        }
-        .circle2{
-            order:2;
-            margin-left: calc(-6% - 40px);
-            z-index:1;
-
         }
 
         .imgs1, .imgs3{
@@ -284,6 +236,9 @@ const Line = styled.div`
 `;
 
 const Circle = styled.div`
+    display: none;
+    position: absolute;
+    left: calc(50% - 9.5px);
     @media only screen and (min-width:415px) and (max-width:768px){
         display:block;
         width: 20px;
@@ -306,6 +261,7 @@ const Circle = styled.div`
         border: 2px solid #A3C5F5;
     }
     @media only screen and (min-width:1025px) and (max-width:1440px){
+        display:block;
         width: 20px;
         height: 20px;
         -moz-border-radius: 50%;
@@ -315,6 +271,7 @@ const Circle = styled.div`
         border: 2px solid #A3C5F5;
     }
     @media only screen and (min-width:1441px){
+        display:block;
         width: 20px;
         height: 20px;
         -moz-border-radius: 50%;
