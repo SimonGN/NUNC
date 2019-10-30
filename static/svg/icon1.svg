@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="49px" height="52px" viewBox="0 0 49 52" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
+    <title>Item 1 Copy</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Landing-2.0---verde-Copy-5" transform="translate(-737.000000, -2362.000000)" stroke="#56CC7E">
+            <g id="register/active" transform="translate(739.000000, 2363.000000)">
+                <g id="Group-Copy">
+                    <ellipse id="Oval" stroke-width="2.7" cx="22.6525424" cy="27.7941176" rx="22.6525424" ry="21.8382353"></ellipse>
+                    <ellipse id="Oval" stroke-width="2.7" fill="#56CC7E" cx="22.6525424" cy="27.7941176" rx="4.11864407" ry="3.97058824"></ellipse>
+                    <line x1="22.6525424" y1="26.8014706" x2="22.6525424" y2="16.875" id="Line" stroke-width="2.7" fill="#D8D8D8" stroke-linecap="square"></line>
+                    <line x1="38.0974576" y1="42.6838235" x2="31.9194915" y2="36.7279412" id="Line-2" stroke-width="2.7" fill="#D8D8D8" stroke-linecap="square"></line>
+                    <line x1="38.6122881" y1="18.8602941" x2="32.434322" y2="12.9044118" id="Line-2-Copy-2" stroke-width="2.7" fill="#D8D8D8" stroke-linecap="square" transform="translate(35.523305, 15.882353) scale(1, -1) translate(-35.523305, -15.882353) "></line>
+                    <line x1="6.69279661" y1="42.6838235" x2="13.3855932" y2="36.7279412" id="Line-2-Copy" stroke-width="2.7" fill="#D8D8D8" stroke-linecap="square"></line>
+                    <line x1="7.20762712" y1="18.8602941" x2="13.9004237" y2="12.9044118" id="Line-2-Copy-3" stroke-width="2.7" fill="#D8D8D8" stroke-linecap="square" transform="translate(10.296610, 15.882353) scale(1, -1) translate(-10.296610, -15.882353) "></line>
+                    <line x1="22.6525424" y1="5.95588235" x2="22.6525424" y2="2.14194754" id="Line-3" stroke-width="2.7" fill="#D8D8D8" stroke-linecap="square"></line>
+                    <line x1="22.6525424" y1="6.14095214" x2="22.6525424" y2="-4.15565803" id="Line-3-Copy" stroke-width="2.7" fill="#D8D8D8" stroke-linecap="square" transform="translate(22.652542, 0.992647) rotate(-270.000000) translate(-22.652542, -0.992647) "></line>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
