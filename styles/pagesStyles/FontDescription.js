@@ -3,8 +3,8 @@ import styled from 'styled-components';
 
 const FontDescription = styled.p`
     font-family: "Texgyreheroscn";
-    font-size: 18px;
-    line-height: 21px;
+    font-size: ${props => props.copyright ? '9px' : '18px'};
+    line-height:  ${props => props.copyright ? '12px' : '21px'};
     letter-spacing: 0.07rem;
     color: ${props => (props.color === 'white' ? 'white' : 'black')};
 

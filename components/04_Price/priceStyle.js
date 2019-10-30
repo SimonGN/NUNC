@@ -52,7 +52,7 @@ const PriceStyle = styled.div`
         border-color: black;
         border-width: 1px;
         border-style: solid;
-        border-radius:1px;
+        border-radius:2px;
         height: 60px;
         width: 200px;
     }
@@ -61,14 +61,6 @@ const PriceStyle = styled.div`
     }
     .tailor{
         margin-top:5%;
-        width:100%;
-        img{
-            width: 50%;
-        }
-        p{
-            width:50%;
-            margin-right: 4%;
-        }
     }
     .stores{
         justify-content: space-between;
@@ -120,15 +112,7 @@ const PriceStyle = styled.div`
             justify-content: space-between;
         }
         .tailor{
-            width:50%;
-            order:1;
             margin-top:0;
-            img{
-                width: 50%;
-            }
-            p{
-                margin-right: 0;
-            }
         }
         .stores{
             order:2;
@@ -182,16 +166,7 @@ const PriceStyle = styled.div`
             justify-content: space-between;
         }
         .tailor{
-            order:1;
             margin-top:0;
-            width:50%;
-            img{
-                width: 40%;
-            }
-            p{
-                width: 40%;
-                margin-right: 0;
-            }
         }
         .stores{
             order:2;
@@ -245,16 +220,7 @@ const PriceStyle = styled.div`
             justify-content: space-between;
         }
         .tailor{
-            order:1;
             margin-top:0;
-            width:48%;
-            img{
-                width: 40%;
-            }
-            p{
-                width:28%;
-                margin-right: 4%;
-            }
         }
         .stores{
             order:2;
@@ -308,16 +274,7 @@ const PriceStyle = styled.div`
             justify-content: space-between;
         }
         .tailor{
-            order:1;
             margin-top:0;
-            width:40%;
-            img{
-                width: 35%;
-            }
-            p{
-                width:34%;
-                margin-right: 2%;
-            }
         }
         .stores{
             order:2;
@@ -332,6 +289,6 @@ const PriceStyle = styled.div`
 
 `;
 
-export {PriceStyle};
+export { PriceStyle };
 
 

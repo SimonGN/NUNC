@@ -53,10 +53,7 @@ const Price = props => {
                         <a href="https://play.google.com/store/apps/details?id=com.nuncpanelapp&gl=ES" target="_blank"><img src={`${process.env.ASSET_PREFIX}/static/svg/IconGooleplay.svg`}/></a>
                     </div>
                     <div className="tailor">
-                        <FontDescription>Un producto de:</FontDescription>
-                        <a href="https://tailor-hub.com/" target="_blank"><img src={`${process.env.ASSET_PREFIX}/static/svg/LogoTailor.svg`} /></a>
-
-                        
+                        <FontDescription copyright={true}>Copyright © by Tailor hub S.L, 2019. All rights reserved. All materials on this website are intellectual property of Tailor hub S.L.</FontDescription>    
                     </div>
 
                 </div>
