@@ -17,7 +17,7 @@ const Ventajas = props => {
             </div>
             <div className="global">
                 <div data-aos="fade-right" className="ipad">
-                    <img src={`${process.env.ASSET_PREFIX}/static/img/ipadNunc.png`} />
+                    <img src={`${process.env.ASSET_PREFIX}/static/img/iPadNunc.png`} />
                 </div>
                 <div className="info">
                     <div  data-aos="fade-in" className="info1">
