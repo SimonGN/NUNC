@@ -38,30 +38,30 @@ var Intro = function Intro(props) {
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "local",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 14
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "text",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 15
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: "".concat("", "/static/svg/Logo.svg"),
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "logo",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 16
     },
     __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: "".concat("", "/static/svg/Logo.svg"),
     __source: {
       fileName: _jsxFileName,
       lineNumber: 17
+    },
+    __self: this
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styles_pagesStyles_Fonth1__WEBPACK_IMPORTED_MODULE_2__["default"], {
@@ -69,17 +69,54 @@ var Intro = function Intro(props) {
     color: "white",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 18
+      lineNumber: 21
     },
     __self: this
   }, pageTitle1), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styles_pagesStyles_Fonth1__WEBPACK_IMPORTED_MODULE_2__["default"], {
     color: "white",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19
+      lineNumber: 22
     },
     __self: this
-  }, pageTitle2))))));
+  }, pageTitle2)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "stores",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "https://apps.apple.com/es/app/nu-nc/id1469934297",
+    target: "_blank",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: "".concat("", "/static/svg/IconAppstoreWhite.svg"),
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26
+    },
+    __self: this
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "https://play.google.com/store/apps/details?id=com.nuncpanelapp&gl=ES",
+    target: "_blank",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: "".concat("", "/static/svg/IconGooleplayWhite.svg"),
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27
+    },
+    __self: this
+  }))))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Intro);
@@ -101,7 +138,7 @@ __webpack_require__.r(__webpack_exports__);
 var IntroStyle = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].div.withConfig({
   displayName: "introStyle__IntroStyle",
   componentId: "xw4wv3-0"
-})(["background-color:black;.global{background-image:url(\"../static/img/homeNunc.gif\");background-repeat:no-repeat;width:100%;background-position-x:75%;background-position-y:10%;background-size:cover;}.local{width:94%;margin:0 auto;mix-blend-mode:difference;}.text{img{width:50%;padding-top:70%;padding-bottom:15%;}.h1{margin-bottom:5%;}mix-blend-mode:difference;padding-bottom:20%;}@media only screen and (min-width:415px) and (max-width:768px){.global{background-position-x:70%;}.text{img{width:30%;padding-top:50%;padding-bottom:10%;}div{width:65%;}padding-bottom:10%}}@media only screen and (min-width:769px) and (max-width:1024px){.global{background-position-x:70%;}.local{width:75%;}.text{img{width:25%;padding-top:30%;padding-bottom:10%;}div{width:55%;}padding-bottom:10%;}}@media only screen and (min-width:1025px) and (max-width:1440px){.global{background-position-x:70%;background-position-y:40%;}.local{width:70%;}.text{img{width:25%;padding-top:30%;padding-bottom:5%;}div{width:55%;}padding-bottom:10%;}}@media only screen and (min-width:1441px){.global{background-position-x:75%;background-position-y:50%;}.local{width:70%;}.text{img{width:20%;padding-top:33%;padding-bottom:5%;}div{width:45%;}padding-bottom:10%;}}"]);
+})(["background-color:black;.global{background-image:url(\"../static/img/homeNunc.gif\");background-repeat:no-repeat;width:100%;background-position-x:75%;background-position-y:10%;background-size:cover;}.logo{padding-top:10%;padding-bottom:90%;}.local{width:94%;margin:0 auto;mix-blend-mode:difference;}.text{width:94%;margin:0 auto;.h1{margin-bottom:5%;}mix-blend-mode:difference;padding-bottom:10%;}.stores{display:flex;width:100%;padding-top:10%;img{width:70%;}}@media only screen and (min-width:415px) and (max-width:768px){.global{background-position-x:70%;}.text{div{width:65%;}padding-bottom:10%}.logo{width:60%;padding-top:5%;padding-bottom:30%;}}@media only screen and (min-width:769px) and (max-width:1024px){.global{background-position-x:40%;}.text{width:80%;div{width:50%;}padding-bottom:5%}.logo{width:60%;padding-top:4%;padding-bottom:25%;}}@media only screen and (min-width:1025px) and (max-width:1440px){.global{background-position-x:40%;background-position-y:50%;}.text{width:70%;div{width:50%;}padding-bottom:5%}.logo{width:60%;padding-top:4%;padding-bottom:30%;}}@media only screen and (min-width:1441px){.global{background-position-x:40%;background-position-y:50%;}.text{width:67%;div{width:50%;}padding-bottom:5%}.logo{width:60%;padding-top:4%;padding-bottom:25%;}}"]);
 
 
 /***/ }),
@@ -324,7 +361,7 @@ __webpack_require__.r(__webpack_exports__);
 var FuncionesStyle = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].div.withConfig({
   displayName: "funcionesStyle__FuncionesStyle",
   componentId: "sc-1bxi5go-0"
-})([".global1,.global2{width:94%;margin:0 auto;}.global1{margin-top:20%;margin-bottom:25%;}.text{margin-bottom:10%;}.ilustracion{display:flex;flex-flow:column;align-items:baseline;margin-bottom:20%;}.box{margin:0 auto;width:75%;display:flex;flex-flow:column;justify-content:center;margin-bottom:20%;img{margin-bottom:5%;}p{margin-bottom:5%;}}.funciones4{margin-bottom:0%;}@media only screen and (min-width:415px) and (max-width:768px){.global1{width:75%;margin-top:15%;margin-bottom:18%;}.ilustracion{width:94%;margin:0 auto;flex-flow:wrap;justify-content:space-between;margin-bottom:20%;div{width:40%;}}.text{margin-bottom:8%;}.box{width:30%;}}@media only screen and (min-width:769px) and (max-width:1024px){.global1{width:75%;margin-top:10%;margin-bottom:12%;}.ilustracion{width:94%;margin:0 auto;flex-flow:wrap;justify-content:space-between;margin-bottom:12%;div{width:35%;text-align:left;}}.text{margin-bottom:8%;}.box{width:45%;margin-bottom:10%;}}@media only screen and (min-width:1025px) and (max-width:1440px){.global1{width:50%;margin-top:10%;margin-bottom:12%;}.ilustracion{width:80%;margin:0 auto;flex-flow:wrap;justify-content:space-between;margin-bottom:12%;div{width:35%;text-align:left;}}.text{margin-bottom:5%;}.box{width:45%;margin-bottom:10%;img{margin-bottom:2%;}p{margin-bottom:2%;}}}@media only screen and (min-width:1441px){.global1{width:40%;margin-top:10%;margin-bottom:10%;}.ilustracion{width:80%;margin:0 auto;flex-flow:wrap;justify-content:space-between;margin-bottom:10%;div{width:35%;text-align:left;padding-left:6.5%;padding-right:6.5%;}}.text{margin-bottom:4%;}.box{width:45%;margin-bottom:10%;img{margin-bottom:2%;}p{margin-bottom:2%;}}.funciones3,.funciones4{margin-bottom:0%;}}"]);
+})([".global1,.global2{width:94%;margin:0 auto;}.global1{margin-top:20%;margin-bottom:25%;}.text{margin-bottom:10%;}.ilustracion{display:flex;flex-flow:column;align-items:baseline;margin-bottom:20%;}.box{margin:0 auto;width:75%;display:flex;flex-flow:column;justify-content:center;margin-bottom:20%;img{margin-bottom:5%;}p{margin-bottom:5%;}}.funciones4{margin-bottom:0%;}@media only screen and (min-width:415px) and (max-width:768px){.global1{width:75%;margin-top:15%;margin-bottom:18%;}.ilustracion{width:94%;margin:0 auto;flex-flow:wrap;justify-content:space-between;margin-bottom:20%;div{width:40%;}}.text{margin-bottom:8%;}.box{width:30%;}}@media only screen and (min-width:769px) and (max-width:1024px){.global1{width:75%;margin-top:10%;margin-bottom:12%;}.ilustracion{width:94%;margin:0 auto;flex-flow:wrap;justify-content:space-between;margin-bottom:12%;div{width:35%;text-align:left;}}.text{margin-bottom:8%;}.box{width:45%;margin-bottom:10%;}}@media only screen and (min-width:1025px) and (max-width:1440px){.global1{width:50%;margin-top:10%;margin-bottom:12%;}.ilustracion{width:80%;margin:0 auto;flex-flow:wrap;justify-content:space-between;margin-bottom:12%;div{width:35%;text-align:left;}}.text{margin-bottom:5%;}.box{width:45%;margin-bottom:10%;img{margin-bottom:2%;}p{margin-bottom:2%;}}}@media only screen and (min-width:1441px){.global1{width:40%;margin-top:10%;margin-bottom:10%;}.ilustracion{width:80%;margin:0 auto;flex-flow:wrap;justify-content:space-between;margin-bottom:10%;div{width:45%;text-align:left;padding-left:6.5%;padding-right:6.5%;}}.text{margin-bottom:4%;}.box{width:45%;margin-bottom:10%;img{margin-bottom:2%;}p{margin-bottom:2%;}}.funciones3,.funciones4{margin-bottom:0%;}}"]);
 
 
 /***/ }),
@@ -401,7 +438,7 @@ var Ventajas = function Ventajas(props) {
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: "".concat("", "/static/img/ipadNunc.png"),
+    src: "".concat("", "/static/img/iPadNunc.png"),
     __source: {
       fileName: _jsxFileName,
       lineNumber: 20
@@ -900,7 +937,7 @@ var Price = function Price(props) {
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    href: "",
+    href: "https://apps.apple.com/es/app/nu-nc/id1469934297",
     target: "_blank",
     __source: {
       fileName: _jsxFileName,
@@ -915,7 +952,7 @@ var Price = function Price(props) {
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    href: "",
+    href: "https://play.google.com/store/apps/details?id=com.nuncpanelapp&gl=ES",
     target: "_blank",
     __source: {
       fileName: _jsxFileName,
@@ -937,27 +974,13 @@ var Price = function Price(props) {
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styles_pagesStyles_FontDescription__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    copyright: true,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 56
     },
     __self: this
-  }, "Un producto de:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    href: "",
-    target: "_blank",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 57
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: "".concat("", "/static/svg/LogoTailor.svg"),
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 57
-    },
-    __self: this
-  }))))));
+  }, "Copyright \xA9 by Tailor hub S.L, 2019. All rights reserved. All materials on this website are intellectual property of Tailor hub S.L.")))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Price);
@@ -979,7 +1002,7 @@ __webpack_require__.r(__webpack_exports__);
 var PriceStyle = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].div.withConfig({
   displayName: "priceStyle__PriceStyle",
   componentId: "sc-1x7b6gw-0"
-})(["background-color:#56CC7E;width:100%;a{text-decoration:none;}.global{width:94%;margin:0 auto;padding-top:20%;padding-bottom:5%;}.price{margin-top:10%;margin-bottom:20%;display:flex;flex-flow:wrap;justify-content:space-between;div{width:45%;margin-bottom:10%;p{margin-top:5%;margin-bottom:5%;}}}.price1,.price3{border-right:1px solid black;}.contact{margin-bottom:20%;p{margin-bottom:7%;}}.boton{text-decoration:none;text-align:center;font-family:\"KareliaWeb-Regular\";cursor:pointer;color:black;background-color:#FFFFFF;padding:15px 40px;border-color:black;border-width:1px;border-style:solid;border-radius:1px;height:60px;width:200px;}.tailor,.stores{display:flex;}.tailor{margin-top:5%;img{width:80%;}p{margin-right:4%;}}.stores{justify-content:space-between;img{width:55%;}}@media only screen and (min-width:415px) and (max-width:768px){.global{padding-top:10%;padding-bottom:2%;}.price1,.price2,.price3{border-right:1px solid black;}.price1,.price4{margin-bottom:20%}.price{margin-top:10%;margin-bottom:12%;display:flex;flex-flow:wrap;justify-content:space-between;div{width:20%;margin-bottom:0%;padding-right:3%;p{margin-top:5%;margin-bottom:5%;}}}.contact{display:flex;align-items:center;margin-bottom:20%;p{margin-bottom:0%;margin-right:2%;}}.footer{display:flex;align-items:center;justify-content:space-between;}.tailor{width:50%;order:1;margin-top:0;img{width:90%;}p{margin-right:4%;}}.stores{order:2;justify-content:space-between;width:35%;img{width:65%;}}}@media only screen and (min-width:769px) and (max-width:1024px){.global{width:80%;padding-top:10%;padding-bottom:2%;}.price1,.price2,.price3{border-right:1px solid black;}.price1,.price4{margin-bottom:20%}.price{margin-top:10%;margin-bottom:12%;display:flex;flex-flow:wrap;justify-content:space-between;div{width:20%;margin-bottom:0%;padding-right:3%;p{margin-top:5%;margin-bottom:5%;}}}.contact{display:flex;align-items:center;margin-bottom:20%;p{margin-bottom:0%;margin-right:2%;}}.footer{display:flex;align-items:center;justify-content:space-between;}.tailor{order:1;margin-top:0;width:50%;img{width:100%;}p{margin-right:4%;}}.stores{order:2;justify-content:space-between;width:30%;img{width:80%;}}}@media only screen and (min-width:1025px) and (max-width:1440px){.global{width:70%;padding-top:10%;padding-bottom:2%;}.price1,.price2,.price3{border-right:1px solid black;}.price1,.price4{margin-bottom:20%}.price{margin-top:8%;margin-bottom:12%;display:flex;flex-flow:wrap;justify-content:space-between;div{width:20%;margin-bottom:0%;padding-right:3%;p{margin-top:5%;margin-bottom:5%;}}}.contact{display:flex;align-items:center;margin-bottom:20%;p{margin-bottom:0%;margin-right:2%;}}.footer{display:flex;align-items:center;justify-content:space-between;}.tailor{order:1;margin-top:0;width:50%;img{width:90%;}p{margin-right:4%;}}.stores{order:2;justify-content:space-between;width:30%;img{width:65%;}}}@media only screen and (min-width:1441px){.global{width:65%;padding-top:10%;padding-bottom:2%;}.price1,.price2,.price3{border-right:1px solid black;}.price1,.price4{margin-bottom:20%}.price{margin-top:8%;margin-bottom:12%;display:flex;flex-flow:wrap;justify-content:space-between;div{width:20%;margin-bottom:0%;padding-right:3%;p{margin-top:5%;margin-bottom:5%;}}}.contact{display:flex;align-items:center;margin-bottom:20%;p{margin-bottom:0%;margin-right:2%;}}.footer{display:flex;align-items:center;justify-content:space-between;}.tailor{order:1;margin-top:0;width:60%;img{width:100%;}p{margin-right:4%;}}.stores{order:2;justify-content:space-between;width:25%;img{width:70%;}}}"]);
+})(["background-color:#56CC7E;width:100%;a{text-decoration:none;}.global{width:94%;margin:0 auto;padding-top:20%;padding-bottom:5%;}.price{margin-top:10%;margin-bottom:20%;display:flex;flex-flow:wrap;justify-content:space-between;div{width:45%;margin-bottom:10%;p{margin-top:5%;margin-bottom:5%;}a{text-decoration:underline;text-decoration-color:black;}}}.price1,.price3{border-right:1px solid black;}.contact{margin-bottom:20%;p{margin-bottom:7%;}}.boton{text-decoration:none;text-align:center;font-family:\"KareliaWeb-Regular\";cursor:pointer;color:black;background-color:#FFFFFF;padding:15px 40px;border-color:black;border-width:1px;border-style:solid;border-radius:2px;height:60px;width:200px;}.tailor,.stores{display:flex;}.tailor{margin-top:5%;}.stores{justify-content:space-between;img{width:55%;}}@media only screen and (min-width:415px) and (max-width:768px){.global{padding-top:10%;padding-bottom:2%;}.price1,.price2,.price3{border-right:1px solid black;}.price1,.price4{margin-bottom:20%}.price{margin-top:10%;margin-bottom:12%;display:flex;flex-flow:wrap;justify-content:space-between;div{width:20%;margin-bottom:0%;padding-right:3%;p{margin-top:5%;margin-bottom:5%;}}}.contact{display:flex;align-items:center;margin-bottom:20%;p{margin-bottom:0%;margin-right:2%;}}.footer{display:flex;align-items:center;justify-content:space-between;}.tailor{margin-top:0;}.stores{order:2;justify-content:space-between;width:35%;img{width:65%;}}}@media only screen and (min-width:769px) and (max-width:1024px){.global{width:80%;padding-top:10%;padding-bottom:2%;}.price1,.price2,.price3{border-right:1px solid black;}.price1,.price4{margin-bottom:20%}.price{margin-top:10%;margin-bottom:12%;display:flex;flex-flow:wrap;justify-content:space-between;div{width:20%;margin-bottom:0%;padding-right:3%;p{margin-top:5%;margin-bottom:5%;}}}.contact{display:flex;align-items:center;margin-bottom:20%;p{margin-bottom:0%;margin-right:2%;}}.footer{display:flex;align-items:center;justify-content:space-between;}.tailor{margin-top:0;}.stores{order:2;justify-content:space-between;width:30%;img{width:80%;}}}@media only screen and (min-width:1025px) and (max-width:1440px){.global{width:70%;padding-top:10%;padding-bottom:2%;}.price1,.price2,.price3{border-right:1px solid black;}.price1,.price4{margin-bottom:20%}.price{margin-top:8%;margin-bottom:12%;display:flex;flex-flow:wrap;justify-content:space-between;div{width:20%;margin-bottom:0%;padding-right:3%;p{margin-top:5%;margin-bottom:5%;}}}.contact{display:flex;align-items:center;margin-bottom:20%;p{margin-bottom:0%;margin-right:2%;}}.footer{display:flex;align-items:center;justify-content:space-between;}.tailor{margin-top:0;}.stores{order:2;justify-content:space-between;width:30%;img{width:65%;}}}@media only screen and (min-width:1441px){.global{width:65%;padding-top:10%;padding-bottom:2%;}.price1,.price2,.price3{border-right:1px solid black;}.price1,.price4{margin-bottom:20%}.price{margin-top:8%;margin-bottom:12%;display:flex;flex-flow:wrap;justify-content:space-between;div{width:20%;margin-bottom:0%;padding-right:3%;p{margin-top:5%;margin-bottom:5%;}}}.contact{display:flex;align-items:center;margin-bottom:20%;p{margin-bottom:0%;margin-right:2%;}}.footer{display:flex;align-items:center;justify-content:space-between;}.tailor{margin-top:0;}.stores{order:2;justify-content:space-between;width:25%;img{width:70%;}}}"]);
 
 
 /***/ }),
@@ -1023,7 +1046,7 @@ var Meta = function Meta() {
     className: "jsx-115384171",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10
+      lineNumber: 11
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("meta", {
@@ -1031,20 +1054,163 @@ var Meta = function Meta() {
     className: "jsx-115384171",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11
+      lineNumber: 12
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("link", {
+    rel: "apple-touch-icon",
+    sizes: "57x57",
+    href: "/static/favicon/apple-icon-57x57.png",
+    className: "jsx-115384171",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("link", {
+    rel: "apple-touch-icon",
+    sizes: "60x60",
+    href: "/static/favicon/apple-icon-60x60.png",
+    className: "jsx-115384171",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("link", {
+    rel: "apple-touch-icon",
+    sizes: "72x72",
+    href: "/static/favicon/apple-icon-72x72.png",
+    className: "jsx-115384171",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("link", {
+    rel: "apple-touch-icon",
+    sizes: "76x76",
+    href: "/static/favicon/apple-icon-76x76.png",
+    className: "jsx-115384171",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("link", {
+    rel: "apple-touch-icon",
+    sizes: "114x114",
+    href: "/static/favicon/apple-icon-114x114.png",
+    className: "jsx-115384171",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("link", {
+    rel: "apple-touch-icon",
+    sizes: "120x120",
+    href: "/static/favicon/apple-icon-120x120.png",
+    className: "jsx-115384171",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("link", {
+    rel: "apple-touch-icon",
+    sizes: "144x144",
+    href: "/static/favicon/apple-icon-144x144.png",
+    className: "jsx-115384171",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("link", {
+    rel: "apple-touch-icon",
+    sizes: "152x152",
+    href: "/static/favicon/apple-icon-152x152.png",
+    className: "jsx-115384171",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("link", {
+    rel: "apple-touch-icon",
+    sizes: "180x180",
+    href: "/static/favicon/apple-icon-180x180.png",
+    className: "jsx-115384171",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("link", {
+    rel: "icon",
+    type: "image/png",
+    sizes: "192x192",
+    href: "/static/favicon/android-icon-192x192.png",
+    className: "jsx-115384171",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("link", {
+    rel: "icon",
+    type: "image/png",
+    sizes: "32x32",
+    href: "/static/favicon/favicon-32x32.png",
+    className: "jsx-115384171",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("link", {
+    rel: "icon",
+    type: "image/png",
+    sizes: "96x96",
+    href: "/static/favicon/favicon-96x96.png",
+    className: "jsx-115384171",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("link", {
+    rel: "icon",
+    type: "image/png",
+    sizes: "16x16",
+    href: "/static/favicon/favicon-16x16.png",
+    className: "jsx-115384171",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("link", {
+    rel: "manifest",
+    href: "/static/manifest.json",
+    className: "jsx-115384171",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("title", {
     className: "jsx-115384171",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12
+      lineNumber: 29
     },
     __self: this
-  }, "NU:NC")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
+  }, "NU:NC \u2013 Registro de jornada")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
     id: "115384171",
     __self: this
-  }, "@font-face{font-family:\"KareliaWeb-Regular\";src:url(".concat("", "/static/fonts/KareliaWeb-Regular.otf);src:local(\"KareliaWeb-Regular\"),url(").concat("", "/static/fonts/KareliaWeb-Regular.otf):format(\"otf\"),  url(").concat("", "/static/fonts/KareliaWeb-Regular.otf) format(\"otf\"),  url(").concat("", "/static/fonts/KareliaWeb-Regular.otf) format(\"otf\"),  url(").concat("", "/static/fonts/KareliaWeb-Regular.otf) format(\"truetype\"),  url(").concat("", "/static/fonts/KareliaWeb-Regular.otf) format(\"svg\");font-weight:normal;font-style:normal;}@font-face{font-family:\"Texgyreheroscn\";src:url(").concat("", "/static/fonts/Texgyreheroscn-regular.otf);src:local(\"KareliaWeb-Regular\"),url(").concat("", "/static/fonts/Texgyreheroscn-regular.otf):format(\"otf\"),  url(").concat("", "/static/fonts/Texgyreheroscn-regular.otf) format(\"otf\"),  url(").concat("", "/static/fonts/Texgyreheroscn-regular.otf) format(\"otf\"),  url(").concat("", "/static/fonts/Texgyreheroscn-regular.otf) format(\"truetype\"),  url(").concat("", "/static/fonts/Texgyreheroscn-regular.otf) format(\"svg\");font-weight:normal;font-style:normal;}*{box-sizing:border-box;}body{margin:0;padding:0;max-width:100%;}html,body{overflow-x:hidden;}h1,h2,h3,p{margin-top:0;margin-bottom:0;}.*{box-sizing:border-box;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9zaW1vbi9EZXNrdG9wL0xhbmRpbmdOVU5DL2NvbXBvbmVudHMvTWV0YS5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFheUIsQUFHNEMsQUFXSixBQVdQLEFBSWIsQUFNUSxBQU1KLEFBS1MsU0FoQlosSUFZTSxLQU5sQixDQUxpQixHQUxqQixBQXFCQSxPQWhDZ0YsQUE0QmhGLElBdkM0RSxDQTRCNUUseUVBdkJrSCxBQVdLLGlkQVZsRyxtQkFDRCxHQVVDLGVBVHJCLElBVW9CLGtCQUNwQiIsImZpbGUiOiIvVXNlcnMvc2ltb24vRGVza3RvcC9MYW5kaW5nTlVOQy9jb21wb25lbnRzL01ldGEuanMiLCJzb3VyY2VzQ29udGVudCI6WyJcblxuXG5pbXBvcnQgSGVhZCBmcm9tIFwibmV4dC9oZWFkXCI7XG5cbmNvbnN0IE1ldGEgPSAoKSA9PiB7XG4gIHJldHVybiAoXG4gICAgPFJlYWN0LkZyYWdtZW50PlxuICAgICAgPEhlYWQ+XG4gICAgICAgIDxtZXRhIG5hbWU9XCJ2aWV3cG9ydFwiIGNvbnRlbnQ9XCJ3aWR0aD1kZXZpY2Utd2lkdGgsIGluaXRpYWwtc2NhbGU9MVwiIC8+XG4gICAgICAgIDxtZXRhIGNoYXJTZXQ9XCJ1dGYtOFwiIC8+XG4gICAgICAgIDx0aXRsZT5OVTpOQzwvdGl0bGU+XG4gICAgICA8L0hlYWQ+XG4gICAgICA8c3R5bGUganN4IGdsb2JhbD57YFxuICAgICAgICBAZm9udC1mYWNlIHtcbiAgICAgICAgICBmb250LWZhbWlseTogXCJLYXJlbGlhV2ViLVJlZ3VsYXJcIjtcbiAgICAgICAgICBzcmM6IHVybCgke3Byb2Nlc3MuZW52LkFTU0VUX1BSRUZJWH0vc3RhdGljL2ZvbnRzL0thcmVsaWFXZWItUmVndWxhci5vdGYpO1xuICAgICAgICAgIHNyYzogbG9jYWwoXCJLYXJlbGlhV2ViLVJlZ3VsYXJcIiksIHVybCgke3Byb2Nlc3MuZW52LkFTU0VUX1BSRUZJWH0vc3RhdGljL2ZvbnRzL0thcmVsaWFXZWItUmVndWxhci5vdGYpIGZvcm1hdChcIm90ZlwiKSxcbiAgICAgICAgICAgIC8qIElFNi1JRTggKi8gdXJsKCR7cHJvY2Vzcy5lbnYuQVNTRVRfUFJFRklYfS9zdGF0aWMvZm9udHMvS2FyZWxpYVdlYi1SZWd1bGFyLm90ZikgZm9ybWF0KFwib3RmXCIpLFxuICAgICAgICAgICAgLyogU3VwZXIgTW9kZXJuIEJyb3dzZXJzICovIHVybCgke3Byb2Nlc3MuZW52LkFTU0VUX1BSRUZJWH0vc3RhdGljL2ZvbnRzL0thcmVsaWFXZWItUmVndWxhci5vdGYpIGZvcm1hdChcIm90ZlwiKSxcbiAgICAgICAgICAgIC8qIE1vZGVybiBCcm93c2VycyAqLyB1cmwoJHtwcm9jZXNzLmVudi5BU1NFVF9QUkVGSVh9L3N0YXRpYy9mb250cy9LYXJlbGlhV2ViLVJlZ3VsYXIub3RmKSBmb3JtYXQoXCJ0cnVldHlwZVwiKSxcbiAgICAgICAgICAgIC8qIFNhZmFyaSwgQW5kcm9pZCwgaU9TICovIHVybCgke3Byb2Nlc3MuZW52LkFTU0VUX1BSRUZJWH0vc3RhdGljL2ZvbnRzL0thcmVsaWFXZWItUmVndWxhci5vdGYpIGZvcm1hdChcInN2Z1wiKTsgLyogTGVnYWN5IGlPUyAqL1xuICAgICAgICAgIGZvbnQtd2VpZ2h0OiBub3JtYWw7XG4gICAgICAgICAgZm9udC1zdHlsZTogbm9ybWFsO1xuICAgICAgICB9XG4gICAgICAgIEBmb250LWZhY2Uge1xuICAgICAgICAgIGZvbnQtZmFtaWx5OiBcIlRleGd5cmVoZXJvc2NuXCI7XG4gICAgICAgICAgc3JjOiB1cmwoJHtwcm9jZXNzLmVudi5BU1NFVF9QUkVGSVh9L3N0YXRpYy9mb250cy9UZXhneXJlaGVyb3Njbi1yZWd1bGFyLm90Zik7XG4gICAgICAgICAgc3JjOiBsb2NhbChcIkthcmVsaWFXZWItUmVndWxhclwiKSwgdXJsKCR7cHJvY2Vzcy5lbnYuQVNTRVRfUFJFRklYfS9zdGF0aWMvZm9udHMvVGV4Z3lyZWhlcm9zY24tcmVndWxhci5vdGYpIGZvcm1hdChcIm90ZlwiKSxcbiAgICAgICAgICAgIC8qIElFNi1JRTggKi8gdXJsKCR7cHJvY2Vzcy5lbnYuQVNTRVRfUFJFRklYfS9zdGF0aWMvZm9udHMvVGV4Z3lyZWhlcm9zY24tcmVndWxhci5vdGYpIGZvcm1hdChcIm90ZlwiKSxcbiAgICAgICAgICAgIC8qIFN1cGVyIE1vZGVybiBCcm93c2VycyAqLyB1cmwoJHtwcm9jZXNzLmVudi5BU1NFVF9QUkVGSVh9L3N0YXRpYy9mb250cy9UZXhneXJlaGVyb3Njbi1yZWd1bGFyLm90ZikgZm9ybWF0KFwib3RmXCIpLFxuICAgICAgICAgICAgLyogTW9kZXJuIEJyb3dzZXJzICovIHVybCgke3Byb2Nlc3MuZW52LkFTU0VUX1BSRUZJWH0vc3RhdGljL2ZvbnRzL1RleGd5cmVoZXJvc2NuLXJlZ3VsYXIub3RmKSBmb3JtYXQoXCJ0cnVldHlwZVwiKSxcbiAgICAgICAgICAgIC8qIFNhZmFyaSwgQW5kcm9pZCwgaU9TICovIHVybCgke3Byb2Nlc3MuZW52LkFTU0VUX1BSRUZJWH0vc3RhdGljL2ZvbnRzL1RleGd5cmVoZXJvc2NuLXJlZ3VsYXIub3RmKSBmb3JtYXQoXCJzdmdcIik7IC8qIExlZ2FjeSBpT1MgKi9cbiAgICAgICAgICBmb250LXdlaWdodDogbm9ybWFsO1xuICAgICAgICAgIGZvbnQtc3R5bGU6IG5vcm1hbDtcbiAgICAgICAgfVxuICAgICAgICAqIHtcbiAgICAgICAgICBib3gtc2l6aW5nOiBib3JkZXItYm94O1xuICAgICAgICB9XG5cbiAgICAgICAgYm9keSB7XG4gICAgICAgICAgbWFyZ2luOiAwO1xuICAgICAgICAgIHBhZGRpbmc6IDA7XG4gICAgICAgICAgbWF4LXdpZHRoOiAxMDAlO1xuICAgICAgICB9XG5cbiAgICAgICAgaHRtbCwgYm9keSB7XG4gICAgICAgICAgb3ZlcmZsb3cteDpoaWRkZW47XG4gICAgICAgIH1cbiAgICAgICAgaDEsXG4gICAgICAgIGgyLFxuICAgICAgICBoMyxcbiAgICAgICAgcCB7XG4gICAgICAgICAgbWFyZ2luLXRvcDogMDtcbiAgICAgICAgICBtYXJnaW4tYm90dG9tOiAwO1xuICAgICAgICB9XG5cbiAgICAgICAgLioge1xuICAgICAgICAgIGJveC1zaXppbmc6IGJvcmRlci1ib3g7XG4gICAgICAgIH1cbiAgICAgIGB9PC9zdHlsZT5cbiAgICA8L1JlYWN0LkZyYWdtZW50PlxuICApO1xufTtcblxuZXhwb3J0IGRlZmF1bHQgTWV0YTtcbiJdfQ== */\n/*@ sourceURL=/Users/simon/Desktop/LandingNUNC/components/Meta.js */")));
+  }, "@font-face{font-family:\"KareliaWeb-Regular\";src:url(".concat("", "/static/fonts/KareliaWeb-Regular.otf);src:local(\"KareliaWeb-Regular\"),url(").concat("", "/static/fonts/KareliaWeb-Regular.otf):format(\"otf\"),  url(").concat("", "/static/fonts/KareliaWeb-Regular.otf) format(\"otf\"),  url(").concat("", "/static/fonts/KareliaWeb-Regular.otf) format(\"otf\"),  url(").concat("", "/static/fonts/KareliaWeb-Regular.otf) format(\"truetype\"),  url(").concat("", "/static/fonts/KareliaWeb-Regular.otf) format(\"svg\");font-weight:normal;font-style:normal;}@font-face{font-family:\"Texgyreheroscn\";src:url(").concat("", "/static/fonts/Texgyreheroscn-regular.otf);src:local(\"KareliaWeb-Regular\"),url(").concat("", "/static/fonts/Texgyreheroscn-regular.otf):format(\"otf\"),  url(").concat("", "/static/fonts/Texgyreheroscn-regular.otf) format(\"otf\"),  url(").concat("", "/static/fonts/Texgyreheroscn-regular.otf) format(\"otf\"),  url(").concat("", "/static/fonts/Texgyreheroscn-regular.otf) format(\"truetype\"),  url(").concat("", "/static/fonts/Texgyreheroscn-regular.otf) format(\"svg\");font-weight:normal;font-style:normal;}*{box-sizing:border-box;}body{margin:0;padding:0;max-width:100%;}html,body{overflow-x:hidden;}h1,h2,h3,p{margin-top:0;margin-bottom:0;}.*{box-sizing:border-box;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9zaW1vbi9EZXNrdG9wL0xhbmRpbmdOVU5DL2NvbXBvbmVudHMvTWV0YS5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUE4QnlCLEFBRzRDLEFBV0osQUFXUCxBQUliLEFBTVEsQUFNSixBQUtTLFNBaEJaLElBWU0sS0FObEIsQ0FMaUIsR0FMakIsQUFxQkEsT0FoQ2dGLEFBNEJoRixJQXZDNEUsQ0E0QjVFLHlFQXZCa0gsQUFXSyxpZEFWbEcsbUJBQ0QsR0FVQyxlQVRyQixJQVVvQixrQkFDcEIiLCJmaWxlIjoiL1VzZXJzL3NpbW9uL0Rlc2t0b3AvTGFuZGluZ05VTkMvY29tcG9uZW50cy9NZXRhLmpzIiwic291cmNlc0NvbnRlbnQiOlsiXG5cblxuaW1wb3J0IEhlYWQgZnJvbSBcIm5leHQvaGVhZFwiO1xuXG5jb25zdCBNZXRhID0gKCkgPT4ge1xuICByZXR1cm4gKFxuICAgIDxSZWFjdC5GcmFnbWVudD5cbiAgICAgIDxIZWFkPlxuICAgICAgICBcbiAgICAgICAgPG1ldGEgbmFtZT1cInZpZXdwb3J0XCIgY29udGVudD1cIndpZHRoPWRldmljZS13aWR0aCwgaW5pdGlhbC1zY2FsZT0xXCIgLz5cbiAgICAgICAgPG1ldGEgY2hhclNldD1cInV0Zi04XCIgLz5cbiAgICAgICAgPGxpbmsgcmVsPVwiYXBwbGUtdG91Y2gtaWNvblwiIHNpemVzPVwiNTd4NTdcIiBocmVmPVwiL3N0YXRpYy9mYXZpY29uL2FwcGxlLWljb24tNTd4NTcucG5nXCIgLz5cbiAgICAgICAgPGxpbmsgcmVsPVwiYXBwbGUtdG91Y2gtaWNvblwiIHNpemVzPVwiNjB4NjBcIiBocmVmPVwiL3N0YXRpYy9mYXZpY29uL2FwcGxlLWljb24tNjB4NjAucG5nXCIgLz5cbiAgICAgICAgPGxpbmsgcmVsPVwiYXBwbGUtdG91Y2gtaWNvblwiIHNpemVzPVwiNzJ4NzJcIiBocmVmPVwiL3N0YXRpYy9mYXZpY29uL2FwcGxlLWljb24tNzJ4NzIucG5nXCIgLz5cbiAgICAgICAgPGxpbmsgcmVsPVwiYXBwbGUtdG91Y2gtaWNvblwiIHNpemVzPVwiNzZ4NzZcIiBocmVmPVwiL3N0YXRpYy9mYXZpY29uL2FwcGxlLWljb24tNzZ4NzYucG5nXCIgLz5cbiAgICAgICAgPGxpbmsgcmVsPVwiYXBwbGUtdG91Y2gtaWNvblwiIHNpemVzPVwiMTE0eDExNFwiIGhyZWY9XCIvc3RhdGljL2Zhdmljb24vYXBwbGUtaWNvbi0xMTR4MTE0LnBuZ1wiIC8+XG4gICAgICAgIDxsaW5rIHJlbD1cImFwcGxlLXRvdWNoLWljb25cIiBzaXplcz1cIjEyMHgxMjBcIiBocmVmPVwiL3N0YXRpYy9mYXZpY29uL2FwcGxlLWljb24tMTIweDEyMC5wbmdcIiAvPlxuICAgICAgICA8bGluayByZWw9XCJhcHBsZS10b3VjaC1pY29uXCIgc2l6ZXM9XCIxNDR4MTQ0XCIgaHJlZj1cIi9zdGF0aWMvZmF2aWNvbi9hcHBsZS1pY29uLTE0NHgxNDQucG5nXCIgLz5cbiAgICAgICAgPGxpbmsgcmVsPVwiYXBwbGUtdG91Y2gtaWNvblwiIHNpemVzPVwiMTUyeDE1MlwiIGhyZWY9XCIvc3RhdGljL2Zhdmljb24vYXBwbGUtaWNvbi0xNTJ4MTUyLnBuZ1wiIC8+XG4gICAgICAgIDxsaW5rIHJlbD1cImFwcGxlLXRvdWNoLWljb25cIiBzaXplcz1cIjE4MHgxODBcIiBocmVmPVwiL3N0YXRpYy9mYXZpY29uL2FwcGxlLWljb24tMTgweDE4MC5wbmdcIiAvPlxuICAgICAgICA8bGluayByZWw9XCJpY29uXCIgdHlwZT1cImltYWdlL3BuZ1wiIHNpemVzPVwiMTkyeDE5MlwiICBocmVmPVwiL3N0YXRpYy9mYXZpY29uL2FuZHJvaWQtaWNvbi0xOTJ4MTkyLnBuZ1wiIC8+XG4gICAgICAgIDxsaW5rIHJlbD1cImljb25cIiB0eXBlPVwiaW1hZ2UvcG5nXCIgc2l6ZXM9XCIzMngzMlwiIGhyZWY9XCIvc3RhdGljL2Zhdmljb24vZmF2aWNvbi0zMngzMi5wbmdcIiAvPlxuICAgICAgICA8bGluayByZWw9XCJpY29uXCIgdHlwZT1cImltYWdlL3BuZ1wiIHNpemVzPVwiOTZ4OTZcIiBocmVmPVwiL3N0YXRpYy9mYXZpY29uL2Zhdmljb24tOTZ4OTYucG5nXCIgLz5cbiAgICAgICAgPGxpbmsgcmVsPVwiaWNvblwiIHR5cGU9XCJpbWFnZS9wbmdcIiBzaXplcz1cIjE2eDE2XCIgaHJlZj1cIi9zdGF0aWMvZmF2aWNvbi9mYXZpY29uLTE2eDE2LnBuZ1wiIC8+XG4gICAgICAgIDxsaW5rIHJlbD1cIm1hbmlmZXN0XCIgaHJlZj1cIi9zdGF0aWMvbWFuaWZlc3QuanNvblwiIC8+XG5cblxuICAgICAgICA8dGl0bGU+TlU6TkMg4oCTIFJlZ2lzdHJvIGRlIGpvcm5hZGE8L3RpdGxlPlxuICAgICAgPC9IZWFkPlxuICAgICAgPHN0eWxlIGpzeCBnbG9iYWw+e2BcbiAgICAgICAgQGZvbnQtZmFjZSB7XG4gICAgICAgICAgZm9udC1mYW1pbHk6IFwiS2FyZWxpYVdlYi1SZWd1bGFyXCI7XG4gICAgICAgICAgc3JjOiB1cmwoJHtwcm9jZXNzLmVudi5BU1NFVF9QUkVGSVh9L3N0YXRpYy9mb250cy9LYXJlbGlhV2ViLVJlZ3VsYXIub3RmKTtcbiAgICAgICAgICBzcmM6IGxvY2FsKFwiS2FyZWxpYVdlYi1SZWd1bGFyXCIpLCB1cmwoJHtwcm9jZXNzLmVudi5BU1NFVF9QUkVGSVh9L3N0YXRpYy9mb250cy9LYXJlbGlhV2ViLVJlZ3VsYXIub3RmKSBmb3JtYXQoXCJvdGZcIiksXG4gICAgICAgICAgICAvKiBJRTYtSUU4ICovIHVybCgke3Byb2Nlc3MuZW52LkFTU0VUX1BSRUZJWH0vc3RhdGljL2ZvbnRzL0thcmVsaWFXZWItUmVndWxhci5vdGYpIGZvcm1hdChcIm90ZlwiKSxcbiAgICAgICAgICAgIC8qIFN1cGVyIE1vZGVybiBCcm93c2VycyAqLyB1cmwoJHtwcm9jZXNzLmVudi5BU1NFVF9QUkVGSVh9L3N0YXRpYy9mb250cy9LYXJlbGlhV2ViLVJlZ3VsYXIub3RmKSBmb3JtYXQoXCJvdGZcIiksXG4gICAgICAgICAgICAvKiBNb2Rlcm4gQnJvd3NlcnMgKi8gdXJsKCR7cHJvY2Vzcy5lbnYuQVNTRVRfUFJFRklYfS9zdGF0aWMvZm9udHMvS2FyZWxpYVdlYi1SZWd1bGFyLm90ZikgZm9ybWF0KFwidHJ1ZXR5cGVcIiksXG4gICAgICAgICAgICAvKiBTYWZhcmksIEFuZHJvaWQsIGlPUyAqLyB1cmwoJHtwcm9jZXNzLmVudi5BU1NFVF9QUkVGSVh9L3N0YXRpYy9mb250cy9LYXJlbGlhV2ViLVJlZ3VsYXIub3RmKSBmb3JtYXQoXCJzdmdcIik7IC8qIExlZ2FjeSBpT1MgKi9cbiAgICAgICAgICBmb250LXdlaWdodDogbm9ybWFsO1xuICAgICAgICAgIGZvbnQtc3R5bGU6IG5vcm1hbDtcbiAgICAgICAgfVxuICAgICAgICBAZm9udC1mYWNlIHtcbiAgICAgICAgICBmb250LWZhbWlseTogXCJUZXhneXJlaGVyb3NjblwiO1xuICAgICAgICAgIHNyYzogdXJsKCR7cHJvY2Vzcy5lbnYuQVNTRVRfUFJFRklYfS9zdGF0aWMvZm9udHMvVGV4Z3lyZWhlcm9zY24tcmVndWxhci5vdGYpO1xuICAgICAgICAgIHNyYzogbG9jYWwoXCJLYXJlbGlhV2ViLVJlZ3VsYXJcIiksIHVybCgke3Byb2Nlc3MuZW52LkFTU0VUX1BSRUZJWH0vc3RhdGljL2ZvbnRzL1RleGd5cmVoZXJvc2NuLXJlZ3VsYXIub3RmKSBmb3JtYXQoXCJvdGZcIiksXG4gICAgICAgICAgICAvKiBJRTYtSUU4ICovIHVybCgke3Byb2Nlc3MuZW52LkFTU0VUX1BSRUZJWH0vc3RhdGljL2ZvbnRzL1RleGd5cmVoZXJvc2NuLXJlZ3VsYXIub3RmKSBmb3JtYXQoXCJvdGZcIiksXG4gICAgICAgICAgICAvKiBTdXBlciBNb2Rlcm4gQnJvd3NlcnMgKi8gdXJsKCR7cHJvY2Vzcy5lbnYuQVNTRVRfUFJFRklYfS9zdGF0aWMvZm9udHMvVGV4Z3lyZWhlcm9zY24tcmVndWxhci5vdGYpIGZvcm1hdChcIm90ZlwiKSxcbiAgICAgICAgICAgIC8qIE1vZGVybiBCcm93c2VycyAqLyB1cmwoJHtwcm9jZXNzLmVudi5BU1NFVF9QUkVGSVh9L3N0YXRpYy9mb250cy9UZXhneXJlaGVyb3Njbi1yZWd1bGFyLm90ZikgZm9ybWF0KFwidHJ1ZXR5cGVcIiksXG4gICAgICAgICAgICAvKiBTYWZhcmksIEFuZHJvaWQsIGlPUyAqLyB1cmwoJHtwcm9jZXNzLmVudi5BU1NFVF9QUkVGSVh9L3N0YXRpYy9mb250cy9UZXhneXJlaGVyb3Njbi1yZWd1bGFyLm90ZikgZm9ybWF0KFwic3ZnXCIpOyAvKiBMZWdhY3kgaU9TICovXG4gICAgICAgICAgZm9udC13ZWlnaHQ6IG5vcm1hbDtcbiAgICAgICAgICBmb250LXN0eWxlOiBub3JtYWw7XG4gICAgICAgIH1cbiAgICAgICAgKiB7XG4gICAgICAgICAgYm94LXNpemluZzogYm9yZGVyLWJveDtcbiAgICAgICAgfVxuXG4gICAgICAgIGJvZHkge1xuICAgICAgICAgIG1hcmdpbjogMDtcbiAgICAgICAgICBwYWRkaW5nOiAwO1xuICAgICAgICAgIG1heC13aWR0aDogMTAwJTtcbiAgICAgICAgfVxuXG4gICAgICAgIGh0bWwsIGJvZHkge1xuICAgICAgICAgIG92ZXJmbG93LXg6aGlkZGVuO1xuICAgICAgICB9XG4gICAgICAgIGgxLFxuICAgICAgICBoMixcbiAgICAgICAgaDMsXG4gICAgICAgIHAge1xuICAgICAgICAgIG1hcmdpbi10b3A6IDA7XG4gICAgICAgICAgbWFyZ2luLWJvdHRvbTogMDtcbiAgICAgICAgfVxuXG4gICAgICAgIC4qIHtcbiAgICAgICAgICBib3gtc2l6aW5nOiBib3JkZXItYm94O1xuICAgICAgICB9XG4gICAgICBgfTwvc3R5bGU+XG4gICAgPC9SZWFjdC5GcmFnbWVudD5cbiAgKTtcbn07XG5cbmV4cG9ydCBkZWZhdWx0IE1ldGE7XG4iXX0= */\n/*@ sourceURL=/Users/simon/Desktop/LandingNUNC/components/Meta.js */")));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Meta);
@@ -1350,7 +1516,7 @@ __webpack_require__.r(__webpack_exports__);
 var TimeLineSyle = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].div.withConfig({
   displayName: "timeLineStyle__TimeLineSyle",
   componentId: "sc-195yqwz-0"
-})(["margin-bottom:30%;.box{width:90%;margin:0 auto;display:flex;margin-bottom:10%;vertical-align:baseline;justify-content:space-between;align-items:center;}.imgs1,.imgs2,.imgs3,.imgs4{width:22%;margin-right:5%;}.text1,.text2,.text3,.text4{width:80%;margin-bottom:5%;h3{margin-bottom:3%;}}.text1,.text3{order:2;}.imgs1,.imgs3{order:1;}@media only screen and (min-width:415px) and (max-width:768px){width:90%;margin:0 auto;margin-bottom:12%;.text1,.text2,.text3,.text4{width:40%;}.text1,.text3{order:3;}.text2,.text4{order:1;}.circle1{order:2;margin-left:calc(4% - -7px);z-index:1;}.circle2{order:2;margin-left:calc(0% - 16px);z-index:1;}.imgs1,.imgs3{order:1;margin-right:5%;margin-left:8%;}.imgs2,.imgs4{margin-left:5%;margin-right:10%;order:3;}.box{width:84%;margin:0 auto;margin-bottom:10%;position:relative;h3{width:100%;}p{width:100%;}}}@media only screen and (min-width:769px) and (max-width:1024px){width:90%;margin:0 auto;margin-bottom:12%;.text1,.text2,.text3,.text4{width:40%;}.text1,.text3{order:3;}.text2,.text4{order:1;}.circle1{order:2;margin-left:calc(4% - -7px);z-index:1;}.circle2{order:2;margin-left:calc(0% - 21px);z-index:1;}.imgs1,.imgs3{order:1;margin-right:5%;margin-left:8%;}.imgs2,.imgs4{margin-left:5%;margin-right:10%;order:3;}.box{width:84%;margin:0 auto;margin-bottom:10%;position:relative;h3{width:100%;margin-bottom:1%;}p{width:100%;}}}@media only screen and (min-width:1025px) and (max-width:1440px){width:85%;margin:0 auto;margin-bottom:15%;.text1,.text2,.text3,.text4{width:40%;}.text1,.text3{order:3;}.text2,.text4{order:1;}.circle1{order:2;margin-left:calc(4% - -11px);z-index:1;}.circle2{order:2;margin-left:calc(0% - 28px);z-index:1;}.imgs1,.imgs3{order:1;margin-right:5%;margin-left:8%;}.imgs2,.imgs4{margin-left:5%;margin-right:10%;order:3;}.box{width:84%;margin:0 auto;margin-bottom:10%;position:relative;h3{width:100%;margin-bottom:1%;}p{width:100%;}}}@media only screen and (min-width:1441px){width:80%;margin:0 auto;margin-bottom:15%;.text1,.text2,.text3,.text4{width:40%;}.text1,.text3{order:3;}.text2,.text4{order:1;}.circle1{order:2;margin-left:calc(11% - -15px);z-index:1;}.circle2{order:2;margin-left:calc(-7% - 36px);z-index:1;}.imgs1,.imgs3{width:15%;order:1;margin-right:5%;margin-left:8%;}.imgs2,.imgs4{width:15%;margin-left:5%;margin-right:10%;order:3;}.box{width:84%;margin:0 auto;margin-bottom:10%;position:relative;h3{width:100%;margin-bottom:1%;}p{width:100%;}}}"]);
+})(["margin-bottom:30%;.box{width:90%;margin:0 auto;display:flex;margin-bottom:10%;vertical-align:baseline;justify-content:space-between;align-items:center;}.imgs1,.imgs2,.imgs3,.imgs4{width:22%;margin-right:5%;}.text1,.text2,.text3,.text4{width:80%;margin-bottom:5%;h3{margin-bottom:3%;}}.text1,.text3{order:2;}.imgs1,.imgs3{order:1;}@media only screen and (min-width:415px) and (max-width:768px){width:90%;margin:0 auto;margin-bottom:12%;.text1,.text2,.text3,.text4{width:40%;}.text1,.text3{order:3;}.text2,.text4{order:1;}.imgs1,.imgs3{order:1;margin-right:5%;margin-left:8%;}.imgs2,.imgs4{margin-left:5%;margin-right:10%;order:3;}.box{width:84%;margin:0 auto;margin-bottom:10%;position:relative;h3{width:100%;}p{width:100%;}}}@media only screen and (min-width:769px) and (max-width:1024px){width:90%;margin:0 auto;margin-bottom:12%;.text1,.text2,.text3,.text4{width:40%;}.text1,.text3{order:3;}.text2,.text4{order:1;}.imgs1,.imgs3{order:1;margin-right:5%;margin-left:8%;}.imgs2,.imgs4{margin-left:5%;margin-right:10%;order:3;}.box{width:84%;margin:0 auto;margin-bottom:10%;position:relative;h3{width:100%;margin-bottom:1%;}p{width:100%;}}}@media only screen and (min-width:1025px) and (max-width:1440px){width:85%;margin:0 auto;margin-bottom:15%;.text1,.text2,.text3,.text4{width:40%;}.text1,.text3{order:3;}.text2,.text4{order:1;}.imgs1,.imgs3{order:1;margin-right:5%;margin-left:8%;}.imgs2,.imgs4{margin-left:5%;margin-right:10%;order:3;}.box{width:84%;margin:0 auto;margin-bottom:10%;position:relative;h3{width:100%;margin-bottom:1%;}p{width:100%;}}}@media only screen and (min-width:1441px){width:80%;margin:0 auto;margin-bottom:15%;.text1,.text2,.text3,.text4{width:40%;}.text1,.text3{order:3;}.text2,.text4{order:1;}.imgs1,.imgs3{width:15%;order:1;margin-right:5%;margin-left:8%;}.imgs2,.imgs4{width:15%;margin-left:5%;margin-right:10%;order:3;}.box{width:84%;margin:0 auto;margin-bottom:10%;position:relative;h3{width:100%;margin-bottom:1%;}p{width:100%;}}}"]);
 var Line = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].div.withConfig({
   displayName: "timeLineStyle__Line",
   componentId: "sc-195yqwz-1"
@@ -1358,7 +1524,7 @@ var Line = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].div.withCon
 var Circle = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].div.withConfig({
   displayName: "timeLineStyle__Circle",
   componentId: "sc-195yqwz-2"
-})(["@media only screen and (min-width:415px) and (max-width:768px){display:block;width:20px;height:20px;-moz-border-radius:50%;-webkit-border-radius:50%;border-radius:50%;background-color:white;border:2px solid #A3C5F5;}@media only screen and (min-width:769px) and (max-width:1024px){display:block;width:20px;height:20px;-moz-border-radius:50%;-webkit-border-radius:50%;border-radius:50%;background-color:white;border:2px solid #A3C5F5;}@media only screen and (min-width:1025px) and (max-width:1440px){width:20px;height:20px;-moz-border-radius:50%;-webkit-border-radius:50%;border-radius:50%;background:white;border:2px solid #A3C5F5;}@media only screen and (min-width:1441px){width:20px;height:20px;-moz-border-radius:50%;-webkit-border-radius:50%;border-radius:50%;background:white;border:2px solid #A3C5F5;}"]);
+})(["display:none;position:absolute;left:calc(50% - 9.5px);@media only screen and (min-width:415px) and (max-width:768px){display:block;width:20px;height:20px;-moz-border-radius:50%;-webkit-border-radius:50%;border-radius:50%;background-color:white;border:2px solid #A3C5F5;}@media only screen and (min-width:769px) and (max-width:1024px){display:block;width:20px;height:20px;-moz-border-radius:50%;-webkit-border-radius:50%;border-radius:50%;background-color:white;border:2px solid #A3C5F5;}@media only screen and (min-width:1025px) and (max-width:1440px){display:block;width:20px;height:20px;-moz-border-radius:50%;-webkit-border-radius:50%;border-radius:50%;background:white;border:2px solid #A3C5F5;}@media only screen and (min-width:1441px){display:block;width:20px;height:20px;-moz-border-radius:50%;-webkit-border-radius:50%;border-radius:50%;background:white;border:2px solid #A3C5F5;}"]);
 
 
 /***/ }),
@@ -1370,7 +1536,7 @@ var Circle = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].div.withC
 /*! exports provided: pageTitle1, pageTitle2, description1, funcionesTitle, funcionesTitle1, funcionesSubtitle1, funcionesTitle2, funcionesSubtitle2, funcionesTitle3, funcionesSubtitle3, funcionesTitle4, funcionesSubtitle4, ventajasTitle, ventajasTitle1, ventajasSubtitle1, ventajasTitle2, ventajasSubtitle2, ventajasTitle3, ventajasSubtitle3, ventajasTitle4, ventajasSubtitle4, funcionaTitle, funcionaTitle1, funcionaSubtitle1, funcionaTitle2, funcionaSubtitle2, funcionaTitle3, funcionaSubtitle3, funcionaTitle4, funcionaSubtitle4, precioTitle, preciosTitle1, preciosDescription1, preciosEuro1, preciosTitle2, preciosDescription2, preciosEuro2, preciosTitle3, preciosDescription3, preciosEuro3, preciosTitle4, preciosDescription4, preciosEuro4, contactaDescription, contactaBoton, default */
 /***/ (function(module) {
 
-module.exports = {"pageTitle1":"Registra la jornada de tus empleados sin gasto de tiempo.","pageTitle2":"Cumple con las nuevas obligaciones de registro de jornada sin que nada cambie en tu empresa.","description1":"De la mano de nuestros profesionales, el registro de jornada laboral es un proceso rápido y sencillo.","funcionesTitle":"¿Qué funciones incluye?","funcionesTitle1":"Control sobre las jornadas","funcionesSubtitle1":"Registro automático de las jornadas de trabajo.","funcionesTitle2":"Informe de horas trabajadas","funcionesSubtitle2":"Podrás visualizar todas las jornadas registradas en el mes y consultar los informes de meses anteriores.","funcionesTitle3":"Firma del resumen mensual","funcionesSubtitle3":"A través de nuestra aplicación, cada miembro de tu organización puede firmar sus jornadas mensualmente.","funcionesTitle4":"Panel de control","funcionesSubtitle4":"Accede fácilmente a toda la información sobre tu organización desde nuestro panel de control.","ventajasTitle":"¿Cuáles son las ventajas?","ventajasTitle1":"Fácil","ventajasSubtitle1":"Hacemos del registro de jornada diario proceso fácil que apenas interrumpa las labores de tu organización","ventajasTitle2":"Sencillo","ventajasSubtitle2":"Podrás generar informes mensuales para consultar los datos de todas las jornadas e incidencias registradas.","ventajasTitle3":"Conectado","ventajasSubtitle3":"NU:NC está preparado para conectar con cualquier sistema de planificación de recursos empresariales del mercado.","ventajasTitle4":"Eficiente","ventajasSubtitle4":"Con NU:NC, gestionar el control de jornada de tu organización no supone una inversión de tiempo.","funcionaTitle":"¿Cómo funciona?","funcionaTitle1":"Contacta con NU:NC","funcionaSubtitle1":"Llámanos y programaremos una cita para integrar NU:NC en tu empresa. ","funcionaTitle2":"Acceso al panel de control","funcionaSubtitle2":"Conecta con NU:NC tu sistema de planificación de recursos empresariales y empieza a aprovechar las funcionalidades de su panel de control.","funcionaTitle3":"Acceso a la applicación móvil","funcionaSubtitle3":"Conecta con NU:NC tu sistema de planificación de recursos empresariales y empieza a aprovechar las funcionalidades de su panel de control.","funcionaTitle4":"Sincronización de datos con el panel de control","funcionaSubtitle4":"Todos los registros, incidencias y firmas podrán seguirse a través del panel de control.","precioTitle":"Precios","preciosTitle1":"MICRO","preciosDescription1":"1 a 20 usarios","preciosEuro1":"500€","preciosTitle2":"PYME","preciosDescription2":"21 a 100 usarios","preciosEuro2":"2.500€","preciosTitle3":"MEDIUM","preciosDescription3":"101 a 500 usarios","preciosEuro3":"7.500€","preciosTitle4":"MULTI","preciosDescription4":"+ 1.000 usarios","preciosEuro4":"Contáctanos","contactaDescription":"Para más información, no dudes en contactarnos:","contactaBoton":"Contáctanos"};
+module.exports = {"pageTitle1":"Registra la jornada de tus empleados sin gasto de tiempo.","pageTitle2":"Cumple con las nuevas obligaciones de registro de jornada sin que nada cambie en tu empresa.","description1":"De la mano de nuestros profesionales, el registro de jornada laboral es un proceso rápido y sencillo.","funcionesTitle":"¿Qué funciones incluye?","funcionesTitle1":"Control sobre las jornadas","funcionesSubtitle1":"Registro automático de las jornadas de trabajo.","funcionesTitle2":"Informe de horas trabajadas","funcionesSubtitle2":"Podrás visualizar todas las jornadas registradas en el mes y consultar los informes de meses anteriores.","funcionesTitle3":"Firma del resumen mensual","funcionesSubtitle3":"A través de nuestra aplicación, cada miembro de tu organización puede firmar sus jornadas mensualmente.","funcionesTitle4":"Panel de control","funcionesSubtitle4":"Accede fácilmente a toda la información sobre tu organización desde nuestro panel de control.","ventajasTitle":"¿Cuáles son las ventajas?","ventajasTitle1":"Fácil","ventajasSubtitle1":"Hacemos del registro de jornada diario proceso fácil que apenas interrumpa las labores de tu organización","ventajasTitle2":"Sencillo","ventajasSubtitle2":"Podrás generar informes mensuales para consultar los datos de todas las jornadas e incidencias registradas.","ventajasTitle3":"Conectado","ventajasSubtitle3":"NU:NC está preparado para conectar con cualquier sistema de planificación de recursos empresariales del mercado.","ventajasTitle4":"Eficiente","ventajasSubtitle4":"Con NU:NC, gestionar el control de jornada de tu organización no supone una inversión de tiempo.","funcionaTitle":"¿Cómo funciona?","funcionaTitle1":"Contacta con NU:NC","funcionaSubtitle1":"Llámanos y programaremos una cita para integrar NU:NC en tu empresa. ","funcionaTitle2":"Acceso al panel de control","funcionaSubtitle2":"Conecta con NU:NC tu sistema de planificación de recursos empresariales y empieza a aprovechar las funcionalidades de su panel de control.","funcionaTitle3":"Acceso a la applicación móvil","funcionaSubtitle3":"Tus empleados podrán descargarse NU:NC App para iOS o Andorid, firmar las hora a final de mes, escribir sus retrasos o tener un seguimiento de las horas semanales","funcionaTitle4":"Sincronización de datos con el panel de control","funcionaSubtitle4":"Todos los registros, incidencias y firmas podrán seguirse a través de nuestro panel de control.","precioTitle":"Precios","preciosTitle1":"MICRO","preciosDescription1":"1 a 20 usarios","preciosEuro1":"500€","preciosTitle2":"PYME","preciosDescription2":"21 a 100 usarios","preciosEuro2":"2.500€","preciosTitle3":"MEDIUM","preciosDescription3":"101 a 500 usarios","preciosEuro3":"7.500€","preciosTitle4":"MULTI","preciosDescription4":"+ 1.000 usarios","preciosEuro4":"Contacta","contactaDescription":"Para más información, no dudes en contactarnos:","contactaBoton":"Contáctanos"};
 
 /***/ }),
 
@@ -16521,7 +16687,11 @@ __webpack_require__.r(__webpack_exports__);
 var FontDescription = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].p.withConfig({
   displayName: "FontDescription",
   componentId: "sc-17oafl4-0"
-})(["font-family:\"Texgyreheroscn\";font-size:18px;line-height:21px;letter-spacing:0.07rem;color:", ";text-align:", ";@media only screen and (min-width:769px) and (max-width:1024px){}@media only screen and (min-width:1025px) and (max-width:1440px){}"], function (props) {
+})(["font-family:\"Texgyreheroscn\";font-size:", ";line-height:", ";letter-spacing:0.07rem;color:", ";text-align:", ";@media only screen and (min-width:769px) and (max-width:1024px){}@media only screen and (min-width:1025px) and (max-width:1440px){}"], function (props) {
+  return props.copyright ? '9px' : '18px';
+}, function (props) {
+  return props.copyright ? '12px' : '21px';
+}, function (props) {
   return props.color === 'white' ? 'white' : 'black';
 }, function (props) {
   return props.align === 'center' ? 'center' : 'left';
