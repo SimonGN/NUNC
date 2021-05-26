@@ -888,7 +888,7 @@ var Price = function Price(props) {
     },
     __self: this
   }, preciosDescription4), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    href: "mailto:ines.guerra@tailor-hub.com?Subject=\u23F0%20NU:NC%20informaci\xF3n%20+1.000%20usuarios\u23F0",
+    href: "mailto:hola@tailor-hub.com?Subject=\u23F0%20NU:NC%20informaci\xF3n%20+1.000%20usuarios\u23F0",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 41
@@ -916,7 +916,7 @@ var Price = function Price(props) {
     __self: this
   }, contactaDescription), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     className: "boton",
-    href: "mailto:ines.guerra@tailor-hub.com?Subject=\u23F0%20NU:NC%20informaci\xF3n%20\u23F0",
+    href: "mailto:hola@tailor-hub.com?Subject=\u23F0%20NU:NC%20informaci\xF3n%20\u23F0",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 47

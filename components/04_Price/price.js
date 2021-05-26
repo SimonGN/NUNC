@@ -11,7 +11,7 @@ import info from "../../content/info.json"
 
 
 
-const Price = props => {
+const Price = () => {
     const {precioTitle, preciosTitle1, preciosDescription1, preciosEuro1, preciosTitle2, preciosDescription2, preciosEuro2, preciosTitle3, preciosDescription3, preciosEuro3, preciosTitle4, preciosDescription4, preciosEuro4, contactaDescription, contactaBoton} = info
 
     return (
@@ -38,13 +38,13 @@ const Price = props => {
                     <div data-aos="fade-in" className="price4">
                         <FontTitle>{preciosTitle4}</FontTitle>
                         <FontDescription>{preciosDescription4}</FontDescription>
-                        <a href="mailto:ines.guerra@tailor-hub.com?Subject=⏰%20NU:NC%20información%20+1.000%20usuarios⏰"><FontTitle >{preciosEuro4}</FontTitle></a>
+                        <a href="mailto:hola@tailor-hub.com?Subject=⏰%20NU:NC%20información%20+1.000%20usuarios⏰"><FontTitle >{preciosEuro4}</FontTitle></a>
                     </div>
                 </div>
 
                 <div data-aos="fade-in" className="contact">
                     <Fontp>{contactaDescription}</Fontp>
-                    <a className="boton" href="mailto:ines.guerra@tailor-hub.com?Subject=⏰%20NU:NC%20información%20⏰">{contactaBoton}</a>
+                    <a className="boton" href="mailto:hola@tailor-hub.com?Subject=⏰%20NU:NC%20información%20⏰">{contactaBoton}</a>
                 </div>
 
                 <div className="footer">
